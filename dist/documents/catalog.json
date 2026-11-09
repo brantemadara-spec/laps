@@ -1,0 +1,263 @@
+[
+  {
+    "id": "rasejumi",
+    "title": "Tehniskie rasējumi · Rev A",
+    "short_title": "Rasējumi",
+    "language": "en",
+    "pdf": "files/LAPS_Pulp_Press_Technical_Drawings_RevA.pdf",
+    "pages": [
+      {
+        "number": 1,
+        "title": "Kopējā montāža un maināmais mitrās masas biezums",
+        "summary": "Konstrukcijas plānskats un šķēlums ar 3 mm mitrās spraugas piemēru; 85 × 55 mm kartītes atvērums, plākšņu izmēri un slāņu secība.",
+        "image": "documents/pages/rasejumi-01.webp",
+        "width": 1000,
+        "height": 708
+      },
+      {
+        "number": 2,
+        "title": "PETG drenāžas plāksnes — divas identiskas detaļas",
+        "summary": "Abu virsmu rasējums: 77 Ø2 mm drenāžas urbumi, astoņi skrūvju urbumi un aizmugures kanāli 1,6 × 1,2 mm.",
+        "image": "documents/pages/rasejumi-02.webp",
+        "width": 1000,
+        "height": 708
+      },
+      {
+        "number": 3,
+        "title": "Maināmās starplikas un sieta piegrieztne",
+        "summary": "Piecu starpliku augstumi 1,4–5,4 mm, 85 × 55 mm atvērums un divu iegādājamo sietu izmēri; norādīta sieta biezuma ietekme.",
+        "image": "documents/pages/rasejumi-03.webp",
+        "width": 1000,
+        "height": 708
+      },
+      {
+        "number": 4,
+        "title": "Tērauda atbalsti un stiprinājumi",
+        "summary": "Divu 8 mm tērauda atbalstu rasējums, astoņu Ø6,6 mm urbumu koordinātas un M6 skrūvju, uzgriežņu un paplākšņu prasības.",
+        "image": "documents/pages/rasejumi-04.webp",
+        "width": 1000,
+        "height": 708
+      },
+      {
+        "number": 5,
+        "title": "Izjaukta montāža un detaļu saraksts",
+        "summary": "Slāņi parādīti atdalīti, lai nolasītu montāžas secību; detaļu skaits, izmēri un nepieciešamie metāla stiprinājumi.",
+        "image": "documents/pages/rasejumi-05.webp",
+        "width": 1000,
+        "height": 708
+      },
+      {
+        "number": 6,
+        "title": "Tērauda urbšanas šablons mērogā 1:1",
+        "summary": "A4 šablons 130 × 100 mm tērauda atbalsta kontūrai un astoņiem urbumiem. Drukāt faktiskajā izmērā un vispirms pārbaudīt 50 mm kontroljoslu.",
+        "image": "documents/pages/rasejumi-06.webp",
+        "width": 1000,
+        "height": 1415
+      },
+      {
+        "number": 7,
+        "title": "Starplikas profila šablons mērogā 1:1",
+        "summary": "Atvēruma, ārējās kontūras un skrūvju urbumu savietojamības šablons; pieci augstumi jāizgatavo pēc 3D failiem.",
+        "image": "documents/pages/rasejumi-07.webp",
+        "width": 1000,
+        "height": 1415
+      },
+      {
+        "number": 8,
+        "title": "Drenāžas kontakta virsmas šablons mērogā 1:1",
+        "summary": "Plakanās masas kontakta virsmas 77 urbumu un skrūvju urbumu šablons; aizmugures kanāli aprakstīti 2. lapā.",
+        "image": "documents/pages/rasejumi-08.webp",
+        "width": 1000,
+        "height": 1415
+      }
+    ]
+  },
+  {
+    "id": "petijumi",
+    "title": "Ražošanas un eksperimenta pamācība",
+    "short_title": "Izgatavošana un pētījums",
+    "language": "en",
+    "pdf": "files/LAPS_Print_and_Experiment_Guide.pdf",
+    "pages": [
+      {
+        "number": 1,
+        "title": "Projekta pārskats un pieņēmumi",
+        "summary": "Divu PETG plākšņu, maināmas starplikas, sietu un tērauda atbalstu darbība; mitrās un sausās kartītes biezuma atšķirība un printera pieņēmums.",
+        "image": "documents/pages/petijumi-01.webp",
+        "width": 1000,
+        "height": 1415
+      },
+      {
+        "number": 2,
+        "title": "Ko drukāt, izgatavot un pirkt",
+        "summary": "Detaļu un stiprinājumu saraksts ar daudzumiem, nominālajiem izmēriem, aptuvenajām masām un noderīgajiem mērīšanas rīkiem.",
+        "image": "documents/pages/petijumi-02.webp",
+        "width": 1000,
+        "height": 1415
+      },
+      {
+        "number": 3,
+        "title": "Izmēri un biezuma kalibrēšana",
+        "summary": "Skrūvju un drenāžas urbumu koordinātas, piecu starpliku tabula, sietu biezuma atņemšana un pielāgošana izmērītajai žūšanas saraušanai.",
+        "image": "documents/pages/petijumi-03.webp",
+        "width": 1000,
+        "height": 1415
+      },
+      {
+        "number": 4,
+        "title": "Slodze, stingums un drenāžas fizika",
+        "summary": "Spēka un spiediena saistība pirms starplikas kontakta, 8 mm tērauda atbalstu lieces aprēķina pieņēmumi un PETG deformācijas ierobežojumi.",
+        "image": "documents/pages/petijumi-04.webp",
+        "width": 1000,
+        "height": 1415
+      },
+      {
+        "number": 5,
+        "title": "PETG drukāšana un izdrukas pārbaude",
+        "summary": "0,4 mm sprauslas un 0,20 mm slāņa sākuma iestatījumi, sešas sienas, pilns pildījums, orientācija un urbumu, kanālu un virsmu pārbaude.",
+        "image": "documents/pages/petijumi-05.webp",
+        "width": 1000,
+        "height": 1415
+      },
+      {
+        "number": 6,
+        "title": "Montāža, presēšana un atbrīvošana",
+        "summary": "Slāņu secība, pakāpeniska skrūvju pievilkšana un atsevišķa izmērīta spēka preses metode; kalibrēšana, starplikas kontakts un izņemšana.",
+        "image": "documents/pages/petijumi-06.webp",
+        "width": 1000,
+        "height": 1415
+      },
+      {
+        "number": 7,
+        "title": "Masas sagatavošana un žāvēšana",
+        "summary": "Pārstrādāta papīra un vienas lapu sugas sagatavošana, sausās masas dozēšana, daļēja atūdeņošana un vienāda žāvēšana līdz stabilai masai.",
+        "image": "documents/pages/petijumi-07.webp",
+        "width": 1000,
+        "height": 1415
+      },
+      {
+        "number": 8,
+        "title": "Eksperimenta plāns un stiprības salīdzinājums",
+        "summary": "Divi papīra avoti, 0–30% lapu pēc sausās masas un atkārtojumi; mitro spraugu salīdzinājums un trīspunktu lieces aprēķins pēc faktiskā sausā biezuma.",
+        "image": "documents/pages/petijumi-08.webp",
+        "width": 1000,
+        "height": 1415
+      },
+      {
+        "number": 9,
+        "title": "Pieraksti, faili un iPhone AR",
+        "summary": "Eksperimenta CSV lauki, CAD un Blender failu izmantošana, PNG skati un USDZ atvēršana iPhone Quick Look.",
+        "image": "documents/pages/petijumi-09.webp",
+        "width": 1000,
+        "height": 1415
+      },
+      {
+        "number": 10,
+        "title": "Avoti un aprēķinu piemērojamība",
+        "summary": "Materiālu datu lapas un pētījumu avoti, pieņēmumi un atšķirība starp analītisku prototipu un fiziski pārbaudītu konstrukciju.",
+        "image": "documents/pages/petijumi-10.webp",
+        "width": 1000,
+        "height": 1415
+      }
+    ]
+  },
+  {
+    "id": "blender",
+    "title": "Blender lietošana un prototipa drukāšana",
+    "short_title": "Blender",
+    "language": "lv",
+    "pdf": "files/Blender_Lietosana_LV.pdf",
+    "pages": [
+      {
+        "number": 1,
+        "title": "Skripta palaišana un failu atrašana",
+        "summary": "Blender Scripting → New → kods → Run Script; mājas mapes LAPS_prototips atrašana un projekta saglabāšana.",
+        "image": "documents/pages/blender-01.webp",
+        "width": 1000,
+        "height": 1415
+      },
+      {
+        "number": 2,
+        "title": "STL detaļas, skata vadība un izmēri",
+        "summary": "Abi plākšņu faili jādrukā katrs vienu reizi; piecu starpliku failu tabula, skata vadība un izmēru panelis N → Item → Dimensions.",
+        "image": "documents/pages/blender-02.webp",
+        "width": 1000,
+        "height": 1415
+      },
+      {
+        "number": 3,
+        "title": "Slāņotājs, PETG izdruka un montāžas detaļas",
+        "summary": "Importēšana 100% mērogā, PETG iestatījumi un rievu orientācija; obligātie tērauda atbalsti, M6 stiprinājumi un siets, kā arī mitrā un sausā biezuma atšķirība.",
+        "image": "documents/pages/blender-03.webp",
+        "width": 1000,
+        "height": 1415
+      },
+      {
+        "number": 4,
+        "title": "Spiediena ierobežojumi un parametru maiņa",
+        "summary": "Skrūves nedod zināmu masas spiedienu; skripta spraugu, sieta biezuma un izvades iestatījumi, kļūdu pārbaude un faktiskā izmēra pārbaude.",
+        "image": "documents/pages/blender-04.webp",
+        "width": 1000,
+        "height": 1415
+      }
+    ]
+  },
+  {
+    "id": "iepirkums",
+    "title": "Pirkumu saraksts · DEPO Berģi",
+    "short_title": "DEPO iepirkums",
+    "language": "lv",
+    "pdf": "files/LAPS_Pirkumu_saraksts_DEPO_Bergi.pdf",
+    "pages": [
+      {
+        "number": 1,
+        "title": "Pamatvarianta pirkumu saraksts",
+        "summary": "Esošā modeļa skrūves, uzgriežņi, paplāksnes un filaments ar izmēriem un avotiem. DEPO Berģu aktuālās cenas un atlikumi nav tieši apstiprināti.",
+        "image": "documents/pages/iepirkums-01.webp",
+        "width": 1000,
+        "height": 1415
+      },
+      {
+        "number": 2,
+        "title": "Izvēles vītņstieņa variants un noderīgi rīki",
+        "summary": "Alternatīva oriģinālajām skrūvēm ar grieztu M6 vītņstieni un papildu uzgriežņiem; sekundāras DEPO cenu norādes un izvēles rīki.",
+        "image": "documents/pages/iepirkums-02.webp",
+        "width": 1000,
+        "height": 1415
+      },
+      {
+        "number": 3,
+        "title": "Tērauda plākšņu un sieta izgatavošanas prasības",
+        "summary": "Precīzie tērauda izmēri un urbumu koordinātas, sieta prasības, iespējamie piegādātāji un cenas, kurām nepieciešama tāme.",
+        "image": "documents/pages/iepirkums-03.webp",
+        "width": 1000,
+        "height": 1415
+      },
+      {
+        "number": 4,
+        "title": "Cenu avoti un budžeta aizpildīšana",
+        "summary": "Avotu saites, 2026. gada 6. oktobra pārbaudes datums, cenu un atlikumu ierobežojumi un kā papildināt budžetu ar trūkstošajām tāmēm.",
+        "image": "documents/pages/iepirkums-04.webp",
+        "width": 1000,
+        "height": 1415
+      }
+    ]
+  },
+  {
+    "id": "skice",
+    "title": "Projekta sākotnējā skice",
+    "short_title": "Sākotnējā skice",
+    "language": "lv/en",
+    "pdf": "files/Laps.pdf",
+    "pages": [
+      {
+        "number": 1,
+        "title": "Divdaļīgās formas sākotnējā ideja",
+        "summary": "Skice ar kartītes izmēra atvērumu, skrūvju stiprinājumiem un ūdens izvadiem. Pieraksti ir sākotnējā priekšlikuma daļa; gala projekta specifikācija dota pārējos dokumentos.",
+        "image": "documents/pages/skice-01.webp",
+        "width": 1000,
+        "height": 529
+      }
+    ]
+  }
+]

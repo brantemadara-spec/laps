@@ -1,0 +1,48 @@
+NO KOKA UZ KOKU — V4 ĢEOMETRIJAS PĀRBAUDE / 19.10.2026.
+
+V4 izpildīts Blender 4.3.2: 9 formas detaļas, 3 maināmi serdeņi, 93 Boolean darbības bez izpildes izņēmuma. GLB mērogs pārbaudīts — pamatnes Ø150 mm atbilst 0,15 m.
+
+Ģeometrijas pārbaude atklāja neatbilstības: formas ausis pārklājas par 1 mm un iestiepjas podiņa dobumā; pamatnes atskaites nenodrošina paredzēto 4 mm dibenu. Pārplūdes kamerai ir 12 atvērtas malas. Visi faili atbilst iesūtītajam V4 kodam; šī versija vēl jālabo pirms drukas.
+
+Sieniņu biezums
+3/4/5 mm ir seržu nosaukumi un paredzētās radiālās atstarpes. Faktiskais dobums griezts ar 72 mm konusu, bet serde ar 70 mm koniskumu; ausis pēc dobuma izgriešanas iestiepjas tā iekšpusē.
+
+Salāgojums un atstarpes
+Abas formas ausis šķērso dalījuma plakni par 0,5 mm katra; saliekot rodas 1,0 mm cieto detaļu pārklājums. Arī pamatnes ligzda neuzņem konusu pilnā 2,5 mm dziļumā.
+
+Boolean operāciju kvalitāte
+Visas 93 Boolean operācijas pabeidzas bez izņēmuma, tomēr pārplūdes kamerā paliek 12 atvērtas malas. Veiksmīga modifier_apply izpilde nepierāda tīru ģeometriju.
+
+Tapu un caurumu tolerances
+Ø5,0 tapai paredzēta Ø5,6 ligzda: 0,6 mm diametrā jeb 0,3 mm uz pusi. 6 mm izvirzījumam ir 6,8 mm dziļa ligzda — 0,8 mm aksiālā rezerve. PETG faktiskā atbilstība jāizmēģina uz neliela parauga.
+
+Pārplūdes kameras sēža
+Ø110,8 svārks uz Ø110 formas dod 0,4 mm nominālu radiālo atstarpi; faktiskajos daudzstūru šķēlumos izmērīts ap 0,370–0,415 mm. Kameras pašas topoloģija un nulles atstarpe pret M6 stieņiem vēl jālabo.
+
+Serdes STOP pozīcija
+Ja kamera novietota uz formas augšas (+70 mm), tās augša un STOP apakša sakrīt Z82; kontakta josla ir 8 mm plata (R51–R59). Taču pamatnes 2,5 mm iesēdinājums izjauc paredzēto 4 mm podiņa dibenu.
+
+Visu detaļu manifold pārbaude
+Visas 9 detaļas ir vienā savienotā komponentē katra. 8 detaļām native mesh malas ir slēgtas/manifold, bet pārplūdes kamerai ir 12 atvērtas/manifold prasībai neatbilstošas malas.
+
+Faktiski eksportēto STL pārbaude
+STL eksporti tika pārlasīti pēc rakstīšanas. Abām formas pusēm ir pa 4 deģenerētiem trijstūriem / 4 non-manifold malām; kamerai pa 8. Pārējie 6 STL šos testus iztur. Eksports nav salabojis source defektus.
+
+SIENAS (radiāli Z4 / Z70 / pie auss; perpendikulāri serdei pie auss)
+Serdenis 3 mm: 3,154 / 2,826 / 0,929; 0,914 mm.
+Serdenis 4 mm: 4,154 / 3,826 / 1,929; 1,899 mm.
+Serdenis 5 mm: 5,154 / 4,826 / 2,929; 2,883 mm.
+
+SALĀGOŠANA
+Tapas un ligzdas: Ø5 / Ø5,6 mm: 0,3 mm radiāli un 0,8 mm aksiāli; jāizmēģina PETG paraugs.
+Formas pušu ausis: 1,0 mm pārklāšanās; izmērītais kopīgais cietais tilpums ≈623,147 mm³.
+Pamatnes ligzdas mala: Atstarpe −0,069 līdz −0,035 mm — negatīva vērtība nozīmē saduri.
+Kameras svārks: Atstarpe ≈0,370–0,415 mm uz pusi; nomināli Ø110,8 uz Ø110.
+M6 stieņi pret kameru: Nomināli 0 mm rezerve: R65 − 3 − R62 = 0; jāparedz pozitīva atstarpe.
+STOP atdure: Kameras augša un STOP apakša Z82; kontakta josla R51–R59 ir 8 mm plata.
+Dibens un gala augstums: Ja forma hipotētiski pilnībā iesēstos 2,5 mm ligzdā, dibens būtu 1,5 mm un augstums 67,5 mm. Šis salikums pašlaik ir bloķēts ar sadurēm; tas nav apstiprināts gala podiņš.
+Dobuma gala diametri: Nominālās atskaitēs Ø65,347 pie Z0 un Ø89,653 pie Z70; vajadzīgie Ø65/Ø90 nav precīzi saglabāti.
+
+Kopīgās atskaites: formas nominālā ģeometrija Z0..70, serdes apakša Z4, STOP Z82. Kameru sēžai pārvieto +70. Detaļu kataloga pozīcijas nav salikuma pozīcijas. Hipotētiskais dibens 1,5 mm / augstums 67,5 mm nav apstiprināts salikums — iesēšanos bloķē sadures.
+
+Šie rezultāti nepārbauda PETG faktisko precizitāti, spēka/griezes momenta nestspēju, ilglaicīgo deformāciju vai sausa podiņa sarukumu. Skaitliskie dati: V4_Parbaudes_dati.json.

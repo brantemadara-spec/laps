@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-26",
+  "scope": "Advice and analytic target calculations updated for focused V4.1 ear revision; base, cores and sieve remain original V4 geometry.",
+  "gauze_lv": {
+    "answer": "Marli var lietot šķiedru aizturēšanai un virsmas tekstūrai, bet tā pati nav stingrs spiediena balsts.",
+    "current_v4": "V4.1 saglabāts Ø62 × 1,4 mm atsevišķs perforēts ieliktnis un tā ligzda pamatnē; pamatnē ir 15 Ø5 mm drenāžas caurumi. Izņemot ieliktni un ieliekot tikai marli, mainās atbalsta līmenis un audums var ieliekties caurumos.",
+    "recommended_variant": "Lai nebūtu jādrukā atsevišķs sietiņš, pārveido pamatni: integrē plakanu, stingru un cieši atbalstītu drenāžas virsmu; uz tās klāj tīru neimpregnētu kokvilnas marli. Alternatīva ir atsevišķs pirkts stingrs plakans perforēts ieliktnis ar marli virs tā.",
+    "datum_equation": "Dibena mitrā sprauga = serdes apakšas Z pie STOP − (stingrā atbalsta virsmas Z + saspiestās mitrās marles kopējais biezums).",
+    "practice": "Marli samitrina, nogludina bez krokām un nostiprina pret nobīdi. Izvēlas vienu kārtu skaitu visiem paraugiem; ja smalkās šķiedras izskalojas un kārtu skaitu maina, atkārto biezuma kalibrāciju. Drukājamo V4.1 kodu nevar saukt par jau pārveidotu marles modeli.",
+    "current_v4_floor_example": "Esošās ligzdas grīda ir Z8,6, bet ieliktņa augša Z10. Tikai plāna marle ligzdas apakšā neveido to pašu darba plakni. Konkrētu marles biezumu nedrīkst pieņemt bez mērījuma."
+  },
+  "ideal_target_geometry": {
+    "outer_diameter_formula_mm": "D(z)=65+25*z/70; 0<=z<=70",
+    "inner_radius_formula_mm": "r_inner(z)=D(z)/2-t; 4<=z<=70",
+    "material_volume_formula": "V=π*70/3*(32.5²+32.5*45+45²)−π*66/3*(r4²+r4*r70+r70²), mm³",
+    "definition": "t is constant RADIAL gap at matching heights, not constant thickness normal to the tapered surface.",
+    "important": "Tie ir izlabotas mērķa ģeometrijas aprēķini. V4.1 austiņas ir labotas, bet dobuma konuss un augstuma atskaites vēl neatbilst mērķiem.",
+    "rows": [
+      {
+        "nominal_radial_wall_mm": 3.0,
+        "target_height_mm": 70.0,
+        "target_bottom_mm": 4.0,
+        "inner_diameter_at_z4_mm": 60.42857142857143,
+        "inner_diameter_at_z70_mm": 84.0,
+        "ideal_material_volume_cm3": 60.35302961122053,
+        "nominal_core_upper_projected_area_mm2": 5541.769440932396,
+        "dry_mass_ratio_for_equal_apparent_density": 1.0,
+        "force_ratio_for_equal_upper_area_nominal_pressure": 1.0,
+        "pressure_ratio_at_equal_force_using_upper_area_convention": 1.0
+      },
+      {
+        "nominal_radial_wall_mm": 4.0,
+        "target_height_mm": 70.0,
+        "target_bottom_mm": 4.0,
+        "inner_diameter_at_z4_mm": 58.42857142857143,
+        "inner_diameter_at_z70_mm": 82.0,
+        "ideal_material_volume_cm3": 75.11896388204306,
+        "nominal_core_upper_projected_area_mm2": 5281.017250684442,
+        "dry_mass_ratio_for_equal_apparent_density": 1.2446593711358167,
+        "force_ratio_for_equal_upper_area_nominal_pressure": 0.9529478458049885,
+        "pressure_ratio_at_equal_force_using_upper_area_convention": 1.0493753718024987
+      },
+      {
+        "nominal_radial_wall_mm": 5.0,
+        "target_height_mm": 70.0,
+        "target_bottom_mm": 4.0,
+        "inner_diameter_at_z4_mm": 56.42857142857143,
+        "inner_diameter_at_z70_mm": 80.0,
+        "ideal_material_volume_cm3": 89.47020792259171,
+        "nominal_core_upper_projected_area_mm2": 5026.548245743669,
+        "dry_mass_ratio_for_equal_apparent_density": 1.482447666652974,
+        "force_ratio_for_equal_upper_area_nominal_pressure": 0.9070294784580498,
+        "pressure_ratio_at_equal_force_using_upper_area_convention": 1.1025
+      }
+    ],
+    "density_formula": "m_dry[g] = rho_target[g/cm³] * V_material[cm³]. Do not choose an unsupported target density; calibrate material trials.",
+    "dry_density_measurement": "After drying/conditioning to the same endpoint, measure actual dry mass and dry material volume; rho_apparent = m_dry / V_material_dry."
+  },
+  "question_answer_lv": [
+    "Augstums var būt vienāds kā formas mērķis (70 mm), ja visiem serdeņiem pareizi sakrīt darba atskaites un STOP. Esošais V4.1 to vēl nenodrošina.",
+    "Žāvētajiem podiņiem vienāds augstums nav garantēts: dažāds sienas biezums var mainīt žūšanu, sarukumu un deformāciju.",
+    "Vienāds skrūves griezienu skaits, griezes moments vai spēks nenozīmē vienādu spiedienu visā masā.",
+    "Vienāds masas daudzums pie dažādiem sienu tilpumiem nenozīmē vienādu blīvumu. Vienāda blīvuma mērķim sausās masas deva jāpielāgo materiāla tilpumam.",
+    "Vienādu spiedienu un vienādu blīvumu nevar automātiski iegūt tikai ar trīs serdeņu maiņu; tie ir saistīti procesa un mērījumu lielumi."
+  ],
+  "pressure_lv": {
+    "convention": "Ja salīdzināšanai definē p_nom=F/A un A ir serdes augšmalas projekcijas laukums, seržu Ø84/82/80 laukumi ir aptuveni 5542/5281/5027 mm².",
+    "equal_force": "Pie vienāda F šādi definētais nominālais spiediens 5 mm serdei ir par 10,25% lielāks nekā 3 mm serdei. Tas nav faktiskā vienmērīga sānu spiediena aprēķins.",
+    "limitation": "Konusveida kontaktā, drenāžā un berzē spiediens ir nevienmērīgs. F/A ir tikai skaidri definēts salīdzināšanas rādītājs.",
+    "stop": "Kad STOP atbalstās pret kameru, daļa papildu spēka aiziet pa cietajām detaļām. Pēc kontakta nedrīkst interpretēt visu skrūves spēku kā masas presēšanas spiedienu.",
+    "measurement": "Spēku salīdzina ar piemērotu spēka devēju/slodzes mērītāju, pie vienas mērījuma vietas un noteikta brīža. Neatvasina precīzu spēku tikai no ar roku pielikta griezes momenta."
+  },
+  "experiment_lv": {
+    "preferred_for_wall_comparison": "Fiksē recepti, paredzēto ārējo ģeometriju un dibenu; dozē sauso maisījumu proporcionāli materiāla tilpumam, uzturi vienādu ūdens/sausnas attiecību un vienādu marles/žāvēšanas kārtību. Spēku, sasniegto blīvumu un sauso izmēru izmaiņas mēra, nevis pieņem.",
+    "equal_density_target": "Teorētiskā sauso devu attiecība 3/4/5 mm variantiem ir 1 : 1,245 : 1,482. Pamata devu iegūst izmēģinājumā; sīkās masas zudumi drenāžā jāuzskaita.",
+    "alternative_pressure_test": "Ja kontrolē vienādu nominālo spiedienu un laiku, sasniegtais blīvums paliek rezultāts un var atšķirties. Tad to nedrīkst saukt par tikai sienas biezuma ietekmes salīdzinājumu.",
+    "controls": [
+      "viena papīra/lapu sausā maisījuma partija un vienāda sasmalcināšana",
+      "vienāda ūdens/sausnas attiecība",
+      "vienāds marles tips, izmērītais saspiestais biezums un kārtu skaits",
+      "vienāds drenāžas sākuma laiks, presēšanas cikls un mērījuma brīdis",
+      "vienādi žāvēšanas/kondicionēšanas apstākļi un gala kritērijs",
+      "vismaz 3 atkārtojumi katram variantam; vēlams 5, secību mainot"
+    ],
+    "measurements": [
+      "sausās izejvielu devas un zudumu masa",
+      "spēks pirms STOP kontakta un laika pieraksts",
+      "mitrais un sausais augstums, sienas un dibena biezums vairākās vietās",
+      "sausā masa un faktiskais sausās masas materiāla tilpums/blīvums",
+      "vienāda izturības pārbaudes metode visiem paraugiem"
+    ]
+  },
+  "improvements_priority_lv": [
+    "V4.1 austiņu pārklāšanās un ievirzīšanās dobumā ir labota. Vēl jāizlabo dobuma konuss uz īstajiem Ø65 pie Z0 un Ø90 pie Z70.",
+    "Ieviest vienu kopīgu atskaites plakni pamatnei, marlei, formas sēžai, serdes apakšai un STOP, lai pēc marles saspiešanas tiešām iegūtu 4 mm dibenu.",
+    "Pārveidot pamatni marlei ar stingru plakanu integrētu atbalstu un brīvām ūdens izvadēm; nenomainīt cieto ieliktni ar brīvi noklātu audumu.",
+    "Salabot pārplūdes kameras 12 atvērtās malas un sliktās STL triangulācijas, atstāt pozitīvu spraugu arī starp kameru un M6 stieņiem; pārmērīt un pārbaudīt visus tīklus pēc labojumiem.",
+    "M12 spiedskrūvei paredzēt aksiāli noturētu metāla balsta uzgriezni zem augšējās plāksnes vai skaidru metāla fiksatoru, kā arī spiedpēdu un spēka mērījumu. Brīva augšējā uzgriežņa ligzda nenoslēdz reakcijas spēka ceļu."
+  ],
+  "no_load_rating": "Šie ieteikumi nenosaka PETG drošu spēku vai griezes momentu. Pašreizējā V4.1 ģeometrija nav apstiprināta presēšanai.",
+  "revision": "V4.1",
+  "ear_update_lv": "45° balsti un M6 atveru jumtiņi; sānu skrūves 4 × M6 × 40 mm, 4 uzgriežņi un 8 DIN125 Ø12 mm paplāksnes."
+}

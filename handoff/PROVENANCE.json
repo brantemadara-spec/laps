@@ -1,0 +1,21 @@
+{
+  "export_date": "2026-11-09",
+  "public_url": "https://laps.dashulyaashsxb.chatgpt.site",
+  "site_version_number": 8,
+  "source_commit_sha": "028185700c22cf091a5f689942a47965b97c4a25",
+  "site_project_id": "appgprj_6ac538346a088191976e30d51e90588b",
+  "scope": "All 138 tracked files from the saved website source, including the complete dist/ tree and existing downloadable archives; reconstructed portable card-press content inputs; developer documentation.",
+  "tracked_source_file_count": 138,
+  "source_adaptations": {
+    "prepare_marle.py": "Only SOURCE path changed from /workspace/laps_marle to ROOT/assets/marle_source; original retained under handoff/.",
+    "PROJECT_DESTINATION.md": "Updated local path/version notes for export; original retained under handoff/."
+  },
+  "dist_unchanged_from_saved_source": true,
+  "reconstructed_inputs": "assets/marle_source copied from the published files and nested prototype ZIP; docs/catalog.json and original README input reconstructed for the existing content generator.",
+  "excluded": "Git internals, node_modules, local caches, credentials and temporary session data. Install dependencies from package-lock.json.",
+  "model_versions": {
+    "card_press": "Marle Rev C",
+    "pot_mold": "V4.1",
+    "historical_archive": "Rev A"
+  }
+}

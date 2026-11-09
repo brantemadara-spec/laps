@@ -1,0 +1,33 @@
+{
+  "export_date": "2026-11-09",
+  "passed": true,
+  "source_commit": "028185700c22cf091a5f689942a47965b97c4a25",
+  "dist_byte_for_byte_preserved": true,
+  "unchanged_source_files_compared": 136,
+  "two_adapted_source_originals_preserved": true,
+  "original_and_clean_regenerated_HTML_links_valid": {
+    "/workspace/laps-handoff-20261109/LAPS_Pilns_projekts/dist": 147,
+    "/workspace/laps-handoff-validation/dist": 147
+  },
+  "all_catalog_PDF_and_page_images_exist": true,
+  "existing_ZIP_and_USDZ_CRC_checks": 14,
+  "GLB_headers_lengths_and_embedded_resources_valid": true,
+  "credential_pattern_scan_passed": true,
+  "clean_copy_commands_passed": [
+    "npm ci --no-audit --no-fund",
+    "npm run content",
+    "npm run content:podins",
+    "npm run build"
+  ],
+  "tool_versions": {
+    "node": "24.19.0",
+    "npm": "11.9.0",
+    "python": "3.12.14",
+    "PyMuPDF": "1.26.6",
+    "Pillow": "12.3.0"
+  },
+  "limitations": [
+    "No new Blender geometry execution or physical press/load tests in this export task. Existing engineering reports retained.",
+    "No new browser QA: the packaged public dist files are unchanged; the clean content generators, JS build and asset references were validated."
+  ]
+}

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect width="100%" height="100%" fill="white"/>
+<text x="14" y="17" font-family="Arial,Helvetica,sans-serif" font-size="3.175" font-weight="bold" fill="#235875" text-anchor="start">LAPS MARLE / PĀRSTRĀDĀTS PAPĪRS UN RUDENS LAPAS</text>
+<text x="14" y="27" font-family="Arial,Helvetica,sans-serif" font-size="5.64444" font-weight="bold" fill="#162b3b" text-anchor="start">KALIBRATORI UN STARPLIKAS / MITRĀS SPRAUGAS REGULĒŠANA</text>
+<text x="406" y="16" font-family="Arial,Helvetica,sans-serif" font-size="2.82222" font-weight="normal" fill="#64727c" text-anchor="end">LAPS MARLE / RASĒJUMU REDAKCIJA C</text>
+<line x1="14" y1="33" x2="406" y2="33" stroke="#235875" stroke-width="0.5"/>
+<line x1="14" y1="267" x2="406" y2="267" stroke="#235875" stroke-width="0.35"/>
+<text x="14" y="275" font-family="Arial,Helvetica,sans-serif" font-size="2.46944" font-weight="normal" fill="#64727c" text-anchor="start">VISI IZMĒRI mm | KONCEPCIJAS NOMINĀLIE IZMĒRI</text>
+<text x="14" y="282" font-family="Arial,Helvetica,sans-serif" font-size="2.46944" font-weight="normal" fill="#64727c" text-anchor="start">Shēmisks mērogs; izmēri ir noteicošie</text>
+<text x="406" y="282" font-family="Arial,Helvetica,sans-serif" font-size="2.46944" font-weight="normal" fill="#64727c" text-anchor="end">LAPA 03 / 08 | 07.10.2026.</text>
+<rect x="39.75" y="57.5" width="136.5" height="105" rx="6.3" fill="none" stroke="#162b3b" stroke-width="0.32"/>
+<line x1="35.55" y1="110" x2="180.45" y2="110" stroke="#c4cdd3" stroke-width="0.14" stroke-dasharray="4 1 1 1"/>
+<line x1="108" y1="166.7" x2="108" y2="53.3" stroke="#c4cdd3" stroke-width="0.14" stroke-dasharray="4 1 1 1"/>
+<rect x="63.375" y="81.125" width="89.25" height="57.75" rx="3.15" fill="none" stroke="#162b3b" stroke-width="0.32"/>
+<circle cx="52.35" cy="149.9" r="3.465" fill="none" stroke="#162b3b" stroke-width="0.23"/>
+<text x="57.6" y="146.75" font-family="Arial,Helvetica,sans-serif" font-size="2.46944" font-weight="normal" fill="#235875" text-anchor="start">H1</text>
+<circle cx="163.65" cy="149.9" r="3.465" fill="none" stroke="#162b3b" stroke-width="0.23"/>
+<text x="168.9" y="146.75" font-family="Arial,Helvetica,sans-serif" font-size="2.46944" font-weight="normal" fill="#235875" text-anchor="start">H2</text>
+<circle cx="52.35" cy="70.1" r="3.465" fill="none" stroke="#162b3b" stroke-width="0.23"/>
+<text x="57.6" y="66.95" font-family="Arial,Helvetica,sans-serif" font-size="2.46944" font-weight="normal" fill="#235875" text-anchor="start">H3</text>
+<circle cx="163.65" cy="70.1" r="3.465" fill="none" stroke="#162b3b" stroke-width="0.23"/>
+<text x="168.9" y="66.95" font-family="Arial,Helvetica,sans-serif" font-size="2.46944" font-weight="normal" fill="#235875" text-anchor="start">H4</text>
+<line x1="39.75" y1="57.5" x2="39.75" y2="47.5" stroke="#c4cdd3" stroke-width="0.16"/>
+<line x1="176.25" y1="57.5" x2="176.25" y2="47.5" stroke="#c4cdd3" stroke-width="0.16"/>
+<line x1="39.75" y1="49.5" x2="176.25" y2="49.5" stroke="#235875" stroke-width="0.16"/>
+<polygon points="39.75,49.5 41.75,48.4 41.75,50.6" fill="#235875" stroke="#235875" stroke-width="0.15"/>
+<polygon points="176.25,49.5 174.25,50.6 174.25,48.4" fill="#235875" stroke="#235875" stroke-width="0.15"/>
+<text x="108" y="47.3" font-family="Arial,Helvetica,sans-serif" font-size="2.82222" font-weight="normal" fill="#235875" text-anchor="middle">130</text>
+<line x1="39.75" y1="162.5" x2="28.75" y2="162.5" stroke="#c4cdd3" stroke-width="0.16"/>
+<line x1="39.75" y1="57.5" x2="28.75" y2="57.5" stroke="#c4cdd3" stroke-width="0.16"/>
+<line x1="30.75" y1="162.5" x2="30.75" y2="57.5" stroke="#235875" stroke-width="0.16"/>
+<polygon points="30.75,162.5 29.65,160.5 31.85,160.5" fill="#235875" stroke="#235875" stroke-width="0.15"/>
+<polygon points="30.75,57.5 31.85,59.5 29.65,59.5" fill="#235875" stroke="#235875" stroke-width="0.15"/>
+<text x="28.25" y="110" font-family="Arial,Helvetica,sans-serif" font-size="2.82222" font-weight="normal" fill="#235875" text-anchor="middle" transform="rotate(-90 28.25 110)">100</text>
+<line x1="63.375" y1="138.875" x2="63.375" y2="152" stroke="#c4cdd3" stroke-width="0.16"/>
+<line x1="152.625" y1="138.875" x2="152.625" y2="152" stroke="#c4cdd3" stroke-width="0.16"/>
+<line x1="63.375" y1="150" x2="152.625" y2="150" stroke="#235875" stroke-width="0.16"/>
+<polygon points="63.375,150 65.375,148.9 65.375,151.1" fill="#235875" stroke="#235875" stroke-width="0.15"/>
+<polygon points="152.625,150 150.625,151.1 150.625,148.9" fill="#235875" stroke="#235875" stroke-width="0.15"/>
+<text x="108" y="147.8" font-family="Arial,Helvetica,sans-serif" font-size="2.82222" font-weight="normal" fill="#235875" text-anchor="middle">85</text>
+<line x1="152.625" y1="138.875" x2="143" y2="138.875" stroke="#c4cdd3" stroke-width="0.16"/>
+<line x1="152.625" y1="81.125" x2="143" y2="81.125" stroke="#c4cdd3" stroke-width="0.16"/>
+<line x1="145" y1="138.875" x2="145" y2="81.125" stroke="#235875" stroke-width="0.16"/>
+<polygon points="145,138.875 143.9,136.875 146.1,136.875" fill="#235875" stroke="#235875" stroke-width="0.15"/>
+<polygon points="145,81.125 146.1,83.125 143.9,83.125" fill="#235875" stroke="#235875" stroke-width="0.15"/>
+<text x="142.5" y="110" font-family="Arial,Helvetica,sans-serif" font-size="2.82222" font-weight="normal" fill="#235875" text-anchor="middle" transform="rotate(-90 142.5 110)">55</text>
+<polyline points="150,81.125 169,52 189,52" fill="none" stroke="#235875" stroke-width="0.18"/>
+<polygon points="150,81.125 150.154,79.0765 151.813,80.1583" fill="#235875" stroke="#235875" stroke-width="0.15"/>
+<text x="188" y="51" font-family="Arial,Helvetica,sans-serif" font-size="2.82222" font-weight="normal" fill="#235875" text-anchor="end">Atvēruma stūri R3</text>
+<text x="220" y="47" font-family="Arial,Helvetica,sans-serif" font-size="3.88056" font-weight="bold" fill="#235875" text-anchor="start">DRUKĀJAMAIS KOMPLEKTS</text>
+<text x="220" y="54.5" font-family="Arial,Helvetica,sans-serif" font-size="3.42194" font-weight="normal" fill="#162b3b" text-anchor="start">Kalibratori 0,2 / 0,4 / 0,6 / 0,8 mm: pa vienam. Izvēlies VIENU, kas atbilst abu saspiesto marles gabalu</text>
+<text x="220" y="59.7" font-family="Arial,Helvetica,sans-serif" font-size="3.42194" font-weight="normal" fill="#162b3b" text-anchor="start">kopējam biezumam. Visus četrus reizē neliek.</text>
+<text x="220" y="67.9" font-family="Arial,Helvetica,sans-serif" font-size="3.42194" font-weight="normal" fill="#162b3b" text-anchor="start">Papildu starplikas 0,5 / 1,0 / 1,5 mm: pa divām. Visām kontūra 130 × 100 R6, atvērums 85 × 55 R3 un</text>
+<text x="220" y="73.1" font-family="Arial,Helvetica,sans-serif" font-size="3.42194" font-weight="normal" fill="#162b3b" text-anchor="start">4 × Ø6,6.</text>
+<text x="220" y="99" font-family="Arial,Helvetica,sans-serif" font-size="3.10444" font-weight="bold" fill="#64727c" text-anchor="start">PIEMĒRA MITRĀ SPRAUGA*    PAPILDU PAKA</text>
+<text x="220" y="109" font-family="Arial,Helvetica,sans-serif" font-size="3.175" font-weight="normal" fill="#162b3b" text-anchor="start">0,5 mm</text>
+<text x="296" y="109" font-family="Arial,Helvetica,sans-serif" font-size="3.175" font-weight="normal" fill="#162b3b" text-anchor="start">0,5</text>
+<line x1="220" y1="112" x2="397" y2="112" stroke="#c4cdd3" stroke-width="0.14"/>
+<text x="220" y="117.4" font-family="Arial,Helvetica,sans-serif" font-size="3.175" font-weight="normal" fill="#162b3b" text-anchor="start">1,0 mm</text>
+<text x="296" y="117.4" font-family="Arial,Helvetica,sans-serif" font-size="3.175" font-weight="normal" fill="#162b3b" text-anchor="start">1,0</text>
+<line x1="220" y1="120.4" x2="397" y2="120.4" stroke="#c4cdd3" stroke-width="0.14"/>
+<text x="220" y="125.8" font-family="Arial,Helvetica,sans-serif" font-size="3.175" font-weight="normal" fill="#162b3b" text-anchor="start">1,5 mm</text>
+<text x="296" y="125.8" font-family="Arial,Helvetica,sans-serif" font-size="3.175" font-weight="normal" fill="#162b3b" text-anchor="start">0,5 + 1,0</text>
+<line x1="220" y1="128.8" x2="397" y2="128.8" stroke="#c4cdd3" stroke-width="0.14"/>
+<text x="220" y="134.2" font-family="Arial,Helvetica,sans-serif" font-size="3.175" font-weight="normal" fill="#162b3b" text-anchor="start">2,0 mm</text>
+<text x="296" y="134.2" font-family="Arial,Helvetica,sans-serif" font-size="3.175" font-weight="normal" fill="#162b3b" text-anchor="start">1,0 + 1,0</text>
+<line x1="220" y1="137.2" x2="397" y2="137.2" stroke="#c4cdd3" stroke-width="0.14"/>
+<text x="220" y="142.6" font-family="Arial,Helvetica,sans-serif" font-size="3.175" font-weight="normal" fill="#162b3b" text-anchor="start">2,5 mm</text>
+<text x="296" y="142.6" font-family="Arial,Helvetica,sans-serif" font-size="3.175" font-weight="normal" fill="#162b3b" text-anchor="start">1,0 + 1,5</text>
+<line x1="220" y1="145.6" x2="397" y2="145.6" stroke="#c4cdd3" stroke-width="0.14"/>
+<text x="220" y="151" font-family="Arial,Helvetica,sans-serif" font-size="3.175" font-weight="normal" fill="#162b3b" text-anchor="start">3,0 mm</text>
+<text x="296" y="151" font-family="Arial,Helvetica,sans-serif" font-size="3.175" font-weight="normal" fill="#162b3b" text-anchor="start">0,5 + 1,0 + 1,5</text>
+<line x1="220" y1="154" x2="397" y2="154" stroke="#c4cdd3" stroke-width="0.14"/>
+<text x="220" y="159.4" font-family="Arial,Helvetica,sans-serif" font-size="3.175" font-weight="normal" fill="#162b3b" text-anchor="start">3,5 mm</text>
+<text x="296" y="159.4" font-family="Arial,Helvetica,sans-serif" font-size="3.175" font-weight="normal" fill="#162b3b" text-anchor="start">0,5 + 1,5 + 1,5</text>
+<line x1="220" y1="162.4" x2="397" y2="162.4" stroke="#c4cdd3" stroke-width="0.14"/>
+<text x="220" y="167.8" font-family="Arial,Helvetica,sans-serif" font-size="3.175" font-weight="normal" fill="#162b3b" text-anchor="start">4,0 mm</text>
+<text x="296" y="167.8" font-family="Arial,Helvetica,sans-serif" font-size="3.175" font-weight="normal" fill="#162b3b" text-anchor="start">1,0 + 1,5 + 1,5</text>
+<line x1="220" y1="170.8" x2="397" y2="170.8" stroke="#c4cdd3" stroke-width="0.14"/>
+<text x="220" y="176.2" font-family="Arial,Helvetica,sans-serif" font-size="3.175" font-weight="normal" fill="#162b3b" text-anchor="start">4,5 mm</text>
+<text x="296" y="176.2" font-family="Arial,Helvetica,sans-serif" font-size="3.175" font-weight="normal" fill="#162b3b" text-anchor="start">0,5 + 1,0 + 1,5 + 1,5</text>
+<line x1="220" y1="179.2" x2="397" y2="179.2" stroke="#c4cdd3" stroke-width="0.14"/>
+<text x="220" y="184.6" font-family="Arial,Helvetica,sans-serif" font-size="3.175" font-weight="normal" fill="#162b3b" text-anchor="start">5,0 mm</text>
+<text x="296" y="184.6" font-family="Arial,Helvetica,sans-serif" font-size="3.175" font-weight="normal" fill="#162b3b" text-anchor="start">1,0 + 1,0 + 1,5 + 1,5</text>
+<line x1="220" y1="187.6" x2="397" y2="187.6" stroke="#c4cdd3" stroke-width="0.14"/>
+<text x="20" y="178" font-family="Arial,Helvetica,sans-serif" font-size="3.175" font-weight="normal" fill="#162b3b" text-anchor="start">MITRĀ SPRAUGA ≈ izmērītais kalibrators + izmērītās papildu starplikas</text>
+<text x="20" y="183.8" font-family="Arial,Helvetica,sans-serif" font-size="3.175" font-weight="normal" fill="#162b3b" text-anchor="start">                                  − abu saspiesto marles gabalu kopējais biezums.</text>
+<text x="20" y="189.6" font-family="Arial,Helvetica,sans-serif" font-size="3.175" font-weight="normal" fill="#162b3b" text-anchor="start">3 mm piemērs: 0,4 + 0,5 + 1,0 + 1,5 − 0,4 = 3,0 mm.</text>
+<text x="20" y="195.4" font-family="Arial,Helvetica,sans-serif" font-size="3.175" font-weight="normal" fill="#162b3b" text-anchor="start">Piemērā 0,4 mm marles kopā ir pieņēmums, ne marles īpašība.</text>
+<text x="20" y="201.2" font-family="Arial,Helvetica,sans-serif" font-size="3.175" font-weight="normal" fill="#162b3b" text-anchor="start">Izmēri visu gredzenu paku četros stūros; pirmās kārtas kļūdas summējas.</text>
+<text x="20" y="207" font-family="Arial,Helvetica,sans-serif" font-size="3.175" font-weight="normal" fill="#162b3b" text-anchor="start">Ja esošie kalibratori neder, maini kalibratora biezumu Blender kodā.</text>
+<text x="220" y="208" font-family="Arial,Helvetica,sans-serif" font-size="2.99861" font-weight="normal" fill="#162b3b" text-anchor="start">*Tabula der, ja izmērītais kalibrators kompensē izmērīto marli.</text>
+<text x="220" y="213.5" font-family="Arial,Helvetica,sans-serif" font-size="2.99861" font-weight="normal" fill="#162b3b" text-anchor="start">Otra marles kārta katrā pusē prasa jaunu kalibrēšanu.</text>
+<text x="220" y="219" font-family="Arial,Helvetica,sans-serif" font-size="2.99861" font-weight="normal" fill="#162b3b" text-anchor="start">Fiziskais gredzena biezums nav sausās kartes biezums.</text>
+<text x="20" y="252" font-family="Arial,Helvetica,sans-serif" font-size="3.10444" font-weight="normal" fill="#64727c" text-anchor="start">Kalibratoru pieskaita vienu reizi visai pakai. Taisnas, tīras saskares virsmas; pārbaudi plakanumu un faktisko biezumu.</text>
+</svg>

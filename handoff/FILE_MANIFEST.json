@@ -1,0 +1,1027 @@
+{
+  "algorithm": "SHA-256",
+  "root_folder": "LAPS_Pilns_projekts",
+  "note": "The manifest itself is excluded from its checksum list.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 159,
+      "sha256": "f4eb113c432e151d4e469c4737340cab5a5344472d80e97171072c9fdd0379bb"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 44,
+      "sha256": "719f28472297cb22e5ce857c00291e65f3db1d6e34f8f24137d6310b3c3bf46b"
+    },
+    {
+      "path": ".openai/hosting.json",
+      "bytes": 106,
+      "sha256": "cde371c266289fbd2329c04646ba08a2b74be3ee9b66a8f395aef3fcadd27ee9"
+    },
+    {
+      "path": "DEVELOPER_HANDOFF.md",
+      "bytes": 8805,
+      "sha256": "11d0d11c279864f51372ea419326a608fa7728767af8fafde936a5a8945beeb9"
+    },
+    {
+      "path": "MODEL_INDEX.md",
+      "bytes": 2745,
+      "sha256": "2efce102255570dfe97c499a474f0c2844e7fc4e7fa07a45b7a7272b3f24e22e"
+    },
+    {
+      "path": "PROJECT_DESTINATION.md",
+      "bytes": 918,
+      "sha256": "1f0d567de238c2ee998aff9a0f55bf2078f2d7ebb1aa1d4f2b5ced4bfb1acb29"
+    },
+    {
+      "path": "README_SAKT_SEIT_LV.md",
+      "bytes": 3595,
+      "sha256": "5ffadc43eaf33e515d32ef2f3c738cce8d5926b71ef07bb728a1a2272816e2fd"
+    },
+    {
+      "path": "assets/marle_source/blender/LAPS_Marle_Blender.py",
+      "bytes": 23998,
+      "sha256": "5ee0376303613382a04eb28ed911ae1f155617810c13b2a415f4ecb25c4c5cd5"
+    },
+    {
+      "path": "assets/marle_source/blender/LAPS_Marle_Prototips.blend",
+      "bytes": 4057996,
+      "sha256": "7f3b48fe06f467943354bd0e614a18119628c29faa8d82eeebd9bc92a9776268"
+    },
+    {
+      "path": "assets/marle_source/cad/LAPS_Marle_assembled_3mm.step",
+      "bytes": 18141532,
+      "sha256": "a77f3678f3c120273d6960094a5dcad5d4459e9332c418f91532ba521ff98d82"
+    },
+    {
+      "path": "assets/marle_source/cad/marle_base_0.2mm_PRINT_1.step",
+      "bytes": 81093,
+      "sha256": "c207b637716bec8cd3c4fa683390a4aa3346ac29300228399d6c2779ec3e1af4"
+    },
+    {
+      "path": "assets/marle_source/cad/marle_base_0.2mm_PRINT_1.stl",
+      "bytes": 255284,
+      "sha256": "380cc2b38acdc27c547f3d0b4ffdc192bb9a1f876b49c5832e33a15abbc5039c"
+    },
+    {
+      "path": "assets/marle_source/cad/marle_base_0.4mm_PRINT_1.step",
+      "bytes": 81093,
+      "sha256": "f01c9bd3ba6c4898203ab31185f9f28e88574d74173139c15e4da92b17005ef0"
+    },
+    {
+      "path": "assets/marle_source/cad/marle_base_0.4mm_PRINT_1.stl",
+      "bytes": 255284,
+      "sha256": "08ac1f565ed18bda9e6f89ac9ebee6eaaedb5595c793b8ab224cc936c29b99e8"
+    },
+    {
+      "path": "assets/marle_source/cad/marle_base_0.6mm_PRINT_1.step",
+      "bytes": 81093,
+      "sha256": "23e8be9dc192bd7f819053049bfef8f5e37b6bd2e91992ecf92a1ee013a3095b"
+    },
+    {
+      "path": "assets/marle_source/cad/marle_base_0.6mm_PRINT_1.stl",
+      "bytes": 255284,
+      "sha256": "f276143e5169520464c656d7aaafed8bcffbb2e503149deb25f1d7f2cc7f8592"
+    },
+    {
+      "path": "assets/marle_source/cad/marle_base_0.8mm_PRINT_1.step",
+      "bytes": 81093,
+      "sha256": "08959325e6b19d07e6ca0f1907ea1869c261833817ad630dcde016638f43b3b1"
+    },
+    {
+      "path": "assets/marle_source/cad/marle_base_0.8mm_PRINT_1.stl",
+      "bytes": 255284,
+      "sha256": "0d14b886851016e7e76b6c35a96bfbc2994c9a7c5e6bd24da800045677b63f17"
+    },
+    {
+      "path": "assets/marle_source/cad/marle_plate_PRINT_2.step",
+      "bytes": 17699120,
+      "sha256": "ea8184512292fdb51fb57e7df87d9600430dd2f9823895e214ce53ac02429459"
+    },
+    {
+      "path": "assets/marle_source/cad/marle_plate_PRINT_2.stl",
+      "bytes": 1139284,
+      "sha256": "2bceca00eacae33b206e522e0f226bc30f6ce1ef61fb667ca1dfce95aab137a3"
+    },
+    {
+      "path": "assets/marle_source/cad/marle_shim_0.5mm_PRINT_2.step",
+      "bytes": 81093,
+      "sha256": "859f60797c48715f804995265a3a18916f10c1de9346bb3a10f6602e322f689b"
+    },
+    {
+      "path": "assets/marle_source/cad/marle_shim_0.5mm_PRINT_2.stl",
+      "bytes": 255284,
+      "sha256": "dbea5b8d643d4b82699436d779ce5d6b81394c36d0bc98d9dc4af2e5d76c32eb"
+    },
+    {
+      "path": "assets/marle_source/cad/marle_shim_1.0mm_PRINT_2.step",
+      "bytes": 81020,
+      "sha256": "7e2efc587c3065226fab0406f3e6cb88f946e2c53fab56e6a5ebbd2c7e39b2a3"
+    },
+    {
+      "path": "assets/marle_source/cad/marle_shim_1.0mm_PRINT_2.stl",
+      "bytes": 255284,
+      "sha256": "0486845e24c00fb7260e65c682d2e898fabbcb741eddd6482ca905b3013243ba"
+    },
+    {
+      "path": "assets/marle_source/cad/marle_shim_1.5mm_PRINT_2.step",
+      "bytes": 81093,
+      "sha256": "6c6eaa17dac4f04cc6dcd3dddab3de306a438a654af241e92f017dbc157eb28e"
+    },
+    {
+      "path": "assets/marle_source/cad/marle_shim_1.5mm_PRINT_2.stl",
+      "bytes": 255284,
+      "sha256": "9bddd72e9f5d9c0aaf508f651aa04383f0c686ac9929662d5bc6c9b802e75774"
+    },
+    {
+      "path": "assets/marle_source/data/marle_dimensions.json",
+      "bytes": 13865,
+      "sha256": "ce21e293f8945eb80f052ebe7c134ed97d142ec5b68fded4bc6a4738ea25b469"
+    },
+    {
+      "path": "assets/marle_source/docs/01_parskats.svg",
+      "bytes": 51602,
+      "sha256": "d0739f187c87b45aea8843958ded70dd5dcc82b0f400ebec0aafd72bde50a7c8"
+    },
+    {
+      "path": "assets/marle_source/docs/02_plaksne_drenaza.svg",
+      "bytes": 91536,
+      "sha256": "02aff5647d23f36776216c4129643bf6f1eea62f93e19535818ad9c80256345f"
+    },
+    {
+      "path": "assets/marle_source/docs/03_kalibratori_starplikas.svg",
+      "bytes": 13203,
+      "sha256": "3e1807b42902dd5318d6dfb7f8081c3986f48f09a3a5b1f42d16857c5277d493"
+    },
+    {
+      "path": "assets/marle_source/docs/04_marle_druka.svg",
+      "bytes": 6491,
+      "sha256": "28259cf8d6a64fa590bde4b33d24e47080daacce6db05f563635fce8b974818d"
+    },
+    {
+      "path": "assets/marle_source/docs/05_detaljas_skruves.svg",
+      "bytes": 8250,
+      "sha256": "c13a5bae2ca42714a98541c71e89dcc6bffa0acf562fc1002ec14c9a7f337ccb"
+    },
+    {
+      "path": "assets/marle_source/docs/06_saliksana_spiediens.svg",
+      "bytes": 5925,
+      "sha256": "926efbb7260c6fd09a32790c26a16d35b2dd859622cda94f55d733f960a5d4aa"
+    },
+    {
+      "path": "assets/marle_source/docs/07_blender.svg",
+      "bytes": 5326,
+      "sha256": "ba4067bb2344df248d8731286b6a02b3ce9c1c2fa7d6bd186f711b93cb7abd51"
+    },
+    {
+      "path": "assets/marle_source/docs/08_izmeginajumi.svg",
+      "bytes": 5558,
+      "sha256": "08b4c6628b6919a6a3ab4ee42d24ed3a96580a84640d6ccd1102ddf71994d264"
+    },
+    {
+      "path": "assets/marle_source/docs/LAPS_Marle_Rasejumi_un_Pamaciba_LV.pdf",
+      "bytes": 78205,
+      "sha256": "fb57705e94a40c3072fa82f4bde16600955ebc73e140fe8b022bb19b5eaea867"
+    },
+    {
+      "path": "assets/marle_source/docs/README_LV.txt",
+      "bytes": 1256,
+      "sha256": "871f004b67335ef9c83207def36aa81ea8f5acd676bec8d4c66837946193e510"
+    },
+    {
+      "path": "assets/marle_source/docs/catalog.json",
+      "bytes": 1667,
+      "sha256": "1f0aa6df86f3453d5073499f68dec378d1304c5e6c9865c57c67ce2c7ca1bccf"
+    },
+    {
+      "path": "assets/marle_source/docs/web_pages/page-01.webp",
+      "bytes": 40788,
+      "sha256": "fc9f97ac24a19bd722299414c43337b2b5132874aa32bd79e2faf988690df0cb"
+    },
+    {
+      "path": "assets/marle_source/docs/web_pages/page-02.webp",
+      "bytes": 52198,
+      "sha256": "39305941fdbb2b733d19f28398ce3f4a98534ca0a32ed234e0cbadecc4bad133"
+    },
+    {
+      "path": "assets/marle_source/docs/web_pages/page-03.webp",
+      "bytes": 33654,
+      "sha256": "5e0c3df04b7dfa9985ce3b349fb85c1d65bac09d9aa7e2059b319a3116070a58"
+    },
+    {
+      "path": "assets/marle_source/docs/web_pages/page-04.webp",
+      "bytes": 90314,
+      "sha256": "dd10ff2003157cf20503d1d9218149441fe8046f152d618c1a8231f1e0a67a21"
+    },
+    {
+      "path": "assets/marle_source/docs/web_pages/page-05.webp",
+      "bytes": 37884,
+      "sha256": "c983e75722813be5cb76fe89bf4a3ae8b826726465d31dc3573df8c6dc5ca498"
+    },
+    {
+      "path": "assets/marle_source/docs/web_pages/page-06.webp",
+      "bytes": 105656,
+      "sha256": "2789b6deec321f14d988d7b2007d79d6507af394352ac543578b0138727495bc"
+    },
+    {
+      "path": "assets/marle_source/docs/web_pages/page-07.webp",
+      "bytes": 100080,
+      "sha256": "944dd7ccd5776b86490e020ef4765eff8e669cdc69cb258244558aca8f3ad6a1"
+    },
+    {
+      "path": "assets/marle_source/docs/web_pages/page-08.webp",
+      "bytes": 106136,
+      "sha256": "f16fd5f41e7bca096ce104a8d44a469a73b89e86e711c33f3770d4579daae974"
+    },
+    {
+      "path": "assets/marle_source/procurement/LAPS_Marle_Cenu_alternativas_LV.csv",
+      "bytes": 2966,
+      "sha256": "e936788fecd3376e7f4b148c072e7da0d9397e238bd466ec589e53517c8994b3"
+    },
+    {
+      "path": "assets/marle_source/procurement/LAPS_Marle_Iepirkums_DEPO_Bergi_LV.csv",
+      "bytes": 2827,
+      "sha256": "376ec3452b6866022010157c7d4c951502a534008023d487964a0b5daf7dfc5d"
+    },
+    {
+      "path": "assets/marle_source/procurement/LAPS_Marle_Iepirkums_DEPO_Bergi_LV.pdf",
+      "bytes": 55565,
+      "sha256": "fa0d68be2319b39c25a87e2b7ecbfcd27a8f637d8fe743a59cbc49c40419edb1"
+    },
+    {
+      "path": "assets/marle_source/procurement_verified.json",
+      "bytes": 11664,
+      "sha256": "52752e04967fc0f5495ba0c99502a0334981648f5edd9d74d484c4134e8490b1"
+    },
+    {
+      "path": "assets/marle_source/visual/LAPS_Marle.blend",
+      "bytes": 7805040,
+      "sha256": "6e92bcc0735f9f97d7998861ddb173e17b569e2f483400bc5a1c029972a7a902"
+    },
+    {
+      "path": "assets/marle_source/visual/models/assembly.glb",
+      "bytes": 3435204,
+      "sha256": "22c691a5800f548c2840abf8410fb6f2c0a591d3995da281c3442054d4c76ffa"
+    },
+    {
+      "path": "assets/marle_source/visual/models/assembly.usdz",
+      "bytes": 3118517,
+      "sha256": "1f9ce8a66b7c74e7c3b069660a762e74b94ddc8cfed4d8d779fea27cf0e126ca"
+    },
+    {
+      "path": "assets/marle_source/visual/models/grid.glb",
+      "bytes": 957180,
+      "sha256": "a14be2395a822705f7debbebade9de4ea8f056a859ded95d27e75c92d4948ec7"
+    },
+    {
+      "path": "assets/marle_source/visual/models/grid.usdz",
+      "bytes": 898492,
+      "sha256": "4b75dc69acc12e833c8c1ab3e731c44806fe4059f24ef9e92aab68ed2b5a5465"
+    },
+    {
+      "path": "assets/marle_source/visual/models/shims.glb",
+      "bytes": 1659028,
+      "sha256": "045d52300184a7674cba24df494862649ed75242d7faa4216fc025858c7e61ae"
+    },
+    {
+      "path": "assets/marle_source/visual/models/shims.usdz",
+      "bytes": 1578903,
+      "sha256": "d10901f4daa679239185b52dee5b718f48eb6160b20ad5f30d8a591a2ad616f5"
+    },
+    {
+      "path": "assets/marle_source/visual/renders/01_assembled_45deg.png",
+      "bytes": 1242399,
+      "sha256": "3007f8689bc5d661f2a347027359af637a34ae7b3e27277ecb26b66d3690173e"
+    },
+    {
+      "path": "assets/marle_source/visual/renders/02_exploded_assembly.png",
+      "bytes": 981168,
+      "sha256": "89a9701bf4b536fc114dea486cd27b704ebddb2b0122a4e10fcb675bd1beadeb"
+    },
+    {
+      "path": "assets/marle_source/visual/renders/03_grid_and_gauze_detail.png",
+      "bytes": 1656719,
+      "sha256": "4c7f604a5088e76a7e6155f378db65ba540298e342b4a371030fde73fa00162a"
+    },
+    {
+      "path": "assets/marle_source/visual/renders/04_all_calibration_bases_and_shims.png",
+      "bytes": 541863,
+      "sha256": "c7bfbdf01ba1c405abbba2ab57b083e0954d4f6921cc40453561eedd4b666993"
+    },
+    {
+      "path": "assets/marle_source/visual/renders/05_assembled_side.png",
+      "bytes": 746121,
+      "sha256": "b56dca1ea1ee0857e6f2dceaca28b39a44aa321bd48ad415dbf8bba67bac593f"
+    },
+    {
+      "path": "content/podins/NO_KOKA_UZ_KOKU_Podina_prototips.py",
+      "bytes": 29574,
+      "sha256": "b2d617c88c1c8d0fae9d2755bb8e6d8785631aa101da2c0c5dbb2748e6dd3df7"
+    },
+    {
+      "path": "content/podins/engineering_review.json",
+      "bytes": 58713,
+      "sha256": "d4326515f696306404349e15418526ae46599d14f3f53850a76950ed977597d9"
+    },
+    {
+      "path": "content/podins/gauze_and_experiment_advice.json",
+      "bytes": 8676,
+      "sha256": "91c0d36235d82ef7dcec8bc19ae22a191d7985e6aa114b5ff2378b2daead2012"
+    },
+    {
+      "path": "content/podins/independent_review.json",
+      "bytes": 17087,
+      "sha256": "82745bc25036f22e943d53cf0115274d12d901c7835b62b26182cd5905a988f0"
+    },
+    {
+      "path": "content/podins/review.json",
+      "bytes": 21042,
+      "sha256": "b7a30d7f6e06fe2b790c8f6bc318680dbd61796d639962ff738bc738979636f5"
+    },
+    {
+      "path": "dist/_headers",
+      "bytes": 1133,
+      "sha256": "3e45e51d8d43ff54cf70a723ad06195ed14b2b7641bdfaef9009996086d71e55"
+    },
+    {
+      "path": "dist/arhivs/index.html",
+      "bytes": 19249,
+      "sha256": "a63bd05f27343705b80b593788a62aacc472da006abf1553c5e39319e1736b4f"
+    },
+    {
+      "path": "dist/assets/app.js",
+      "bytes": 603975,
+      "sha256": "7b3c41a81b075d39b097405ee5afc6b0731baf111951416eb6a788f8096703d6"
+    },
+    {
+      "path": "dist/assets/style.css",
+      "bytes": 10310,
+      "sha256": "259d34d1b9a680efd462863b1f2acb39b0ebf6245070bfd046e0c1ac028bf647"
+    },
+    {
+      "path": "dist/documents/catalog.json",
+      "bytes": 10810,
+      "sha256": "4043583686e6b5d80126b0599223ba1e3d20d0f4ce785af0db81567b6e2ccf70"
+    },
+    {
+      "path": "dist/documents/pages/blender-01.webp",
+      "bytes": 152014,
+      "sha256": "ad2a2a8f885f3267339246ef4f9cb8d207fb6613d845b3bfb6386b7440f7a664"
+    },
+    {
+      "path": "dist/documents/pages/blender-02.webp",
+      "bytes": 129316,
+      "sha256": "eec7dfb8b8c82a90d2e6a18ebaa91a730ee60dee2c9000414bc0b8ba050e1c9d"
+    },
+    {
+      "path": "dist/documents/pages/blender-03.webp",
+      "bytes": 196288,
+      "sha256": "857a1a98c4cf4567e94951dacf62d6c0cb46e744336f025465047f0711d0bf84"
+    },
+    {
+      "path": "dist/documents/pages/blender-04.webp",
+      "bytes": 99306,
+      "sha256": "14d532535fde42648c0c8921e8ced005c02fa634d14d7c04bf2ff4d935412eff"
+    },
+    {
+      "path": "dist/documents/pages/iepirkums-01.webp",
+      "bytes": 89870,
+      "sha256": "fb1379f577db8ddb3d838f3d82a693301670827e40813599498c6ff64c2a9d61"
+    },
+    {
+      "path": "dist/documents/pages/iepirkums-02.webp",
+      "bytes": 111328,
+      "sha256": "f62a98226a9e80bc2e92cfd72eda93f79541551ef056e4f6a4a8c2f281f539e8"
+    },
+    {
+      "path": "dist/documents/pages/iepirkums-03.webp",
+      "bytes": 141916,
+      "sha256": "6e80aa1e82758b10c98ccd10e5d68f646d4db7a8287c26caf2191c3b02222894"
+    },
+    {
+      "path": "dist/documents/pages/iepirkums-04.webp",
+      "bytes": 99480,
+      "sha256": "3270646a58dbcb2e6263a48095608c571137e04b9aff1e76cfb7e477b72be313"
+    },
+    {
+      "path": "dist/documents/pages/petijumi-01.webp",
+      "bytes": 123276,
+      "sha256": "d7fd23b3e2a3506e72eb24acdec406fcb5f2bbd7aadf8dfcd00f2e520970883f"
+    },
+    {
+      "path": "dist/documents/pages/petijumi-02.webp",
+      "bytes": 123842,
+      "sha256": "4ab03d716b1517ac5d3e2d65cca3022d3d6e235c2e26dbcd867ebf6f69ae8ff3"
+    },
+    {
+      "path": "dist/documents/pages/petijumi-03.webp",
+      "bytes": 167470,
+      "sha256": "5af9b1169d78624a65fc9bc58c8cd9116875fba53682376b37b596d5df13940d"
+    },
+    {
+      "path": "dist/documents/pages/petijumi-04.webp",
+      "bytes": 160050,
+      "sha256": "1009fb22ddb8ad9740459292ff5cf58393145e323100a035ae77a5fdc2ab13c1"
+    },
+    {
+      "path": "dist/documents/pages/petijumi-05.webp",
+      "bytes": 140946,
+      "sha256": "0bedc083ed59e9afac8747ff614a579bfb340dec00a61611f8382eb19fd7201f"
+    },
+    {
+      "path": "dist/documents/pages/petijumi-06.webp",
+      "bytes": 166944,
+      "sha256": "bf5e19fe127cf3d3778511ace04b7b6e8a24b55e0185142021eede338e0944c6"
+    },
+    {
+      "path": "dist/documents/pages/petijumi-07.webp",
+      "bytes": 203572,
+      "sha256": "e60a0b41e96fd5b002cb7dea637f8b42ac521d783477cc79636bbfbdeab34c4b"
+    },
+    {
+      "path": "dist/documents/pages/petijumi-08.webp",
+      "bytes": 176592,
+      "sha256": "701878cc3ca1772cc82bcd68bc54cdf66f75c7eaf51224054f560670a768d581"
+    },
+    {
+      "path": "dist/documents/pages/petijumi-09.webp",
+      "bytes": 169080,
+      "sha256": "a6ebb44f5d5d9f9debdcfb2f6294477962c6e4f612da3058388cf8ca05f66018"
+    },
+    {
+      "path": "dist/documents/pages/petijumi-10.webp",
+      "bytes": 118828,
+      "sha256": "56c7ca65dbdfe1c8306ce3a6b1dc9b4d532457cbfd274e0af0de4b7922782eb2"
+    },
+    {
+      "path": "dist/documents/pages/rasejumi-01.webp",
+      "bytes": 23450,
+      "sha256": "4d017cc7527449a102fc42c9a50b52f044f8f26fdb639afd97dcf32e9c25818d"
+    },
+    {
+      "path": "dist/documents/pages/rasejumi-02.webp",
+      "bytes": 33468,
+      "sha256": "9e4fc10137028854274a92b83bb7c6dbe8ddb70d174d22dcd3dca768bff7adb4"
+    },
+    {
+      "path": "dist/documents/pages/rasejumi-03.webp",
+      "bytes": 27060,
+      "sha256": "3965de533c9dc05a033107e2eee60fcefbebd3c8b3afb5be760c0b38c50a2e42"
+    },
+    {
+      "path": "dist/documents/pages/rasejumi-04.webp",
+      "bytes": 29784,
+      "sha256": "3080b0df95e4a115664e52218c6d159baff758a1907cfc3aa2dbdcd06753b86b"
+    },
+    {
+      "path": "dist/documents/pages/rasejumi-05.webp",
+      "bytes": 24604,
+      "sha256": "b9cac64325eafecf5ca4d1624912cdbbc9a3baf48f2ecaa44497befffd377820"
+    },
+    {
+      "path": "dist/documents/pages/rasejumi-06.webp",
+      "bytes": 36546,
+      "sha256": "df7fa8da0584d9f3f06959a4816f158ae3d154fc25c3198c7ef3a2c651d22fac"
+    },
+    {
+      "path": "dist/documents/pages/rasejumi-07.webp",
+      "bytes": 38416,
+      "sha256": "8d8b0d4771e20fda1fc360fc20ac471f21d90c32cbc350facedfa5056bb04e08"
+    },
+    {
+      "path": "dist/documents/pages/rasejumi-08.webp",
+      "bytes": 42128,
+      "sha256": "a59834dccd2599b79d051ef223b0adf2f0b3c28370a860e6478445ee3a2d966e"
+    },
+    {
+      "path": "dist/documents/pages/skice-01.webp",
+      "bytes": 26718,
+      "sha256": "44e2f624c2430dfb016f14d6e18df62d94b4ea17d67860c745fa4c5dcdfbd83f"
+    },
+    {
+      "path": "dist/favicon.svg",
+      "bytes": 227,
+      "sha256": "d0701f7c65802427bf916153d855b8ac52b1bbffc1f5a378d90689e94f2e9051"
+    },
+    {
+      "path": "dist/files/Blender_Lietosana_LV.pdf",
+      "bytes": 56241,
+      "sha256": "31fee67ab33cca3bea30db9189ad6634a27f6e1211bff46c46990e0e4f14d5d7"
+    },
+    {
+      "path": "dist/files/LAPS_Blender_Prototips.py",
+      "bytes": 14712,
+      "sha256": "4c66951ab3fc800cbc7a000101263607fff8895cc406b145d132c83ccff2dcfa"
+    },
+    {
+      "path": "dist/files/LAPS_Blender_Prototips.zip",
+      "bytes": 2087402,
+      "sha256": "44b59facb549553e0f197a10f15d0ba214b0d41d46032368a0ed925b0cf137cd"
+    },
+    {
+      "path": "dist/files/LAPS_DEPO_Pirkumu_saraksts.zip",
+      "bytes": 131869,
+      "sha256": "dcfbd0c7088e31a770759844d196795a6a49eb51da48fce68296c17fd8adb4c3"
+    },
+    {
+      "path": "dist/files/LAPS_Pirkumu_saraksts_DEPO_Bergi.pdf",
+      "bytes": 60523,
+      "sha256": "286a04bf820ce23ef0b9d2bbb22fd2bba27002d788837e9fcb5f16fab744014f"
+    },
+    {
+      "path": "dist/files/LAPS_Print_and_Experiment_Guide.pdf",
+      "bytes": 78774,
+      "sha256": "3b2aca172c42b854bc968064525c0d602857b78369d73196e41bffb55388c4b5"
+    },
+    {
+      "path": "dist/files/LAPS_Prototips.blend",
+      "bytes": 3605492,
+      "sha256": "134c472ed3d6875403edeff8a62d0dce904c02717736fc35990a84045d11b32b"
+    },
+    {
+      "path": "dist/files/LAPS_Pulp_Press_Complete.zip",
+      "bytes": 20099929,
+      "sha256": "3bfd2d1176c8541b9ab1b0b46556851fd63a90388a792d09f4a5d06101857632"
+    },
+    {
+      "path": "dist/files/LAPS_Pulp_Press_Technical_Drawings_RevA.pdf",
+      "bytes": 46428,
+      "sha256": "aa5825388665a94a4d105b008ac0de0477c5f91f809b41555d517518dd1894e9"
+    },
+    {
+      "path": "dist/files/Laps.pdf",
+      "bytes": 1029389,
+      "sha256": "e275f5ee6b56d224e0932b72cb5667b722330df1826afbd8176d0b1a64e704a4"
+    },
+    {
+      "path": "dist/files/Pulp_Press_assembled.usdz",
+      "bytes": 6586511,
+      "sha256": "2e0790d266c0aced2662b3cc4789d45d7b998cc3ac3eec0029e765006eebec37"
+    },
+    {
+      "path": "dist/files/Pulp_Press_exploded.usdz",
+      "bytes": 6421378,
+      "sha256": "2f58f6ac03058d5e45a86ec6656c8e1eb1e9de8ca623b4457a77b9ddaad493d0"
+    },
+    {
+      "path": "dist/images/assembled.webp",
+      "bytes": 20576,
+      "sha256": "56102a0c1ba560435f0f32519ee57bcb1c92bdfbd2ac6a5098e4f5d39cefe37f"
+    },
+    {
+      "path": "dist/images/presforma.png",
+      "bytes": 728846,
+      "sha256": "7b70193ad1a3f32651f1ab1a24b7afdd84a6363ff2c442cc0ed4f52bd9eddf31"
+    },
+    {
+      "path": "dist/images/render-02.webp",
+      "bytes": 26518,
+      "sha256": "ea8f8899d0955828109d33030d28c35122257a2c8f55967f26a84b0830c2c8c0"
+    },
+    {
+      "path": "dist/images/render-03.webp",
+      "bytes": 6626,
+      "sha256": "ddc6d44fe5b9c498492071cfe2cfec88eaf57ccf833d09e8d477a38e24437f29"
+    },
+    {
+      "path": "dist/images/render-04.webp",
+      "bytes": 9534,
+      "sha256": "04e744ea4700d2ead8dd5e3048413c93de7120b2a6b265d6c3778d268cefba34"
+    },
+    {
+      "path": "dist/images/render-05.webp",
+      "bytes": 20410,
+      "sha256": "23b347ed5bc75c558049eb77fb5ab0847f16e6711f06be10cbaf52975e688c3e"
+    },
+    {
+      "path": "dist/images/render-06.webp",
+      "bytes": 26918,
+      "sha256": "7d09f2d89303cada54952086b8fe06256e61844f24bdae77d1e1d3f6dd329b18"
+    },
+    {
+      "path": "dist/images/render-07.webp",
+      "bytes": 16748,
+      "sha256": "550f16c92f9e881e06122d0eebce2ab27a666b980a426ca21afd68be7544f189"
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 19968,
+      "sha256": "a275b1c7878b1d80fc61ccf599f9aceaab49a19b9f835ca80d4822a614f22200"
+    },
+    {
+      "path": "dist/laps-siets/documents/catalog.json",
+      "bytes": 3117,
+      "sha256": "d99ac72e1b85fd9e6a7ba6937cb7d0b460e24c7faeaf6db105986182084586fa"
+    },
+    {
+      "path": "dist/laps-siets/documents/page-01.webp",
+      "bytes": 40788,
+      "sha256": "fc9f97ac24a19bd722299414c43337b2b5132874aa32bd79e2faf988690df0cb"
+    },
+    {
+      "path": "dist/laps-siets/documents/page-02.webp",
+      "bytes": 52198,
+      "sha256": "39305941fdbb2b733d19f28398ce3f4a98534ca0a32ed234e0cbadecc4bad133"
+    },
+    {
+      "path": "dist/laps-siets/documents/page-03.webp",
+      "bytes": 33654,
+      "sha256": "5e0c3df04b7dfa9985ce3b349fb85c1d65bac09d9aa7e2059b319a3116070a58"
+    },
+    {
+      "path": "dist/laps-siets/documents/page-04.webp",
+      "bytes": 90314,
+      "sha256": "dd10ff2003157cf20503d1d9218149441fe8046f152d618c1a8231f1e0a67a21"
+    },
+    {
+      "path": "dist/laps-siets/documents/page-05.webp",
+      "bytes": 37884,
+      "sha256": "c983e75722813be5cb76fe89bf4a3ae8b826726465d31dc3573df8c6dc5ca498"
+    },
+    {
+      "path": "dist/laps-siets/documents/page-06.webp",
+      "bytes": 105656,
+      "sha256": "2789b6deec321f14d988d7b2007d79d6507af394352ac543578b0138727495bc"
+    },
+    {
+      "path": "dist/laps-siets/documents/page-07.webp",
+      "bytes": 100080,
+      "sha256": "944dd7ccd5776b86490e020ef4765eff8e669cdc69cb258244558aca8f3ad6a1"
+    },
+    {
+      "path": "dist/laps-siets/documents/page-08.webp",
+      "bytes": 106136,
+      "sha256": "f16fd5f41e7bca096ce104a8d44a469a73b89e86e711c33f3770d4579daae974"
+    },
+    {
+      "path": "dist/laps-siets/documents/procurement-01.webp",
+      "bytes": 95952,
+      "sha256": "e553dfe6de0475466eecd1e1cfbc28afb27c517f9b2ed89531b2a385dc952b15"
+    },
+    {
+      "path": "dist/laps-siets/documents/procurement-02.webp",
+      "bytes": 112786,
+      "sha256": "0f3f69d7efa1282b0245defe2fd0522d50034f4f63597fbfe55523eef15145e4"
+    },
+    {
+      "path": "dist/laps-siets/documents/procurement-03.webp",
+      "bytes": 136242,
+      "sha256": "587366879227b8122231728010f2f4ce55ff2e5c9b57be8839eeb87458e2d051"
+    },
+    {
+      "path": "dist/laps-siets/files/LAPS_Marle_Blender.py",
+      "bytes": 23998,
+      "sha256": "5ee0376303613382a04eb28ed911ae1f155617810c13b2a415f4ecb25c4c5cd5"
+    },
+    {
+      "path": "dist/laps-siets/files/LAPS_Marle_Cenu_alternativas_LV.csv",
+      "bytes": 2966,
+      "sha256": "e936788fecd3376e7f4b148c072e7da0d9397e238bd466ec589e53517c8994b3"
+    },
+    {
+      "path": "dist/laps-siets/files/LAPS_Marle_Drukas_faili.zip",
+      "bytes": 530840,
+      "sha256": "c38073236b98faacf1aa34b14ed9833efd7ec9b614f03ba497da3bb5c5437d55"
+    },
+    {
+      "path": "dist/laps-siets/files/LAPS_Marle_Iepirkums_LV.csv",
+      "bytes": 2827,
+      "sha256": "376ec3452b6866022010157c7d4c951502a534008023d487964a0b5daf7dfc5d"
+    },
+    {
+      "path": "dist/laps-siets/files/LAPS_Marle_Iepirkums_LV.pdf",
+      "bytes": 55565,
+      "sha256": "fa0d68be2319b39c25a87e2b7ecbfcd27a8f637d8fe743a59cbc49c40419edb1"
+    },
+    {
+      "path": "dist/laps-siets/files/LAPS_Marle_Prototips.blend",
+      "bytes": 4057996,
+      "sha256": "7f3b48fe06f467943354bd0e614a18119628c29faa8d82eeebd9bc92a9776268"
+    },
+    {
+      "path": "dist/laps-siets/files/LAPS_Marle_Prototips.zip",
+      "bytes": 9818759,
+      "sha256": "66ff0852325b5a29deaedd3edb04695bd5b5d8eef2322c73cb7c4a5155908e80"
+    },
+    {
+      "path": "dist/laps-siets/files/LAPS_Marle_Rasejumi_un_Pamaciba_LV.pdf",
+      "bytes": 78205,
+      "sha256": "fb57705e94a40c3072fa82f4bde16600955ebc73e140fe8b022bb19b5eaea867"
+    },
+    {
+      "path": "dist/laps-siets/files/LAPS_Marle_Vizualizacija.blend",
+      "bytes": 7805040,
+      "sha256": "6e92bcc0735f9f97d7998861ddb173e17b569e2f483400bc5a1c029972a7a902"
+    },
+    {
+      "path": "dist/laps-siets/files/README_LV.txt",
+      "bytes": 2269,
+      "sha256": "95839cc36c9bb38818029f3659491fc76cc648ec6cbf356c756123b386e1f0fe"
+    },
+    {
+      "path": "dist/laps-siets/files/assembly.usdz",
+      "bytes": 3118517,
+      "sha256": "1f9ce8a66b7c74e7c3b069660a762e74b94ddc8cfed4d8d779fea27cf0e126ca"
+    },
+    {
+      "path": "dist/laps-siets/files/grid.usdz",
+      "bytes": 898492,
+      "sha256": "4b75dc69acc12e833c8c1ab3e731c44806fe4059f24ef9e92aab68ed2b5a5465"
+    },
+    {
+      "path": "dist/laps-siets/files/shims.usdz",
+      "bytes": 1578903,
+      "sha256": "d10901f4daa679239185b52dee5b718f48eb6160b20ad5f30d8a591a2ad616f5"
+    },
+    {
+      "path": "dist/laps-siets/images/01_assembled_45deg.png",
+      "bytes": 1242399,
+      "sha256": "3007f8689bc5d661f2a347027359af637a34ae7b3e27277ecb26b66d3690173e"
+    },
+    {
+      "path": "dist/laps-siets/images/01_assembled_45deg.webp",
+      "bytes": 72970,
+      "sha256": "f64e974707a38d8cb6c5fafd03b832350412dcdb8d0d89f3ef3c73738ab6cf93"
+    },
+    {
+      "path": "dist/laps-siets/images/02_exploded_assembly.png",
+      "bytes": 981168,
+      "sha256": "89a9701bf4b536fc114dea486cd27b704ebddb2b0122a4e10fcb675bd1beadeb"
+    },
+    {
+      "path": "dist/laps-siets/images/02_exploded_assembly.webp",
+      "bytes": 57204,
+      "sha256": "2f45f8081688423d65179aed5fc5a863eb3f7707ed0f76015e34b82a89d5efab"
+    },
+    {
+      "path": "dist/laps-siets/images/03_grid_and_gauze_detail.png",
+      "bytes": 1656719,
+      "sha256": "4c7f604a5088e76a7e6155f378db65ba540298e342b4a371030fde73fa00162a"
+    },
+    {
+      "path": "dist/laps-siets/images/03_grid_and_gauze_detail.webp",
+      "bytes": 115126,
+      "sha256": "97f44e095d6e72f4cdc5d5485e68e9acfdaf7976a9da26106fa304424bace449"
+    },
+    {
+      "path": "dist/laps-siets/images/04_all_calibration_bases_and_shims.png",
+      "bytes": 541863,
+      "sha256": "c7bfbdf01ba1c405abbba2ab57b083e0954d4f6921cc40453561eedd4b666993"
+    },
+    {
+      "path": "dist/laps-siets/images/04_all_calibration_bases_and_shims.webp",
+      "bytes": 21452,
+      "sha256": "896863f028e8f32631fe969f23c9c7a7cf2babb3ce0b760522b9fad96ee3185b"
+    },
+    {
+      "path": "dist/laps-siets/images/05_assembled_side.png",
+      "bytes": 746121,
+      "sha256": "b56dca1ea1ee0857e6f2dceaca28b39a44aa321bd48ad415dbf8bba67bac593f"
+    },
+    {
+      "path": "dist/laps-siets/images/05_assembled_side.webp",
+      "bytes": 40124,
+      "sha256": "90730d12b399bf7ac863b731bfffe6c327a1c1eb459c86f31ab3cb27d51167ae"
+    },
+    {
+      "path": "dist/laps-siets/index.html",
+      "bytes": 19968,
+      "sha256": "a275b1c7878b1d80fc61ccf599f9aceaab49a19b9f835ca80d4822a614f22200"
+    },
+    {
+      "path": "dist/laps-siets/marle.js",
+      "bytes": 605380,
+      "sha256": "4da73cf10990f01d48fc4a0f0329aa7ca30376375eddeb576769edd3a065d9a2"
+    },
+    {
+      "path": "dist/laps-siets/models/assembly.glb",
+      "bytes": 3435204,
+      "sha256": "22c691a5800f548c2840abf8410fb6f2c0a591d3995da281c3442054d4c76ffa"
+    },
+    {
+      "path": "dist/laps-siets/models/grid.glb",
+      "bytes": 957180,
+      "sha256": "a14be2395a822705f7debbebade9de4ea8f056a859ded95d27e75c92d4948ec7"
+    },
+    {
+      "path": "dist/laps-siets/models/shims.glb",
+      "bytes": 1659028,
+      "sha256": "045d52300184a7674cba24df494862649ed75242d7faa4216fc025858c7e61ae"
+    },
+    {
+      "path": "dist/laps-siets/siets.css",
+      "bytes": 676,
+      "sha256": "e42e907a7d67a4fec1e57159aafb63916b18f474732e744d5c7a70f2dc8b5a8b"
+    },
+    {
+      "path": "dist/models/drenazas_plaksne.glb",
+      "bytes": 1040620,
+      "sha256": "1a5f261d12f292745374f7d483645dbdc7650fe87c663a46a8c6ba6d869bda40"
+    },
+    {
+      "path": "dist/models/forma.glb",
+      "bytes": 7308808,
+      "sha256": "f92f4b7d90349343a84bfc77c61e28fd8285899c6c0fc8cd22b6c691768d799b"
+    },
+    {
+      "path": "dist/models/starplikas.glb",
+      "bytes": 580088,
+      "sha256": "d95637af0f85d63d17d214fde8e9a01855708061390a6cc37c60abd22d3e6208"
+    },
+    {
+      "path": "dist/podins/files/01_MOLD_LEFT.stl",
+      "bytes": 163584,
+      "sha256": "9de299e368771552573b676488192e42cba87dd9f0d30fca9ec40f3e34b2cefc"
+    },
+    {
+      "path": "dist/podins/files/02_MOLD_RIGHT.stl",
+      "bytes": 189684,
+      "sha256": "ff664b92d50233e6e3c5d414eee55eeadb61832c49f744f2dfbda4bfa15b62a1"
+    },
+    {
+      "path": "dist/podins/files/Marle_un_izmeginajums_LV.txt",
+      "bytes": 4765,
+      "sha256": "dd0ecd72e73a9806e4c614258083001c54745116e11b7350854a523b000f4b9c"
+    },
+    {
+      "path": "dist/podins/files/NO_KOKA_UZ_KOKU_Podina_prototips.blend",
+      "bytes": 484891,
+      "sha256": "6822541c1d3dae31bfeb0f94276d3f96de29155706cc0a24eaa039aa72d232f6"
+    },
+    {
+      "path": "dist/podins/files/NO_KOKA_UZ_KOKU_Podina_prototips.py",
+      "bytes": 29574,
+      "sha256": "b2d617c88c1c8d0fae9d2755bb8e6d8785631aa101da2c0c5dbb2748e6dd3df7"
+    },
+    {
+      "path": "dist/podins/files/NO_KOKA_UZ_KOKU_Podina_prototips.zip",
+      "bytes": 631174,
+      "sha256": "587b7c215a870890d77bf1a44bce240e94e0360613b2a94e8a9cef182a6006a4"
+    },
+    {
+      "path": "dist/podins/files/README_LV.txt",
+      "bytes": 5664,
+      "sha256": "8acf0f86f0099124d1b256a7956d8da2ff8d642887700e49166cce5755cc1466"
+    },
+    {
+      "path": "dist/podins/files/V41_Geometrijas_parbaude_LV.txt",
+      "bytes": 4030,
+      "sha256": "bc6e9f3a2961e06f6fbad9bc68f4dc79615a90c8aa5fbcf7bbb4010383d6f08d"
+    },
+    {
+      "path": "dist/podins/files/V41_Parbaudes_dati.json",
+      "bytes": 94192,
+      "sha256": "44b0c5ef4cf7c0c2148e764c4dec01288861df3f0ce4b881a209490be8bdd0ef"
+    },
+    {
+      "path": "dist/podins/files/V4_Geometrijas_parbaude_LV.txt",
+      "bytes": 3954,
+      "sha256": "3498b108f6848d1c24c26e2cc7cebe727e61313cb0a5f13794580b3fe9b52be1"
+    },
+    {
+      "path": "dist/podins/files/V4_Parbaudes_dati.json",
+      "bytes": 53635,
+      "sha256": "d9953eb52a50dccc10a902d47c24ec1669894222c30e242a7dfd6e00ea98e771"
+    },
+    {
+      "path": "dist/podins/images/LAPS_Podins_Saliksana_01_sakotnejs.png",
+      "bytes": 1982401,
+      "sha256": "701b1c31c1984fecc51cf741e9b7e71dd5980bcbe03a7692492127625ab5617f"
+    },
+    {
+      "path": "dist/podins/images/LAPS_Podins_Saliksana_02_precizets.png",
+      "bytes": 2066410,
+      "sha256": "cba834fdf0e07bdcf2366467c4d6ac8ddff6ad6dec31177734644b40c03001d7"
+    },
+    {
+      "path": "dist/podins/images/V41_Austinas_45deg.png",
+      "bytes": 1676936,
+      "sha256": "1b290ef6a5f3904304d39579cc6da8043fe7aa26961859316186f467b808c8bd"
+    },
+    {
+      "path": "dist/podins/index.html",
+      "bytes": 61979,
+      "sha256": "023938664e139e4a0da13da89c19c6cbc80eb98046a8fccaaf2d1d9d59b2beed"
+    },
+    {
+      "path": "dist/podins/models/podins.glb",
+      "bytes": 1208068,
+      "sha256": "486b7d258dbbed27fcf07b3c29e9b9fc2e9e30724a55bca3046f8f86efd7a3ed"
+    },
+    {
+      "path": "dist/podins/podins.css",
+      "bytes": 1963,
+      "sha256": "c57354195afcda793bc1b81912a2a65a1409d00d1f63be62d5b42b4cf6532624"
+    },
+    {
+      "path": "dist/podins/podins.js",
+      "bytes": 596586,
+      "sha256": "2288723c0b32d157e5c868fc0f2c2ffd7bb7319829a0ecdff5905d1e8f0bf1ae"
+    },
+    {
+      "path": "handoff/EXPORT_VALIDATION.json",
+      "bytes": 1212,
+      "sha256": "3db8b1ebf849a66eed8a5d86a0b86f2cc804b2524896ff463cd4e2678ea36e2f"
+    },
+    {
+      "path": "handoff/ORIGINAL_PROJECT_DESTINATION.md",
+      "bytes": 948,
+      "sha256": "53eac9b783b1fe26111af3abcb2fbf2729c02f1e60bea772afbd5d2a3dec6285"
+    },
+    {
+      "path": "handoff/ORIGINAL_prepare_marle.py",
+      "bytes": 9991,
+      "sha256": "b30fd3ac19395ee4dc2eb98c93205758a1c9e72626c2412de8cdd44c5b4b1cc1"
+    },
+    {
+      "path": "handoff/PROVENANCE.json",
+      "bytes": 1294,
+      "sha256": "63e8425ea9d82e7b89670dad9f056b3bebde09873312e39871a37f3921bccbd0"
+    },
+    {
+      "path": "handoff/THIRD_PARTY_LICENSES/esbuild_LICENSE.txt",
+      "bytes": 1069,
+      "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+    },
+    {
+      "path": "handoff/THIRD_PARTY_LICENSES/three_LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "path": "handoff/verify_manifest.py",
+      "bytes": 643,
+      "sha256": "0dafb7d20a79dd26a7b351970bc7076b7e1c337c7534b701a757c8b09def781c"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 14381,
+      "sha256": "6dfb544e5a3ab3d3dabc3f34c912c2831dbc80c0b58966eb520fc58aa8630841"
+    },
+    {
+      "path": "package.json",
+      "bytes": 455,
+      "sha256": "c22c3f13b4b100657ae734e69afe20518d1420a0ee0e8e44c00f3a1d3ff0c074"
+    },
+    {
+      "path": "prepare_marle.py",
+      "bytes": 9990,
+      "sha256": "8fceddf5c28716a72f7daf0283b6cf1b4557dad3822e96e591c3009c32bf5a8c"
+    },
+    {
+      "path": "prepare_podins.py",
+      "bytes": 10053,
+      "sha256": "4d3acb20d42e99a10f389555567d65450bd103e6a3657ce6281d590e3508ce44"
+    },
+    {
+      "path": "requirements-content.txt",
+      "bytes": 32,
+      "sha256": "6c9f080273629974dddfaa33a2fe0717176a6812f7ec63a05e3ca84624856a57"
+    },
+    {
+      "path": "src/archive.html",
+      "bytes": 19249,
+      "sha256": "a63bd05f27343705b80b593788a62aacc472da006abf1553c5e39319e1736b4f"
+    },
+    {
+      "path": "src/build.mjs",
+      "bytes": 449,
+      "sha256": "17ab73d052263b295647356f4c38922c8c6f3f27ea34a450a83e4963c8a6e198"
+    },
+    {
+      "path": "src/marle-viewer.js",
+      "bytes": 16046,
+      "sha256": "383dc13b0cdbafab8a07b247aa5ade8e1512e69590b6a1e62324595fa1aa6a8b"
+    },
+    {
+      "path": "src/marle.html",
+      "bytes": 13607,
+      "sha256": "992ea98b0476135ef5c343961b8fb98506907dd13332486ab435a2ebd0f7cdbe"
+    },
+    {
+      "path": "src/podins.html",
+      "bytes": 12087,
+      "sha256": "ec3d071ff5dd7f41a354bf2bb55052421eab31875653bf23a617929961ac2afa"
+    },
+    {
+      "path": "src/pot-viewer.js",
+      "bytes": 6233,
+      "sha256": "52cbf49359df7e1bf37522c3076c4aa36ee492aaab1eb028c8765dfc8a023073"
+    },
+    {
+      "path": "src/pot_ears_update.html",
+      "bytes": 2309,
+      "sha256": "b21db62cbf7f2a184f675a7c01d270db5628e158a21c8415af3f060d0c31ecf6"
+    },
+    {
+      "path": "src/pot_posters_and_advice.html",
+      "bytes": 9521,
+      "sha256": "34091b5361e38393508329b3b6a77cdae52bcde6f24d828357f8b9512fdfac71"
+    },
+    {
+      "path": "src/viewer.js",
+      "bytes": 14513,
+      "sha256": "f19f372378221ce84016036b59c09f2d750545f6a655e4fe38984afa290ca6a4"
+    }
+  ]
+}

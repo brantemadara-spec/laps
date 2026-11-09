@@ -1,0 +1,66 @@
+{
+  "id": "marle",
+  "title": "LAPS Marle — Rev C rasējumi un pamācība",
+  "language": "lv",
+  "revision": "C",
+  "pdf": "/laps-siets/files/LAPS_Marle_Rasejumi_un_Pamaciba_LV.pdf",
+  "pageCount": 8,
+  "pages": [
+    {
+      "number": 1,
+      "title": "Pārskats — noņemams vāks un četri stūra stiprinājumi",
+      "path": "web_pages/page-01.webp",
+      "width": 1000,
+      "height": 708
+    },
+    {
+      "number": 2,
+      "title": "PETG plāksne — šūnas un krusteniskā drenāža",
+      "path": "web_pages/page-02.webp",
+      "width": 1000,
+      "height": 708
+    },
+    {
+      "number": 3,
+      "title": "Kalibratori un starplikas — izmērīta mitrā sprauga",
+      "path": "web_pages/page-03.webp",
+      "width": 1000,
+      "height": 708
+    },
+    {
+      "number": 4,
+      "title": "Kokvilnas marle un PETG drukāšana",
+      "path": "web_pages/page-04.webp",
+      "width": 1000,
+      "height": 1415
+    },
+    {
+      "number": 5,
+      "title": "Detaļu saraksts un M6 × 40 garuma pārbaude",
+      "path": "web_pages/page-05.webp",
+      "width": 1000,
+      "height": 708
+    },
+    {
+      "number": 6,
+      "title": "Salikšana, drenāža un spēka interpretācija",
+      "path": "web_pages/page-06.webp",
+      "width": 1000,
+      "height": 1415
+    },
+    {
+      "number": 7,
+      "title": "Blender — atvērt, mainīt un eksportēt",
+      "path": "web_pages/page-07.webp",
+      "width": 1000,
+      "height": 1415
+    },
+    {
+      "number": 8,
+      "title": "Eksperimenti — marles pinums un kartes izturība",
+      "path": "web_pages/page-08.webp",
+      "width": 1000,
+      "height": 1415
+    }
+  ]
+}

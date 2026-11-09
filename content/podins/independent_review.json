@@ -1,0 +1,673 @@
+{
+  "scope": "Bounded independent V4.1 side-ear checks against actual nominal Blender mesh; no load rating or validation of unrelated V4 parts.",
+  "source_sha256": "b2d617c88c1c8d0fae9d2755bb8e6d8785631aa101da2c0c5dbb2748e6dd3df7",
+  "runtime": "4.3.2",
+  "parts": {
+    "01_MOLD_LEFT": {
+      "topology": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "winding_inconsistent_edges": 0,
+        "zero_area_faces": 0,
+        "components": 1,
+        "signed_volume_mm3": 113420.46066327357
+      },
+      "external_45_degree_faces": [
+        {
+          "face": 2245,
+          "area_mm2": 180.0355224609375,
+          "angle_from_bed_deg": 45.00000581024828
+        },
+        {
+          "face": 2387,
+          "area_mm2": 197.79103088378906,
+          "angle_from_bed_deg": 45.00000098057549
+        }
+      ]
+    },
+    "02_MOLD_RIGHT": {
+      "topology": {
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "winding_inconsistent_edges": 0,
+        "zero_area_faces": 0,
+        "components": 1,
+        "signed_volume_mm3": 112851.49971876346
+      },
+      "external_45_degree_faces": [
+        {
+          "face": 2654,
+          "area_mm2": 197.79103088378906,
+          "angle_from_bed_deg": 45.00000098057549
+        },
+        {
+          "face": 2803,
+          "area_mm2": 180.0355224609375,
+          "angle_from_bed_deg": 45.00000581024828
+        }
+      ]
+    }
+  },
+  "hardware": [
+    {
+      "part": "01_MOLD_LEFT",
+      "row_Z_mm": 34,
+      "sign_Y": -1,
+      "envelope": "washer_OD12",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "01_MOLD_LEFT",
+      "row_Z_mm": 34,
+      "sign_Y": -1,
+      "envelope": "socket_OD15",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "01_MOLD_LEFT",
+      "row_Z_mm": 34,
+      "sign_Y": 1,
+      "envelope": "washer_OD12",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "01_MOLD_LEFT",
+      "row_Z_mm": 34,
+      "sign_Y": 1,
+      "envelope": "socket_OD15",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "01_MOLD_LEFT",
+      "row_Z_mm": 54,
+      "sign_Y": -1,
+      "envelope": "washer_OD12",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "01_MOLD_LEFT",
+      "row_Z_mm": 54,
+      "sign_Y": -1,
+      "envelope": "socket_OD15",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "01_MOLD_LEFT",
+      "row_Z_mm": 54,
+      "sign_Y": 1,
+      "envelope": "washer_OD12",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "01_MOLD_LEFT",
+      "row_Z_mm": 54,
+      "sign_Y": 1,
+      "envelope": "socket_OD15",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "02_MOLD_RIGHT",
+      "row_Z_mm": 34,
+      "sign_Y": -1,
+      "envelope": "washer_OD12",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "02_MOLD_RIGHT",
+      "row_Z_mm": 34,
+      "sign_Y": -1,
+      "envelope": "socket_OD15",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "02_MOLD_RIGHT",
+      "row_Z_mm": 34,
+      "sign_Y": 1,
+      "envelope": "washer_OD12",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "02_MOLD_RIGHT",
+      "row_Z_mm": 34,
+      "sign_Y": 1,
+      "envelope": "socket_OD15",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "02_MOLD_RIGHT",
+      "row_Z_mm": 54,
+      "sign_Y": -1,
+      "envelope": "washer_OD12",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "02_MOLD_RIGHT",
+      "row_Z_mm": 54,
+      "sign_Y": -1,
+      "envelope": "socket_OD15",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "02_MOLD_RIGHT",
+      "row_Z_mm": 54,
+      "sign_Y": 1,
+      "envelope": "washer_OD12",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part": "02_MOLD_RIGHT",
+      "row_Z_mm": 54,
+      "sign_Y": 1,
+      "envelope": "socket_OD15",
+      "intersection_mm3": 0.0
+    }
+  ],
+  "hole_rays": [
+    {
+      "part": "01_MOLD_LEFT",
+      "row_Z_mm": 34,
+      "sign_Y": -1,
+      "radial_clearances_mm": [
+        3.4000015258789062,
+        3.3999993801116943,
+        3.40000057220459,
+        3.68013334274292,
+        4.808326721191406,
+        3.68013334274292,
+        3.40000057220459,
+        3.3999993801116943,
+        3.4000015258789062,
+        3.3999993801116943,
+        3.4000000953674316,
+        3.3999993801116943,
+        3.3997981548309326,
+        3.3999993801116943,
+        3.4000000953674316,
+        3.3999993801116943
+      ]
+    },
+    {
+      "part": "01_MOLD_LEFT",
+      "row_Z_mm": 34,
+      "sign_Y": 1,
+      "radial_clearances_mm": [
+        3.4000015258789062,
+        3.3999993801116943,
+        3.3999979496002197,
+        3.6801321506500244,
+        4.808326721191406,
+        3.680133581161499,
+        3.40000057220459,
+        3.3999993801116943,
+        3.4000015258789062,
+        3.3999993801116943,
+        3.4000000953674316,
+        3.3999993801116943,
+        3.3997981548309326,
+        3.3999993801116943,
+        3.4000000953674316,
+        3.3999993801116943
+      ]
+    },
+    {
+      "part": "01_MOLD_LEFT",
+      "row_Z_mm": 54,
+      "sign_Y": -1,
+      "radial_clearances_mm": [
+        3.4000015258789062,
+        3.3999993801116943,
+        3.4000000953674316,
+        3.680135488510132,
+        4.808326721191406,
+        3.680133581161499,
+        3.40000057220459,
+        3.3999993801116943,
+        3.4000015258789062,
+        3.3999993801116943,
+        3.4000000953674316,
+        3.3999993801116943,
+        3.3998003005981445,
+        3.3999993801116943,
+        3.4000000953674316,
+        3.399998903274536
+      ]
+    },
+    {
+      "part": "01_MOLD_LEFT",
+      "row_Z_mm": 54,
+      "sign_Y": 1,
+      "radial_clearances_mm": [
+        3.4000015258789062,
+        3.3999993801116943,
+        3.40000057220459,
+        3.68013334274292,
+        4.808326721191406,
+        3.6801340579986572,
+        3.4000000953674316,
+        3.3999993801116943,
+        3.4000015258789062,
+        3.3999993801116943,
+        3.4000000953674316,
+        3.3999993801116943,
+        3.3998003005981445,
+        3.3999993801116943,
+        3.4000000953674316,
+        3.3999993801116943
+      ]
+    },
+    {
+      "part": "02_MOLD_RIGHT",
+      "row_Z_mm": 34,
+      "sign_Y": -1,
+      "radial_clearances_mm": [
+        3.4000015258789062,
+        3.3999993801116943,
+        3.40000057220459,
+        3.68013334274292,
+        4.808326721191406,
+        3.680133581161499,
+        3.40000057220459,
+        3.3999993801116943,
+        3.4000015258789062,
+        3.3999993801116943,
+        3.4000000953674316,
+        3.3999993801116943,
+        3.3997981548309326,
+        3.3999993801116943,
+        3.4000000953674316,
+        3.3999993801116943
+      ]
+    },
+    {
+      "part": "02_MOLD_RIGHT",
+      "row_Z_mm": 34,
+      "sign_Y": 1,
+      "radial_clearances_mm": [
+        3.4000015258789062,
+        3.3999993801116943,
+        3.3999979496002197,
+        3.6801321506500244,
+        4.808326721191406,
+        3.680133581161499,
+        3.40000057220459,
+        3.3999993801116943,
+        3.4000015258789062,
+        3.3999993801116943,
+        3.4000000953674316,
+        3.3999993801116943,
+        3.3997981548309326,
+        3.3999993801116943,
+        3.4000000953674316,
+        3.3999993801116943
+      ]
+    },
+    {
+      "part": "02_MOLD_RIGHT",
+      "row_Z_mm": 54,
+      "sign_Y": -1,
+      "radial_clearances_mm": [
+        3.4000015258789062,
+        3.3999993801116943,
+        3.40000057220459,
+        3.68013334274292,
+        4.808326721191406,
+        3.680133581161499,
+        3.40000057220459,
+        3.3999993801116943,
+        3.4000015258789062,
+        3.3999993801116943,
+        3.4000000953674316,
+        3.3999993801116943,
+        3.3998003005981445,
+        3.3999993801116943,
+        3.4000000953674316,
+        3.3999993801116943
+      ]
+    },
+    {
+      "part": "02_MOLD_RIGHT",
+      "row_Z_mm": 54,
+      "sign_Y": 1,
+      "radial_clearances_mm": [
+        3.4000015258789062,
+        3.3999993801116943,
+        3.40000057220459,
+        3.68013334274292,
+        4.808326721191406,
+        3.680135488510132,
+        3.4000000953674316,
+        3.3999993801116943,
+        3.4000015258789062,
+        3.399998903274536,
+        3.4000000953674316,
+        3.3999993801116943,
+        3.3998003005981445,
+        3.3999993801116943,
+        3.4000000953674316,
+        3.3999993801116943
+      ]
+    }
+  ],
+  "cavity_rays": [
+    {
+      "part": "01_MOLD_LEFT",
+      "z_mm": 26.01,
+      "sign_Y": -1,
+      "actual_Y_clearance_mm": 37.18555450439453,
+      "expected_circle_mm": 37.188933602995,
+      "deviation_mm": -0.0033790986004689216
+    },
+    {
+      "part": "01_MOLD_LEFT",
+      "z_mm": 26.01,
+      "sign_Y": 1,
+      "actual_Y_clearance_mm": 37.18555450439453,
+      "expected_circle_mm": 37.188933602995,
+      "deviation_mm": -0.0033790986004689216
+    },
+    {
+      "part": "01_MOLD_LEFT",
+      "z_mm": 33.99,
+      "sign_Y": -1,
+      "actual_Y_clearance_mm": 38.57097244262695,
+      "expected_circle_mm": 38.57436113438716,
+      "deviation_mm": -0.0033886917602075073
+    },
+    {
+      "part": "01_MOLD_LEFT",
+      "z_mm": 33.99,
+      "sign_Y": 1,
+      "actual_Y_clearance_mm": 38.57096862792969,
+      "expected_circle_mm": 38.57436113438716,
+      "deviation_mm": -0.0033925064574731323
+    },
+    {
+      "part": "01_MOLD_LEFT",
+      "z_mm": 41.99,
+      "sign_Y": -1,
+      "actual_Y_clearance_mm": 39.95985794067383,
+      "expected_circle_mm": 39.96326015909366,
+      "deviation_mm": -0.0034022184198292393
+    },
+    {
+      "part": "01_MOLD_LEFT",
+      "z_mm": 41.99,
+      "sign_Y": 1,
+      "actual_Y_clearance_mm": 39.95985794067383,
+      "expected_circle_mm": 39.96326015909366,
+      "deviation_mm": -0.0034022184198292393
+    },
+    {
+      "part": "01_MOLD_LEFT",
+      "z_mm": 46.01,
+      "sign_Y": -1,
+      "actual_Y_clearance_mm": 40.65777587890625,
+      "expected_circle_mm": 40.66118165761299,
+      "deviation_mm": -0.003405778706742524
+    },
+    {
+      "part": "01_MOLD_LEFT",
+      "z_mm": 46.01,
+      "sign_Y": 1,
+      "actual_Y_clearance_mm": 40.657772064208984,
+      "expected_circle_mm": 40.66118165761299,
+      "deviation_mm": -0.003409593404008149
+    },
+    {
+      "part": "01_MOLD_LEFT",
+      "z_mm": 53.99,
+      "sign_Y": -1,
+      "actual_Y_clearance_mm": 42.04319381713867,
+      "expected_circle_mm": 42.046607440620285,
+      "deviation_mm": -0.003413623481613115
+    },
+    {
+      "part": "01_MOLD_LEFT",
+      "z_mm": 53.99,
+      "sign_Y": 1,
+      "actual_Y_clearance_mm": 42.043190002441406,
+      "expected_circle_mm": 42.046607440620285,
+      "deviation_mm": -0.00341743817887874
+    },
+    {
+      "part": "01_MOLD_LEFT",
+      "z_mm": 61.99,
+      "sign_Y": -1,
+      "actual_Y_clearance_mm": 43.43208312988281,
+      "expected_circle_mm": 43.43550488495907,
+      "deviation_mm": -0.0034217550762605242
+    },
+    {
+      "part": "01_MOLD_LEFT",
+      "z_mm": 61.99,
+      "sign_Y": 1,
+      "actual_Y_clearance_mm": 43.43208312988281,
+      "expected_circle_mm": 43.43550488495907,
+      "deviation_mm": -0.0034217550762605242
+    },
+    {
+      "part": "02_MOLD_RIGHT",
+      "z_mm": 26.01,
+      "sign_Y": -1,
+      "actual_Y_clearance_mm": 37.18555450439453,
+      "expected_circle_mm": 37.188933602995,
+      "deviation_mm": -0.0033790986004689216
+    },
+    {
+      "part": "02_MOLD_RIGHT",
+      "z_mm": 26.01,
+      "sign_Y": 1,
+      "actual_Y_clearance_mm": 37.185550689697266,
+      "expected_circle_mm": 37.188933602995,
+      "deviation_mm": -0.0033829132977345466
+    },
+    {
+      "part": "02_MOLD_RIGHT",
+      "z_mm": 33.99,
+      "sign_Y": -1,
+      "actual_Y_clearance_mm": 38.57096862792969,
+      "expected_circle_mm": 38.57436113438716,
+      "deviation_mm": -0.0033925064574731323
+    },
+    {
+      "part": "02_MOLD_RIGHT",
+      "z_mm": 33.99,
+      "sign_Y": 1,
+      "actual_Y_clearance_mm": 38.57096862792969,
+      "expected_circle_mm": 38.57436113438716,
+      "deviation_mm": -0.0033925064574731323
+    },
+    {
+      "part": "02_MOLD_RIGHT",
+      "z_mm": 41.99,
+      "sign_Y": -1,
+      "actual_Y_clearance_mm": 39.95985794067383,
+      "expected_circle_mm": 39.96326015909366,
+      "deviation_mm": -0.0034022184198292393
+    },
+    {
+      "part": "02_MOLD_RIGHT",
+      "z_mm": 41.99,
+      "sign_Y": 1,
+      "actual_Y_clearance_mm": 39.959861755371094,
+      "expected_circle_mm": 39.96326015909366,
+      "deviation_mm": -0.0033984037225636143
+    },
+    {
+      "part": "02_MOLD_RIGHT",
+      "z_mm": 46.01,
+      "sign_Y": -1,
+      "actual_Y_clearance_mm": 40.657772064208984,
+      "expected_circle_mm": 40.66118165761299,
+      "deviation_mm": -0.003409593404008149
+    },
+    {
+      "part": "02_MOLD_RIGHT",
+      "z_mm": 46.01,
+      "sign_Y": 1,
+      "actual_Y_clearance_mm": 40.657779693603516,
+      "expected_circle_mm": 40.66118165761299,
+      "deviation_mm": -0.003401964009476899
+    },
+    {
+      "part": "02_MOLD_RIGHT",
+      "z_mm": 53.99,
+      "sign_Y": -1,
+      "actual_Y_clearance_mm": 42.043190002441406,
+      "expected_circle_mm": 42.046607440620285,
+      "deviation_mm": -0.00341743817887874
+    },
+    {
+      "part": "02_MOLD_RIGHT",
+      "z_mm": 53.99,
+      "sign_Y": 1,
+      "actual_Y_clearance_mm": 42.043190002441406,
+      "expected_circle_mm": 42.046607440620285,
+      "deviation_mm": -0.00341743817887874
+    },
+    {
+      "part": "02_MOLD_RIGHT",
+      "z_mm": 61.99,
+      "sign_Y": -1,
+      "actual_Y_clearance_mm": 43.43208312988281,
+      "expected_circle_mm": 43.43550488495907,
+      "deviation_mm": -0.0034217550762605242
+    },
+    {
+      "part": "02_MOLD_RIGHT",
+      "z_mm": 61.99,
+      "sign_Y": 1,
+      "actual_Y_clearance_mm": 43.43208312988281,
+      "expected_circle_mm": 43.43550488495907,
+      "deviation_mm": -0.0034217550762605242
+    }
+  ],
+  "alignment": [
+    {
+      "sign_Y": -1,
+      "nominal_axis_Y_mm": -43.75,
+      "axis_Z_mm": 35,
+      "left_pin_tip_X_mm": 6.000000476837158,
+      "right_socket_probe_intersection_mm3": 0.0
+    },
+    {
+      "sign_Y": 1,
+      "nominal_axis_Y_mm": 43.75,
+      "axis_Z_mm": 35,
+      "left_pin_tip_X_mm": 6.000000476837158,
+      "right_socket_probe_intersection_mm3": 0.0
+    }
+  ],
+  "ramp_roots": [
+    {
+      "part": "01_MOLD_LEFT",
+      "row_Z_mm": 34,
+      "sign_Y": -1,
+      "point_mm": [
+        -11.899999618530273,
+        -40.57143020629883,
+        2.009999990463257
+      ],
+      "inside_supporting_body": true
+    },
+    {
+      "part": "01_MOLD_LEFT",
+      "row_Z_mm": 34,
+      "sign_Y": 1,
+      "point_mm": [
+        -11.899999618530273,
+        40.57143020629883,
+        2.009999990463257
+      ],
+      "inside_supporting_body": true
+    },
+    {
+      "part": "01_MOLD_LEFT",
+      "row_Z_mm": 54,
+      "sign_Y": -1,
+      "point_mm": [
+        -11.899999618530273,
+        -44.14285659790039,
+        22.010000228881836
+      ],
+      "inside_supporting_body": true
+    },
+    {
+      "part": "01_MOLD_LEFT",
+      "row_Z_mm": 54,
+      "sign_Y": 1,
+      "point_mm": [
+        -11.899999618530273,
+        44.14285659790039,
+        22.010000228881836
+      ],
+      "inside_supporting_body": true
+    },
+    {
+      "part": "02_MOLD_RIGHT",
+      "row_Z_mm": 34,
+      "sign_Y": -1,
+      "point_mm": [
+        11.899999618530273,
+        -40.57143020629883,
+        2.009999990463257
+      ],
+      "inside_supporting_body": true
+    },
+    {
+      "part": "02_MOLD_RIGHT",
+      "row_Z_mm": 34,
+      "sign_Y": 1,
+      "point_mm": [
+        11.899999618530273,
+        40.57143020629883,
+        2.009999990463257
+      ],
+      "inside_supporting_body": true
+    },
+    {
+      "part": "02_MOLD_RIGHT",
+      "row_Z_mm": 54,
+      "sign_Y": -1,
+      "point_mm": [
+        11.899999618530273,
+        -44.14285659790039,
+        22.010000228881836
+      ],
+      "inside_supporting_body": true
+    },
+    {
+      "part": "02_MOLD_RIGHT",
+      "row_Z_mm": 54,
+      "sign_Y": 1,
+      "point_mm": [
+        11.899999618530273,
+        44.14285659790039,
+        22.010000228881836
+      ],
+      "inside_supporting_body": true
+    }
+  ],
+  "errors": [],
+  "half_intersection_volume_mm3": 0.0,
+  "analytic_hardware_min_Y_gap_at_X12_mm": {
+    "washer_OD12": [
+      2.4046853760325035,
+      2.299449432704364
+    ],
+    "socket_OD15": [
+      0.8794420813170518,
+      0.7744167082720068
+    ],
+    "method": "Ideal circular hardware envelope relative to ideal conical body at same Z; actual envelope intersections tested separately."
+  },
+  "side_M6_hardware": {
+    "washers": "DIN125/ISO7089 OD12 \u00d71.6, two per fastener",
+    "nut": "DIN934 M6 AF10, nominal height5.2",
+    "nominal_stack_under_head_to_nut_end_mm": 32.4,
+    "M6x40_protrusion_beyond_nut_mm": 7.6,
+    "note": "Four side bolts only; independent from the four vertical frame rods. Use a10mm socket withOD<=15mm; do not assume anybulkyopenendedspanner orOD18washerfits."
+  },
+  "print_orientation": "Mold halves upright along constructionZ; ground STL tobed. Supports maystillberequiredforotherfeatures (alignmentpins/vents); checkactualslicer.",
+  "passed": true
+}

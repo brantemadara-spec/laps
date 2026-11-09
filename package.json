@@ -1,0 +1,19 @@
+{
+  "name": "laps-public-site",
+  "version": "1.0.0",
+  "description": "Interactive LAPS prototype and complete project documents",
+  "scripts": {
+    "build": "node src/build.mjs",
+    "content": "python prepare_marle.py",
+    "content:podins": "python prepare_podins.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "module",
+  "dependencies": {
+    "esbuild": "^0.25.10",
+    "three": "^0.180.0"
+  },
+  "private": true
+}

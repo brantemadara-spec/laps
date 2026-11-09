@@ -1,0 +1,817 @@
+{
+  "version": "V4.1",
+  "source_sha256": "b2d617c88c1c8d0fae9d2755bb8e6d8785631aa101da2c0c5dbb2748e6dd3df7",
+  "source_bytes": 29574,
+  "runtime": "Blender 4.3.2",
+  "boolean_apply_successful_returns": 113,
+  "boolean_application_exception": false,
+  "remaining_modifiers": {
+    "01_MOLD_LEFT": [],
+    "02_MOLD_RIGHT": [],
+    "03_OVERFLOW_COLLAR": [],
+    "04_CORE_3MM": [],
+    "05_CORE_4MM": [],
+    "06_CORE_5MM": [],
+    "07_BASE": [],
+    "08_SIEVE": [],
+    "09_TOP_PLATE": []
+  },
+  "object_count": 9,
+  "print_part_count": 9,
+  "reference_part_count": 0,
+  "nominal_capture_before_line": 1754,
+  "scope": "Actual script execution, mesh topology and winding, mm dimensions, actual binary STL reread, GLB real metre scale. Fit/load validation is a separate engineering review. Ear dimensions and support geometry updated in source V4.1; other V4 geometry retained.",
+  "objects": [
+    {
+      "name": "01_MOLD_LEFT",
+      "print_part": true,
+      "description": "Kreisā ārējās formas puse",
+      "dimensions_mm": [
+        61.0,
+        136.2857208251953,
+        70.0
+      ],
+      "display_location_mm": [
+        -120.0,
+        0.0,
+        0.0
+      ],
+      "custom_properties": {
+        "BOOLEAN_CLEANUP_MM": 0.0001,
+        "EAR_UPDATE": "V4.1: 45-degree lower ramps, teardrop M6 roofs, flush split faces",
+        "EAR_HOLE_Z_MM": [
+          34.0,
+          54.0
+        ],
+        "EAR_WASHER_OD_MM": 12.0,
+        "PRINT_PART": true,
+        "DESCRIPTION": "Kreisā ārējās formas puse"
+      },
+      "vertices": 1621,
+      "edges": 4905,
+      "faces": 3270,
+      "connected_component_count": 1,
+      "components": [
+        {
+          "vertices": 1621,
+          "faces": 3270,
+          "signed_volume_mm3": 113420.44415981704,
+          "bounds_local_mm": [
+            [
+              -55.0,
+              -68.14286041259766,
+              -35.0
+            ],
+            [
+              6.0,
+              68.14286041259766,
+              35.0
+            ]
+          ]
+        }
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "zero_area_faces_below_1e_minus_10_mm2": 0,
+      "nonfinite_vertices": 0,
+      "nonfinite_face_normals": 0,
+      "signed_volume_mm3": 113420.46066327357
+    },
+    {
+      "name": "02_MOLD_RIGHT",
+      "print_part": true,
+      "description": "Labā ārējās formas puse",
+      "dimensions_mm": [
+        55.0,
+        136.28570556640625,
+        70.0
+      ],
+      "display_location_mm": [
+        120.0,
+        0.0,
+        0.0
+      ],
+      "custom_properties": {
+        "BOOLEAN_CLEANUP_MM": 0.0001,
+        "EAR_UPDATE": "V4.1: 45-degree lower ramps, teardrop M6 roofs, flush split faces",
+        "EAR_HOLE_Z_MM": [
+          34.0,
+          54.0
+        ],
+        "EAR_WASHER_OD_MM": 12.0,
+        "PRINT_PART": true,
+        "DESCRIPTION": "Labā ārējās formas puse"
+      },
+      "vertices": 1882,
+      "edges": 5686,
+      "faces": 3790,
+      "connected_component_count": 1,
+      "components": [
+        {
+          "vertices": 1882,
+          "faces": 3790,
+          "signed_volume_mm3": 112851.4813224556,
+          "bounds_local_mm": [
+            [
+              0.0,
+              -68.14285278320312,
+              -35.0
+            ],
+            [
+              55.0,
+              68.14286041259766,
+              35.0
+            ]
+          ]
+        }
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "zero_area_faces_below_1e_minus_10_mm2": 0,
+      "nonfinite_vertices": 0,
+      "nonfinite_face_normals": 0,
+      "signed_volume_mm3": 112851.49971876346
+    },
+    {
+      "name": "03_OVERFLOW_COLLAR",
+      "print_part": true,
+      "description": "Pārplūdes kamera liekajai masai",
+      "dimensions_mm": [
+        124.0,
+        124.0,
+        15.0
+      ],
+      "display_location_mm": [
+        0.0,
+        320.0,
+        0.0
+      ],
+      "custom_properties": {
+        "PRINT_PART": true,
+        "DESCRIPTION": "Pārplūdes kamera liekajai masai"
+      },
+      "vertices": 1071,
+      "edges": 1668,
+      "faces": 582,
+      "connected_component_count": 1,
+      "components": [
+        {
+          "vertices": 1071,
+          "faces": 582,
+          "signed_volume_mm3": 53918.015370489135,
+          "bounds_local_mm": [
+            [
+              -62.0,
+              -62.0,
+              -9.0
+            ],
+            [
+              62.0,
+              62.0,
+              6.0
+            ]
+          ]
+        }
+      ],
+      "boundary_edges": 12,
+      "non_manifold_edges": 12,
+      "wire_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "zero_area_faces_below_1e_minus_10_mm2": 0,
+      "nonfinite_vertices": 0,
+      "nonfinite_face_normals": 0,
+      "signed_volume_mm3": 53918.0129324727
+    },
+    {
+      "name": "04_CORE_3MM",
+      "print_part": true,
+      "description": "Serdenis 3 mm sienai",
+      "dimensions_mm": [
+        118.0,
+        118.0,
+        94.0
+      ],
+      "display_location_mm": [
+        -130.0,
+        170.0,
+        0.0
+      ],
+      "custom_properties": {
+        "PRINT_PART": true,
+        "WALL_THICKNESS_MM": 3.0,
+        "CORE_D_AT_POT_BOTTOM_MM": 60.42857142857143,
+        "CORE_D_AT_TRIM_PLANE_MM": 84.0,
+        "CORE_D_AT_OVERFLOW_TOP_MM": 88.28571428571429,
+        "DESCRIPTION": "Serdenis 3 mm sienai"
+      },
+      "vertices": 640,
+      "edges": 964,
+      "faces": 326,
+      "connected_component_count": 1,
+      "components": [
+        {
+          "vertices": 640,
+          "faces": 326,
+          "signed_volume_mm3": 416140.68922575307,
+          "bounds_local_mm": [
+            [
+              -59.0,
+              -59.0,
+              -39.0
+            ],
+            [
+              59.0,
+              59.0,
+              55.0
+            ]
+          ]
+        }
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "zero_area_faces_below_1e_minus_10_mm2": 0,
+      "nonfinite_vertices": 0,
+      "nonfinite_face_normals": 0,
+      "signed_volume_mm3": 416140.6888981866
+    },
+    {
+      "name": "05_CORE_4MM",
+      "print_part": true,
+      "description": "Serdenis 4 mm sienai",
+      "dimensions_mm": [
+        118.0,
+        118.0,
+        94.0
+      ],
+      "display_location_mm": [
+        0.0,
+        170.0,
+        0.0
+      ],
+      "custom_properties": {
+        "PRINT_PART": true,
+        "WALL_THICKNESS_MM": 4.0,
+        "CORE_D_AT_POT_BOTTOM_MM": 58.42857142857143,
+        "CORE_D_AT_TRIM_PLANE_MM": 82.0,
+        "CORE_D_AT_OVERFLOW_TOP_MM": 86.28571428571429,
+        "DESCRIPTION": "Serdenis 4 mm sienai"
+      },
+      "vertices": 640,
+      "edges": 964,
+      "faces": 326,
+      "connected_component_count": 1,
+      "components": [
+        {
+          "vertices": 640,
+          "faces": 326,
+          "signed_volume_mm3": 398172.14897831285,
+          "bounds_local_mm": [
+            [
+              -59.0,
+              -59.0,
+              -39.0
+            ],
+            [
+              59.0,
+              59.0,
+              55.0
+            ]
+          ]
+        }
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "zero_area_faces_below_1e_minus_10_mm2": 0,
+      "nonfinite_vertices": 0,
+      "nonfinite_face_normals": 0,
+      "signed_volume_mm3": 398172.1650060486
+    },
+    {
+      "name": "06_CORE_5MM",
+      "print_part": true,
+      "description": "Serdenis 5 mm sienai",
+      "dimensions_mm": [
+        118.0,
+        118.0,
+        94.0
+      ],
+      "display_location_mm": [
+        130.0,
+        170.0,
+        0.0
+      ],
+      "custom_properties": {
+        "PRINT_PART": true,
+        "WALL_THICKNESS_MM": 5.0,
+        "CORE_D_AT_POT_BOTTOM_MM": 56.42857142857143,
+        "CORE_D_AT_TRIM_PLANE_MM": 80.0,
+        "CORE_D_AT_OVERFLOW_TOP_MM": 84.28571428571429,
+        "DESCRIPTION": "Serdenis 5 mm sienai"
+      },
+      "vertices": 640,
+      "edges": 964,
+      "faces": 326,
+      "connected_component_count": 1,
+      "components": [
+        {
+          "vertices": 640,
+          "faces": 326,
+          "signed_volume_mm3": 380693.5167645613,
+          "bounds_local_mm": [
+            [
+              -59.0,
+              -59.0,
+              -39.0
+            ],
+            [
+              59.0,
+              59.0,
+              55.0
+            ]
+          ]
+        }
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "zero_area_faces_below_1e_minus_10_mm2": 0,
+      "nonfinite_vertices": 0,
+      "nonfinite_face_normals": 0,
+      "signed_volume_mm3": 380693.52904388873
+    },
+    {
+      "name": "07_BASE",
+      "print_part": true,
+      "description": "Drenāžas pamatne",
+      "dimensions_mm": [
+        150.0,
+        150.0,
+        10.0
+      ],
+      "display_location_mm": [
+        -115.0,
+        -155.0,
+        0.0
+      ],
+      "custom_properties": {
+        "PRINT_PART": true,
+        "DESCRIPTION": "Drenāžas pamatne"
+      },
+      "vertices": 2137,
+      "edges": 3273,
+      "faces": 1100,
+      "connected_component_count": 1,
+      "components": [
+        {
+          "vertices": 2137,
+          "faces": 1100,
+          "signed_volume_mm3": 161932.69595649667,
+          "bounds_local_mm": [
+            [
+              -75.0,
+              -75.0,
+              -5.0
+            ],
+            [
+              75.0,
+              75.0,
+              5.0
+            ]
+          ]
+        }
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "zero_area_faces_below_1e_minus_10_mm2": 0,
+      "nonfinite_vertices": 0,
+      "nonfinite_face_normals": 0,
+      "signed_volume_mm3": 161932.68543897555
+    },
+    {
+      "name": "08_SIEVE",
+      "print_part": true,
+      "description": "Perforētais sietiņš",
+      "dimensions_mm": [
+        62.0,
+        62.0,
+        1.399999976158142
+      ],
+      "display_location_mm": [
+        0.0,
+        -155.0,
+        0.0
+      ],
+      "custom_properties": {
+        "PRINT_PART": true,
+        "DESCRIPTION": "Perforētais sietiņš"
+      },
+      "vertices": 1123,
+      "edges": 1747,
+      "faces": 588,
+      "connected_component_count": 1,
+      "components": [
+        {
+          "vertices": 1123,
+          "faces": 588,
+          "signed_volume_mm3": 4084.0621784145014,
+          "bounds_local_mm": [
+            [
+              -31.0,
+              -31.0,
+              -0.699999988079071
+            ],
+            [
+              31.0,
+              31.0,
+              0.699999988079071
+            ]
+          ]
+        }
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "zero_area_faces_below_1e_minus_10_mm2": 0,
+      "nonfinite_vertices": 0,
+      "nonfinite_face_normals": 0,
+      "signed_volume_mm3": 4084.0621980001138
+    },
+    {
+      "name": "09_TOP_PLATE",
+      "print_part": true,
+      "description": "Augšējā spiedplāksne",
+      "dimensions_mm": [
+        150.0,
+        150.0,
+        10.0
+      ],
+      "display_location_mm": [
+        120.0,
+        -155.0,
+        0.0
+      ],
+      "custom_properties": {
+        "PRINT_PART": true,
+        "DESCRIPTION": "Augšējā spiedplāksne"
+      },
+      "vertices": 720,
+      "edges": 1100,
+      "faces": 372,
+      "connected_component_count": 1,
+      "components": [
+        {
+          "vertices": 720,
+          "faces": 372,
+          "signed_volume_mm3": 172685.65745742846,
+          "bounds_local_mm": [
+            [
+              -75.0,
+              -75.0,
+              -5.0
+            ],
+            [
+              75.0,
+              75.0,
+              5.0
+            ]
+          ]
+        }
+      ],
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "wire_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "zero_area_faces_below_1e_minus_10_mm2": 0,
+      "nonfinite_vertices": 0,
+      "nonfinite_face_normals": 0,
+      "signed_volume_mm3": 172685.645405618
+    }
+  ],
+  "stl_exports": [
+    {
+      "name": "01_MOLD_LEFT",
+      "file": "/workspace/pot_v41/stl/01_MOLD_LEFT.stl",
+      "triangles": 3270,
+      "bytes": 163584,
+      "file_size_matches_triangle_count": true,
+      "normal_records_match_winding": true,
+      "normal_record_mismatch_count": 0,
+      "units": "mm",
+      "rigid_export_offset_mm": [
+        0.0,
+        0.0,
+        -35.0
+      ],
+      "topology": {
+        "vertices": 1621,
+        "edges": 4905,
+        "faces": 3270,
+        "connected_component_count": 1,
+        "components": [
+          {
+            "vertices": 1621,
+            "signed_volume_mm3": 113420.43913533888
+          }
+        ],
+        "boundary_edges": 0,
+        "non_manifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "zero_length_edges": 0,
+        "zero_area_faces_below_1e_minus_10_mm2": 0,
+        "signed_volume_mm3": 113420.43913533888,
+        "nonfinite_vertices": 0
+      }
+    },
+    {
+      "name": "02_MOLD_RIGHT",
+      "file": "/workspace/pot_v41/stl/02_MOLD_RIGHT.stl",
+      "triangles": 3792,
+      "bytes": 189684,
+      "file_size_matches_triangle_count": true,
+      "normal_records_match_winding": true,
+      "normal_record_mismatch_count": 0,
+      "units": "mm",
+      "rigid_export_offset_mm": [
+        0.0,
+        0.0,
+        -35.0
+      ],
+      "topology": {
+        "vertices": 1882,
+        "edges": 5688,
+        "faces": 3792,
+        "connected_component_count": 1,
+        "components": [
+          {
+            "vertices": 1882,
+            "signed_volume_mm3": 112851.4775570001
+          }
+        ],
+        "boundary_edges": 0,
+        "non_manifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "zero_length_edges": 0,
+        "zero_area_faces_below_1e_minus_10_mm2": 0,
+        "signed_volume_mm3": 112851.4775570001,
+        "nonfinite_vertices": 0
+      }
+    },
+    {
+      "name": "03_OVERFLOW_COLLAR",
+      "file": "/workspace/pot_v41/stl/03_OVERFLOW_COLLAR.stl",
+      "triangles": 2160,
+      "bytes": 108084,
+      "file_size_matches_triangle_count": true,
+      "normal_records_match_winding": false,
+      "normal_record_mismatch_count": 4,
+      "units": "mm",
+      "rigid_export_offset_mm": [
+        0.0,
+        0.0,
+        -9.0
+      ],
+      "topology": {
+        "vertices": 1066,
+        "edges": 3236,
+        "faces": 2160,
+        "connected_component_count": 1,
+        "components": [
+          {
+            "vertices": 1066,
+            "signed_volume_mm3": 53918.012671929224
+          }
+        ],
+        "boundary_edges": 0,
+        "non_manifold_edges": 4,
+        "inconsistent_winding_edges": 2,
+        "zero_length_edges": 2,
+        "zero_area_faces_below_1e_minus_10_mm2": 4,
+        "signed_volume_mm3": 53918.012671929224,
+        "nonfinite_vertices": 0
+      }
+    },
+    {
+      "name": "04_CORE_3MM",
+      "file": "/workspace/pot_v41/stl/04_CORE_3MM.stl",
+      "triangles": 1276,
+      "bytes": 63884,
+      "file_size_matches_triangle_count": true,
+      "normal_records_match_winding": true,
+      "normal_record_mismatch_count": 0,
+      "units": "mm",
+      "rigid_export_offset_mm": [
+        0.0,
+        0.0,
+        -39.0
+      ],
+      "topology": {
+        "vertices": 640,
+        "edges": 1914,
+        "faces": 1276,
+        "connected_component_count": 1,
+        "components": [
+          {
+            "vertices": 640,
+            "signed_volume_mm3": 416140.6490837733
+          }
+        ],
+        "boundary_edges": 0,
+        "non_manifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "zero_length_edges": 0,
+        "zero_area_faces_below_1e_minus_10_mm2": 0,
+        "signed_volume_mm3": 416140.6490837733,
+        "nonfinite_vertices": 0
+      }
+    },
+    {
+      "name": "05_CORE_4MM",
+      "file": "/workspace/pot_v41/stl/05_CORE_4MM.stl",
+      "triangles": 1276,
+      "bytes": 63884,
+      "file_size_matches_triangle_count": true,
+      "normal_records_match_winding": true,
+      "normal_record_mismatch_count": 0,
+      "units": "mm",
+      "rigid_export_offset_mm": [
+        0.0,
+        0.0,
+        -39.0
+      ],
+      "topology": {
+        "vertices": 640,
+        "edges": 1914,
+        "faces": 1276,
+        "connected_component_count": 1,
+        "components": [
+          {
+            "vertices": 640,
+            "signed_volume_mm3": 398172.0929101308
+          }
+        ],
+        "boundary_edges": 0,
+        "non_manifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "zero_length_edges": 0,
+        "zero_area_faces_below_1e_minus_10_mm2": 0,
+        "signed_volume_mm3": 398172.0929101308,
+        "nonfinite_vertices": 0
+      }
+    },
+    {
+      "name": "06_CORE_5MM",
+      "file": "/workspace/pot_v41/stl/06_CORE_5MM.stl",
+      "triangles": 1276,
+      "bytes": 63884,
+      "file_size_matches_triangle_count": true,
+      "normal_records_match_winding": true,
+      "normal_record_mismatch_count": 0,
+      "units": "mm",
+      "rigid_export_offset_mm": [
+        0.0,
+        0.0,
+        -39.0
+      ],
+      "topology": {
+        "vertices": 640,
+        "edges": 1914,
+        "faces": 1276,
+        "connected_component_count": 1,
+        "components": [
+          {
+            "vertices": 640,
+            "signed_volume_mm3": 380693.46066315967
+          }
+        ],
+        "boundary_edges": 0,
+        "non_manifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "zero_length_edges": 0,
+        "zero_area_faces_below_1e_minus_10_mm2": 0,
+        "signed_volume_mm3": 380693.46066315967,
+        "nonfinite_vertices": 0
+      }
+    },
+    {
+      "name": "07_BASE",
+      "file": "/workspace/pot_v41/stl/07_BASE.stl",
+      "triangles": 4346,
+      "bytes": 217384,
+      "file_size_matches_triangle_count": true,
+      "normal_records_match_winding": true,
+      "normal_record_mismatch_count": 0,
+      "units": "mm",
+      "rigid_export_offset_mm": [
+        0.0,
+        0.0,
+        -5.0
+      ],
+      "topology": {
+        "vertices": 2137,
+        "edges": 6519,
+        "faces": 4346,
+        "connected_component_count": 1,
+        "components": [
+          {
+            "vertices": 2137,
+            "signed_volume_mm3": 161932.68995367488
+          }
+        ],
+        "boundary_edges": 0,
+        "non_manifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "zero_length_edges": 0,
+        "zero_area_faces_below_1e_minus_10_mm2": 0,
+        "signed_volume_mm3": 161932.68995367488,
+        "nonfinite_vertices": 0
+      }
+    },
+    {
+      "name": "08_SIEVE",
+      "file": "/workspace/pot_v41/stl/08_SIEVE.stl",
+      "triangles": 2318,
+      "bytes": 115984,
+      "file_size_matches_triangle_count": true,
+      "normal_records_match_winding": true,
+      "normal_record_mismatch_count": 0,
+      "units": "mm",
+      "rigid_export_offset_mm": [
+        0.0,
+        0.0,
+        -0.699999988079071
+      ],
+      "topology": {
+        "vertices": 1123,
+        "edges": 3477,
+        "faces": 2318,
+        "connected_component_count": 1,
+        "components": [
+          {
+            "vertices": 1123,
+            "signed_volume_mm3": 4084.0622506070263
+          }
+        ],
+        "boundary_edges": 0,
+        "non_manifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "zero_length_edges": 0,
+        "zero_area_faces_below_1e_minus_10_mm2": 0,
+        "signed_volume_mm3": 4084.0622506070263,
+        "nonfinite_vertices": 0
+      }
+    },
+    {
+      "name": "09_TOP_PLATE",
+      "file": "/workspace/pot_v41/stl/09_TOP_PLATE.stl",
+      "triangles": 1456,
+      "bytes": 72884,
+      "file_size_matches_triangle_count": true,
+      "normal_records_match_winding": true,
+      "normal_record_mismatch_count": 0,
+      "units": "mm",
+      "rigid_export_offset_mm": [
+        0.0,
+        0.0,
+        -5.0
+      ],
+      "topology": {
+        "vertices": 720,
+        "edges": 2184,
+        "faces": 1456,
+        "connected_component_count": 1,
+        "components": [
+          {
+            "vertices": 720,
+            "signed_volume_mm3": 172685.64814213166
+          }
+        ],
+        "boundary_edges": 0,
+        "non_manifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "zero_length_edges": 0,
+        "zero_area_faces_below_1e_minus_10_mm2": 0,
+        "signed_volume_mm3": 172685.64814213166,
+        "nonfinite_vertices": 0
+      }
+    }
+  ],
+  "export": {
+    "units": "metres",
+    "method": "Bake source world coordinates multiplied by 0.001; unit scale 1.0; glTF Y up",
+    "nodes_use_original_source_names": true
+  },
+  "source_modified_from_V4": true,
+  "source_execution_matches_saved_V41": true
+}

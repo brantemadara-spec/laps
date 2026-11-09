@@ -1,0 +1,721 @@
+{
+  "name": "LAPS Marle",
+  "revision": "C",
+  "units": "mm",
+  "parts": {
+    "marle_plate_PRINT_2": {
+      "name": "marle_plate_PRINT_2",
+      "material": "PETG",
+      "quantity": 2,
+      "purpose": "Two identical PETG plates; only four corner clearances",
+      "single_valid_closed_solid": true,
+      "volume_mm3": 109012.095595,
+      "bounds_mm": {
+        "x_min": -65.0,
+        "x_max": 65.0,
+        "y_min": -50.0,
+        "y_max": 50.0,
+        "z_min": 0.0,
+        "z_max": 10.0
+      },
+      "print_back_z_mm": 0
+    },
+    "marle_base_0.2mm_PRINT_1": {
+      "name": "marle_base_0.2mm_PRINT_1",
+      "material": "PETG",
+      "quantity": 1,
+      "purpose": "Calibration base; select only ONE by measured total compressed gauze allowance",
+      "single_valid_closed_solid": true,
+      "volume_mm3": 1632.995045,
+      "bounds_mm": {
+        "x_min": -65.0,
+        "x_max": 65.0,
+        "y_min": -50.0,
+        "y_max": 50.0,
+        "z_min": 0.0,
+        "z_max": 0.2
+      },
+      "print_back_z_mm": 0
+    },
+    "marle_base_0.4mm_PRINT_1": {
+      "name": "marle_base_0.4mm_PRINT_1",
+      "material": "PETG",
+      "quantity": 1,
+      "purpose": "Calibration base; select only ONE by measured total compressed gauze allowance",
+      "single_valid_closed_solid": true,
+      "volume_mm3": 3265.99009,
+      "bounds_mm": {
+        "x_min": -65.0,
+        "x_max": 65.0,
+        "y_min": -50.0,
+        "y_max": 50.0,
+        "z_min": 0.0,
+        "z_max": 0.4
+      },
+      "print_back_z_mm": 0
+    },
+    "marle_base_0.6mm_PRINT_1": {
+      "name": "marle_base_0.6mm_PRINT_1",
+      "material": "PETG",
+      "quantity": 1,
+      "purpose": "Calibration base; select only ONE by measured total compressed gauze allowance",
+      "single_valid_closed_solid": true,
+      "volume_mm3": 4898.985135,
+      "bounds_mm": {
+        "x_min": -65.0,
+        "x_max": 65.0,
+        "y_min": -50.0,
+        "y_max": 50.0,
+        "z_min": 0.0,
+        "z_max": 0.6
+      },
+      "print_back_z_mm": 0
+    },
+    "marle_base_0.8mm_PRINT_1": {
+      "name": "marle_base_0.8mm_PRINT_1",
+      "material": "PETG",
+      "quantity": 1,
+      "purpose": "Calibration base; select only ONE by measured total compressed gauze allowance",
+      "single_valid_closed_solid": true,
+      "volume_mm3": 6531.980181,
+      "bounds_mm": {
+        "x_min": -65.0,
+        "x_max": 65.0,
+        "y_min": -50.0,
+        "y_max": 50.0,
+        "z_min": 0.0,
+        "z_max": 0.8
+      },
+      "print_back_z_mm": 0
+    },
+    "marle_shim_0.5mm_PRINT_2": {
+      "name": "marle_shim_0.5mm_PRINT_2",
+      "material": "PETG",
+      "quantity": 2,
+      "purpose": "Physical stackable gap increment; print two of each height",
+      "single_valid_closed_solid": true,
+      "volume_mm3": 4082.487613,
+      "bounds_mm": {
+        "x_min": -65.0,
+        "x_max": 65.0,
+        "y_min": -50.0,
+        "y_max": 50.0,
+        "z_min": 0.0,
+        "z_max": 0.5
+      },
+      "print_back_z_mm": 0
+    },
+    "marle_shim_1.0mm_PRINT_2": {
+      "name": "marle_shim_1.0mm_PRINT_2",
+      "material": "PETG",
+      "quantity": 2,
+      "purpose": "Physical stackable gap increment; print two of each height",
+      "single_valid_closed_solid": true,
+      "volume_mm3": 8164.975226,
+      "bounds_mm": {
+        "x_min": -65.0,
+        "x_max": 65.0,
+        "y_min": -50.0,
+        "y_max": 50.0,
+        "z_min": 0.0,
+        "z_max": 1.0
+      },
+      "print_back_z_mm": 0
+    },
+    "marle_shim_1.5mm_PRINT_2": {
+      "name": "marle_shim_1.5mm_PRINT_2",
+      "material": "PETG",
+      "quantity": 2,
+      "purpose": "Physical stackable gap increment; print two of each height",
+      "single_valid_closed_solid": true,
+      "volume_mm3": 12247.462838,
+      "bounds_mm": {
+        "x_min": -65.0,
+        "x_max": 65.0,
+        "y_min": -50.0,
+        "y_max": 50.0,
+        "z_min": 0.0,
+        "z_max": 1.5
+      },
+      "print_back_z_mm": 0
+    },
+    "gauze_envelope_REFERENCE_NOT_FOR_PRINT": {
+      "name": "gauze_envelope_REFERENCE_NOT_FOR_PRINT",
+      "material": "purchased cotton gauze envelope",
+      "quantity": 2,
+      "purpose": "Illustrative 0.2 mm per face only; real compressed cloth thickness must be measured",
+      "single_valid_closed_solid": true,
+      "volume_mm3": 919.504867,
+      "bounds_mm": {
+        "x_min": -42.25,
+        "x_max": 42.25,
+        "y_min": -27.25,
+        "y_max": 27.25,
+        "z_min": 0.0,
+        "z_max": 0.2
+      },
+      "print_back_z_mm": 0
+    },
+    "pulp_envelope_REFERENCE_NOT_FOR_PRINT": {
+      "name": "pulp_envelope_REFERENCE_NOT_FOR_PRINT",
+      "material": "wet recycled-paper and leaf pulp envelope",
+      "quantity": 1,
+      "purpose": "Illustrative 3 mm wet cavity, not dry final card thickness",
+      "single_valid_closed_solid": true,
+      "volume_mm3": 14001.823002,
+      "bounds_mm": {
+        "x_min": -42.5,
+        "x_max": 42.5,
+        "y_min": -27.5,
+        "y_max": 27.5,
+        "z_min": 0.0,
+        "z_max": 3.0
+      },
+      "print_back_z_mm": 0
+    }
+  },
+  "parameters": {
+    "outer_xy_mm": [
+      130.0,
+      100.0
+    ],
+    "plate_thickness_mm": 10.0,
+    "outer_corner_radius_mm": 6.0,
+    "cavity_xy_mm": [
+      85.0,
+      55.0
+    ],
+    "inner_corner_radius_mm": 3.0,
+    "cavity_area_mm2": 4667.274333882308,
+    "bolts_xy_mm": [
+      [
+        -53.0,
+        -38.0
+      ],
+      [
+        53.0,
+        -38.0
+      ],
+      [
+        -53.0,
+        38.0
+      ],
+      [
+        53.0,
+        38.0
+      ]
+    ],
+    "bolt_quantity": 4,
+    "bolt_clearance_diameter_mm": 6.6,
+    "grid_count_xy": [
+      23,
+      15
+    ],
+    "square_opening_mm": 2.0,
+    "grid_pitch_mm": 3.6,
+    "rib_width_mm": 1.6,
+    "grid_x_mm": [
+      -39.6,
+      -36.0,
+      -32.4,
+      -28.8,
+      -25.2,
+      -21.6,
+      -18.0,
+      -14.4,
+      -10.8,
+      -7.2,
+      -3.6,
+      0.0,
+      3.6,
+      7.2,
+      10.8,
+      14.4,
+      18.0,
+      21.6,
+      25.2,
+      28.8,
+      32.4,
+      36.0,
+      39.6
+    ],
+    "grid_y_mm": [
+      -25.2,
+      -21.6,
+      -18.0,
+      -14.4,
+      -10.8,
+      -7.2,
+      -3.6,
+      0.0,
+      3.6,
+      7.2,
+      10.8,
+      14.4,
+      18.0,
+      21.6,
+      25.2
+    ],
+    "opening_count": 345,
+    "drain_open_area_mm2": 1380.0,
+    "open_fraction_of_cavity": 0.2956757844684256,
+    "groove_width_mm": 1.6,
+    "groove_depth_mm": 1.2,
+    "groove_centerlines_xy_mm": [
+      {
+        "start": [
+          -65.0,
+          -25.2
+        ],
+        "end": [
+          65.0,
+          -25.2
+        ]
+      },
+      {
+        "start": [
+          -65.0,
+          -21.6
+        ],
+        "end": [
+          65.0,
+          -21.6
+        ]
+      },
+      {
+        "start": [
+          -65.0,
+          -18.0
+        ],
+        "end": [
+          65.0,
+          -18.0
+        ]
+      },
+      {
+        "start": [
+          -65.0,
+          -14.4
+        ],
+        "end": [
+          65.0,
+          -14.4
+        ]
+      },
+      {
+        "start": [
+          -65.0,
+          -10.8
+        ],
+        "end": [
+          65.0,
+          -10.8
+        ]
+      },
+      {
+        "start": [
+          -65.0,
+          -7.2
+        ],
+        "end": [
+          65.0,
+          -7.2
+        ]
+      },
+      {
+        "start": [
+          -65.0,
+          -3.6
+        ],
+        "end": [
+          65.0,
+          -3.6
+        ]
+      },
+      {
+        "start": [
+          -65.0,
+          0.0
+        ],
+        "end": [
+          65.0,
+          0.0
+        ]
+      },
+      {
+        "start": [
+          -65.0,
+          3.6
+        ],
+        "end": [
+          65.0,
+          3.6
+        ]
+      },
+      {
+        "start": [
+          -65.0,
+          7.2
+        ],
+        "end": [
+          65.0,
+          7.2
+        ]
+      },
+      {
+        "start": [
+          -65.0,
+          10.8
+        ],
+        "end": [
+          65.0,
+          10.8
+        ]
+      },
+      {
+        "start": [
+          -65.0,
+          14.4
+        ],
+        "end": [
+          65.0,
+          14.4
+        ]
+      },
+      {
+        "start": [
+          -65.0,
+          18.0
+        ],
+        "end": [
+          65.0,
+          18.0
+        ]
+      },
+      {
+        "start": [
+          -65.0,
+          21.6
+        ],
+        "end": [
+          65.0,
+          21.6
+        ]
+      },
+      {
+        "start": [
+          -65.0,
+          25.2
+        ],
+        "end": [
+          65.0,
+          25.2
+        ]
+      },
+      {
+        "start": [
+          -39.6,
+          -50.0
+        ],
+        "end": [
+          -39.6,
+          50.0
+        ]
+      },
+      {
+        "start": [
+          -36.0,
+          -50.0
+        ],
+        "end": [
+          -36.0,
+          50.0
+        ]
+      },
+      {
+        "start": [
+          -32.4,
+          -50.0
+        ],
+        "end": [
+          -32.4,
+          50.0
+        ]
+      },
+      {
+        "start": [
+          -28.8,
+          -50.0
+        ],
+        "end": [
+          -28.8,
+          50.0
+        ]
+      },
+      {
+        "start": [
+          -25.2,
+          -50.0
+        ],
+        "end": [
+          -25.2,
+          50.0
+        ]
+      },
+      {
+        "start": [
+          -21.6,
+          -50.0
+        ],
+        "end": [
+          -21.6,
+          50.0
+        ]
+      },
+      {
+        "start": [
+          -18.0,
+          -50.0
+        ],
+        "end": [
+          -18.0,
+          50.0
+        ]
+      },
+      {
+        "start": [
+          -14.4,
+          -50.0
+        ],
+        "end": [
+          -14.4,
+          50.0
+        ]
+      },
+      {
+        "start": [
+          -10.8,
+          -50.0
+        ],
+        "end": [
+          -10.8,
+          50.0
+        ]
+      },
+      {
+        "start": [
+          -7.2,
+          -50.0
+        ],
+        "end": [
+          -7.2,
+          50.0
+        ]
+      },
+      {
+        "start": [
+          -3.6,
+          -50.0
+        ],
+        "end": [
+          -3.6,
+          50.0
+        ]
+      },
+      {
+        "start": [
+          0.0,
+          -50.0
+        ],
+        "end": [
+          0.0,
+          50.0
+        ]
+      },
+      {
+        "start": [
+          3.6,
+          -50.0
+        ],
+        "end": [
+          3.6,
+          50.0
+        ]
+      },
+      {
+        "start": [
+          7.2,
+          -50.0
+        ],
+        "end": [
+          7.2,
+          50.0
+        ]
+      },
+      {
+        "start": [
+          10.8,
+          -50.0
+        ],
+        "end": [
+          10.8,
+          50.0
+        ]
+      },
+      {
+        "start": [
+          14.4,
+          -50.0
+        ],
+        "end": [
+          14.4,
+          50.0
+        ]
+      },
+      {
+        "start": [
+          18.0,
+          -50.0
+        ],
+        "end": [
+          18.0,
+          50.0
+        ]
+      },
+      {
+        "start": [
+          21.6,
+          -50.0
+        ],
+        "end": [
+          21.6,
+          50.0
+        ]
+      },
+      {
+        "start": [
+          25.2,
+          -50.0
+        ],
+        "end": [
+          25.2,
+          50.0
+        ]
+      },
+      {
+        "start": [
+          28.8,
+          -50.0
+        ],
+        "end": [
+          28.8,
+          50.0
+        ]
+      },
+      {
+        "start": [
+          32.4,
+          -50.0
+        ],
+        "end": [
+          32.4,
+          50.0
+        ]
+      },
+      {
+        "start": [
+          36.0,
+          -50.0
+        ],
+        "end": [
+          36.0,
+          50.0
+        ]
+      },
+      {
+        "start": [
+          39.6,
+          -50.0
+        ],
+        "end": [
+          39.6,
+          50.0
+        ]
+      }
+    ],
+    "groove_rows": 15,
+    "groove_columns": 23,
+    "minimum_local_remaining_height_mm": 8.8,
+    "base_heights_physical_mm": [
+      0.2,
+      0.4,
+      0.6,
+      0.8
+    ],
+    "base_print_quantity_each": 1,
+    "illustration_base_mm": 0.4,
+    "shim_heights_mm": [
+      0.5,
+      1.0,
+      1.5
+    ],
+    "shim_print_quantity_each": 2,
+    "illustration_gauze_thickness_each_mm": 0.2,
+    "gauze_reference_xy_mm": [
+      84.5,
+      54.5
+    ],
+    "wet_gap_rule": "measured shim sum + one measured calibration base - measured total compressed gauze thickness"
+  },
+  "assembly_3mm": {
+    "is_example": true,
+    "shim_selection_mm": [
+      0.5,
+      1.0,
+      1.5
+    ],
+    "shim_sum_mm": 3,
+    "base_selection_mm": 0.4,
+    "physical_ring_stack_height_mm": 3.4,
+    "wet_pulp_gap_assumed_mm": 3,
+    "gauze_total_assumed_mm": 0.4,
+    "lower_plate_z_mm": [
+      0,
+      10
+    ],
+    "ring_stack_z_mm": [
+      10,
+      13.4
+    ],
+    "upper_plate_z_mm": [
+      13.4,
+      23.4
+    ],
+    "upper_plate_rotation_x_degrees": 180,
+    "lower_gauze_z_mm": [
+      10,
+      10.2
+    ],
+    "pulp_z_mm": [
+      10.2,
+      13.2
+    ],
+    "upper_gauze_z_mm": [
+      13.2,
+      13.4
+    ],
+    "body_height_mm": 23.4,
+    "hardware_not_in_step": true
+  },
+  "manufacturing_notes": [
+    "Eight unique printable STL/STEP part pairs; twelve pieces if the entire calibration catalogue is printed.",
+    "Print two identical plates, one of each calibration base, and two of each shim.",
+    "Use only ONE calibration base in an assembly; measure gauze compression rather than assuming 0.4 mm.",
+    "Individual printable models use millimetres, with rear/print face at Z0.",
+    "Thin calibration rings need a verified 0.10 mm layer profile and measured real stack height.",
+    "Gauze and pulp in assembled STEP are reference envelopes, never printed components.",
+    "Purchased hardware: 4 fully threaded M6x40 bolts,4 M6 nuts,8 nominal OD18 large M6 washers.",
+    "Gentle diagonally alternating closure; no experimentally verified pressing-load rating.",
+    "Rear crosshatch outlets must remain open above a draining support; no fuzzy skin on seating faces."
+  ]
+}

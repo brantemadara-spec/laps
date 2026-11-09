@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297">
+<rect width="100%" height="100%" fill="white"/>
+<text x="14" y="17" font-family="Arial,Helvetica,sans-serif" font-size="3.175" font-weight="bold" fill="#235875" text-anchor="start">LAPS MARLE / PĀRSTRĀDĀTS PAPĪRS UN RUDENS LAPAS</text>
+<text x="14" y="27" font-family="Arial,Helvetica,sans-serif" font-size="5.64444" font-weight="bold" fill="#162b3b" text-anchor="start">BLENDER / ATVĒRT, MAINĪT, EKSPORTĒT</text>
+<text x="196" y="16" font-family="Arial,Helvetica,sans-serif" font-size="2.82222" font-weight="normal" fill="#64727c" text-anchor="end">LAPS MARLE / RASĒJUMU REDAKCIJA C</text>
+<line x1="14" y1="33" x2="196" y2="33" stroke="#235875" stroke-width="0.5"/>
+<line x1="14" y1="267" x2="196" y2="267" stroke="#235875" stroke-width="0.35"/>
+<text x="14" y="275" font-family="Arial,Helvetica,sans-serif" font-size="2.46944" font-weight="normal" fill="#64727c" text-anchor="start">VISI IZMĒRI mm | KONCEPCIJAS NOMINĀLIE IZMĒRI</text>
+<text x="14" y="282" font-family="Arial,Helvetica,sans-serif" font-size="2.46944" font-weight="normal" fill="#64727c" text-anchor="start">Shēmisks mērogs; izmēri ir noteicošie</text>
+<text x="196" y="282" font-family="Arial,Helvetica,sans-serif" font-size="2.46944" font-weight="normal" fill="#64727c" text-anchor="end">LAPA 07 / 08 | 07.10.2026.</text>
+<text x="18" y="45" font-family="Arial,Helvetica,sans-serif" font-size="4.05694" font-weight="bold" fill="#235875" text-anchor="start">Gatavā modeļa apskate</text>
+<text x="18" y="52.5" font-family="Arial,Helvetica,sans-serif" font-size="3.70417" font-weight="normal" fill="#162b3b" text-anchor="start">Blender izvēlnē File → Open atver LAPS_Marle_Prototips.blend. Gatavās detaļas jau ir failā;</text>
+<text x="18" y="58" font-family="Arial,Helvetica,sans-serif" font-size="3.70417" font-weight="normal" fill="#162b3b" text-anchor="start">apskatei skripts nav jāpalaiž. Vāks ir noņemams, stiprinājumi ir tikai četros stūros.</text>
+<text x="18" y="66.5" font-family="Arial,Helvetica,sans-serif" font-size="3.70417" font-weight="normal" fill="#162b3b" text-anchor="start">Vidējā peles poga groza skatu; Shift + vidējā poga pārbīda; ritenis tuvina. Numpad 1 / 3 / 7</text>
+<text x="18" y="72" font-family="Arial,Helvetica,sans-serif" font-size="3.70417" font-weight="normal" fill="#162b3b" text-anchor="start">rāda priekšu / sānu / augšu; Numpad 5 maina perspektīvu. Home ietver redzamās detaļas.</text>
+<text x="18" y="80.5" font-family="Arial,Helvetica,sans-serif" font-size="4.05694" font-weight="bold" fill="#235875" text-anchor="start">Atjaunot no Blender Python koda</text>
+<text x="18" y="88" font-family="Arial,Helvetica,sans-serif" font-size="3.70417" font-weight="normal" fill="#162b3b" text-anchor="start">Atver Scripting cilni. Text Editor izvēlies Open un LAPS_Marle_Blender.py. Novieto kursoru</text>
+<text x="18" y="93.5" font-family="Arial,Helvetica,sans-serif" font-size="3.70417" font-weight="normal" fill="#162b3b" text-anchor="start">teksta logā un spied Alt + P vai Run Script. Papildu Blender spraudnis nav vajadzīgs.</text>
+<text x="18" y="102" font-family="Arial,Helvetica,sans-serif" font-size="3.70417" font-weight="normal" fill="#162b3b" text-anchor="start">Pirms ģenerēšanas saglabā savas izmaiņas atsevišķā kopijā. Kalibratora un starpliku fiziskos</text>
+<text x="18" y="107.5" font-family="Arial,Helvetica,sans-serif" font-size="3.70417" font-weight="normal" fill="#162b3b" text-anchor="start">izmērus koriģē pēc marles mērījuma. Pēc izmaiņām lieto File → Save As jaunam</text>
+<text x="18" y="113" font-family="Arial,Helvetica,sans-serif" font-size="3.70417" font-weight="normal" fill="#162b3b" text-anchor="start">nosaukumam.</text>
+<text x="18" y="121.5" font-family="Arial,Helvetica,sans-serif" font-size="4.05694" font-weight="bold" fill="#235875" text-anchor="start">Drukas faili un milimetri</text>
+<text x="18" y="129" font-family="Arial,Helvetica,sans-serif" font-size="3.70417" font-weight="normal" fill="#162b3b" text-anchor="start">Drošākais ceļš: lieto piegādāto drukas STL komplektu. Slicerī importē kā milimetrus un</text>
+<text x="18" y="134.5" font-family="Arial,Helvetica,sans-serif" font-size="3.70417" font-weight="normal" fill="#162b3b" text-anchor="start">pārbaudi marle_plate_PRINT_2.stl: 130 × 100 × 10 mm. Drukā 2 plāksnes, pa 1 katru</text>
+<text x="18" y="140" font-family="Arial,Helvetica,sans-serif" font-size="3.70417" font-weight="normal" fill="#162b3b" text-anchor="start">kalibratoru un pa 2 katru 0,5 / 1,0 / 1,5 starpliku.</text>
+<text x="18" y="148.5" font-family="Arial,Helvetica,sans-serif" font-size="3.70417" font-weight="normal" fill="#162b3b" text-anchor="start">STL nesaglabā mērvienību. Ja eksportē pats, izvēlies tikai konkrēto drukājamo objektu un</text>
+<text x="18" y="154" font-family="Arial,Helvetica,sans-serif" font-size="3.70417" font-weight="normal" fill="#162b3b" text-anchor="start">pārbaudi rezultāta izmērus slicerī. Metāla skrūves, marle un papīra masas attēlojums nav</text>
+<text x="18" y="159.5" font-family="Arial,Helvetica,sans-serif" font-size="3.70417" font-weight="normal" fill="#162b3b" text-anchor="start">drukājamas PETG detaļas.</text>
+</svg>

@@ -1,0 +1,40 @@
+/files/*.zip
+  Content-Type: application/zip
+  Content-Disposition: attachment
+/files/*.blend
+  Content-Type: application/octet-stream
+  Content-Disposition: attachment
+/files/*.py
+  Content-Type: text/plain; charset=utf-8
+  Content-Disposition: attachment
+/files/*.usdz
+  Content-Type: model/vnd.usdz+zip
+/models/*.glb
+  Content-Type: model/gltf-binary
+/laps-siets/files/*.zip
+  Content-Type: application/zip
+  Content-Disposition: attachment
+/laps-siets/files/*.blend
+  Content-Type: application/octet-stream
+  Content-Disposition: attachment
+/laps-siets/files/*.py
+  Content-Type: text/plain; charset=utf-8
+  Content-Disposition: attachment
+/laps-siets/files/*.usdz
+  Content-Type: model/vnd.usdz+zip
+/laps-siets/models/*.glb
+  Content-Type: model/gltf-binary
+/podins/files/*.py
+  Content-Type: text/plain; charset=utf-8
+  Content-Disposition: attachment
+/podins/files/*.blend
+  Content-Type: application/octet-stream
+  Content-Disposition: attachment
+/podins/files/*.zip
+  Content-Type: application/zip
+  Content-Disposition: attachment
+/podins/models/*.glb
+  Content-Type: model/gltf-binary
+
+/podins/*
+  Cache-Control: no-cache

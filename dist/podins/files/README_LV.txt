@@ -1,0 +1,66 @@
+NO KOKA UZ KOKU — PODIŅA PROTOTIPS V4.1
+V4.1 pielāgots no iesūtītā V4: mainītas sānu austiņas un atveres, atkārtoti izgriezts dobums un tapu ligzdas, tīrīti tikai mainīto daļu mikroskopiskie triangulācijas defekti.
+
+PY — aktuālais V4.1 kods; BLEND — tā detaļu kataloga izpildes rezultāts Blender 4.3.2.
+Izvēlies vienu no 3/4/5 mm serdeņiem. Kodā deviņas formas detaļas; metāla M6/M12 stiprinājumus nedrukā.
+
+Kods izdzēš visus aktīvās ainas objektus. Saglabā esošo darbu un atver jaunu ainu. Scripting > New > ielīmē kodu > Run Script (Alt+P koda logā). BLEND: File > Open.
+
+Kods pats STL neeksportē. Atlasi vienu detaļu: File > Export > STL, Selection Only, Apply Modifiers. Vienības mm: Scale 1, Scene Unit izslēgts, ja redzama šī opcija. Slicerī pārbaudi pamatnes/augšējās plāksnes Ø150 mm un drukas orientāciju. Detaļu katalogs nav salikta forma.
+
+Pirms drukas jānovērš norādītās neatbilstības. ZIP nav apstiprināts drukai.
+
+NO KOKA UZ KOKU — V4.1 ĢEOMETRIJAS PĀRBAUDE / 26.10.2026.
+
+V4.1 izpildīts Blender 4.3.2: 9 formas detaļas un 113 Boolean darbības. Jaunajām austiņām ir 45° apakšējie balsti un M6 atveru jumtiņi. Modeļa mērogs: pamatnes Ø150 mm atbilst 0,15 m.
+
+Austiņu iepriekšējā pārklāšanās un ievirzīšanās dobumā ir novērsta; atjauninātie mērījumi norādīti zemāk. Pamatnes/STOP atskaites un dobuma koniskums vēl jākoriģē, bet pārplūdes kamerai joprojām ir atvērtas malas. V4.1 ir fokusēts austiņu labojums, un visa prese vēl nav apstiprināta darbībai.
+
+Sieniņu biezums
+Austiņu ievirzīšanās dobumā novērsta ar atkārtotu dobuma izgriezumu. Paliek sākotnējā 72 mm dobuma un 70 mm serdeņa koniskuma neatbilstība: 3/4/5 mm ir nominālās radiālās sienas, bet faktiskā sprauga nedaudz mainās ar augstumu.
+
+Salāgojums un atstarpes
+V4.1 austiņu dalījuma plaknes novietotas X0 un dobums izgriezts pēc austiņu pievienošanas. Iepriekšējā 1 mm austiņu pārklāšanās ir labota; pamatnes ligzdas un M6 vertikālo stieņu atstarpes joprojām jākoriģē.
+
+Boolean operāciju kvalitāte
+V4.1 veiksmīgi pabeidz 113 Boolean darbības. Abām mainītajām pusēm izmantota dokumentēta mikroskopisku virsotņu/triangulācijas tīrīšana; pārplūdes kamerai joprojām ir 12 atvērtas malas.
+
+Tapu un caurumu tolerances
+Ø5,0 tapai saglabāta Ø5,6 ligzda: nomināli 0,3 mm uz pusi un 0,8 mm aksiāli. Sānu M6 atverēm saglabāta Ø6,8 mm apaļā brīvtelpa un pievienots 45° jumtiņš; asis Z34/Z54. PETG faktiskā saderība jāizmēģina.
+
+Pārplūdes kameras sēža
+Ø110,8 svārks uz Ø110 formas dod 0,4 mm nominālu radiālo atstarpi; faktiskajos daudzstūru šķēlumos izmērīts ap 0,370–0,415 mm. Kameras pašas topoloģija un nulles atstarpe pret M6 stieņiem vēl jālabo.
+
+Serdes STOP pozīcija
+Nominalā STOP apakša un kameras augša sakrīt Z82 ar 8 mm kontakta joslu. Pamatnes 2,5 mm iesēdinājuma un serdes atskaites joprojām nenodrošina paredzēto 4 mm dibenu.
+
+Visu detaļu manifold pārbaude
+V4.1 pārbaudīti visi deviņi native tīkli. Atsevišķi norādīti atvērto malu skaiti; pārplūdes kamera joprojām neatbilst manifold prasībai.
+
+Faktiski eksportēto STL pārbaude
+Eksportētie V4.1 STL ir pārlasīti no faktiskajiem failu baitiem. Jaunākie katras detaļas skaiti norādīti topoloģijas tabulā; visu komplektu joprojām nevar uzskatīt par gatavu presēšanai.
+
+SIENAS (radiāli Z4 / Z70)
+Serdenis 3 mm: 3,154 / 2,826 mm.
+Serdenis 4 mm: 4,154 / 3,826 mm.
+Serdenis 5 mm: 5,154 / 4,826 mm.
+
+SALĀGOŠANA
+Tapas un ligzdas: Ø5 / Ø5,6 mm: 0,3 mm radiāli un 0,8 mm aksiāli; jāizmēģina PETG paraugs.
+Formas pušu austiņas: V4.1 dalījuma plaknes X0; slīpie balsti 45°. Vecā 1 mm sadure labota. Jaunās M6 asis Z34/Z54 mm un balsta plaknes X±12 mm.
+Pamatnes ligzdas mala: Atstarpe −0,069 līdz −0,035 mm — negatīva vērtība nozīmē saduri.
+Kameras svārks: Atstarpe ≈0,370–0,415 mm uz pusi; nomināli Ø110,8 uz Ø110.
+M6 stieņi pret kameru: Nomināli 0 mm rezerve: R65 − 3 − R62 = 0; jāparedz pozitīva atstarpe.
+STOP atdure: Kameras augša un STOP apakša Z82; kontakta josla R51–R59 ir 8 mm plata.
+Dibens un gala augstums: Ja forma hipotētiski pilnībā iesēstos 2,5 mm ligzdā, dibens būtu 1,5 mm un augstums 67,5 mm. Pilnu iesēšanos vēl traucē pamatnes ligzdas sadure; tas nav apstiprināts gala podiņš.
+Dobuma gala diametri: Nominālās atskaitēs Ø65,347 pie Z0 un Ø89,653 pie Z70; vajadzīgie Ø65/Ø90 nav precīzi saglabāti.
+
+Kopīgās atskaites: formas nominālā ģeometrija Z0..70, serdes apakša Z4, STOP Z82. Kameru sēžai pārvieto +70. Detaļu kataloga pozīcijas nav salikuma pozīcijas. Hipotētiskais dibens 1,5 mm / augstums 67,5 mm nav apstiprināts salikums — iesēšanos bloķē sadures.
+
+Šie rezultāti nepārbauda PETG faktisko precizitāti, spēka/griezes momenta nestspēju, ilglaicīgo deformāciju vai sausa podiņa sarukumu. Skaitliskie dati: V41_Parbaudes_dati.json.
+
+Austiņas drukā stāvus ar Z asi augšup. Sānu M6: DIN125 OD12 paplāksnes; 10 mm plānsienu muciņa ar ārējo OD līdz15 mm. Slīpie balsti un caurumu jumtiņi samazina austiņu pārkares, bet pārējo virsmu/tapu atbalsti jāpārbauda slicerī.
+
+Marles risinājums un vienādu apstākļu plāns ir atsevišķas ieteikumu norādes. V4.1 CAD failos saglabāts sākotnējais perforētais ieliktnis. Lai atteiktos no atsevišķā ieliktņa, jāpārveido pamatnes cietais balsts un jāprecizē STOP atskaites. Pilns skaidrojums Marle_un_izmeginajums_LV.txt un mājaslapā.
+
+Pilna pamācība: https://laps.dashulyaashsxb.chatgpt.site/podins/

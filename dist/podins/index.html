@@ -1,0 +1,1993 @@
+<!doctype html>
+<html lang="lv"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Podiņa prototips V4.1 — 3/4/5 mm serdeņi | LAPS</title><meta name="description" content="NO KOKA UZ KOKU V4.1: trīs maināmi serdeņi, pārplūdes kamera, Blender kods un izmērītu ģeometrijas pārbaužu rezultāti."><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/style.css"><link rel="stylesheet" href="/podins/podins.css?v=41-ears45-20261026"><script type="module" src="/podins/podins.js?v=41-ears45-20261026"></script></head>
+<body><header class="topbar"><div class="topbar-inner"><a class="brand" href="/">LAPS</a><nav aria-label="Projekta sadaļas"><a href="/">Kartītes forma</a><a href="#apskate">Podiņa modelis</a><a href="#austinas">45° austiņas</a><a href="#saliksana">Salikšana</a><a href="#blender-kods">Blender kods</a><a href="#lietosana">Lietošana</a><a href="#parbaudes">Pārbaudes</a><a href="#piezimes">Piezīmes</a></nav></div></header>
+<main><section class="pot-hero"><p class="eyebrow">NO KOKA UZ KOKU · atjaunināts prototips V4.1</p><h1>Podiņa prototips V4.1</h1><p class="intro">45° slīpi balsti zem skrūvju austiņām un M6 atveru jumtiņi. Deviņas formas detaļas: divdaļīga ārējā forma, pārplūdes kamera, trīs maināmi 3 / 4 / 5 mm serdeņi, drenāžas pamatne, sietiņš un augšējā plāksne.</p><div class="pot-actions"><a class="button primary" href="/podins/files/NO_KOKA_UZ_KOKU_Podina_prototips.py" download>Lejupielādēt Blender kodu · PY</a><a class="button" href="/podins/files/NO_KOKA_UZ_KOKU_Podina_prototips.blend" download>Atvērt gatavu modeli · BLEND</a></div><div class="specs"><span>Mērķa augstums 70 mm</span><span>Augša Ø90 mm</span><span>Apakša Ø65 mm</span><span>Dibena mērķis 4 mm</span><span>Serdeņi 3 / 4 / 5 mm</span></div></section>
+<section id="austinas"><p class="eyebrow">V4.1 · labojums ērtākai drukāšanai</p><h2>Skrūvju austiņām — slīpas pārejas</h2><p>Abām formas pusēm austiņu horizontālās apakšējās pārkares aizstātas ar <strong>45° balsta pārejām pret drukas galdu</strong>. M6 atverēm izveidots slīps jumtiņš, saglabājot skrūvei vajadzīgo Ø6,8 mm apaļo brīvtelpu.</p><figure class="pot-poster"><a href="/podins/images/V41_Austinas_45deg.png" target="_blank" rel="noopener"><img src="/podins/images/V41_Austinas_45deg.png" width="1500" height="1100" alt="V4 un V4.1 formas pušu salīdzinājums: jaunajām austiņām slīpi balsti un slīpi caurumu jumtiņi" loading="lazy"></a><figcaption>Pa kreisi iepriekšējā V4, pa labi aktuālās V4.1 austiņas. Skrūves ass ir horizontāla; paplāksnes balsta plakne ir perpendikulāra skrūvei. <a href="/podins/images/V41_Austinas_45deg.png" download>PNG tuvplāns</a>.</figcaption></figure><div class="pot-guide-grid"><article><h3>Kas mainīts</h3><ul><li>24 mm garas un 24 mm augstas slīpās apakšējās pārejas.</li><li>Sānu skrūvju asis Z34 / Z54 mm; austiņas pārvietotas uz ārpusi, lai būtu vieta paplāksnei.</li><li>45° M6 atveres jumtiņš; virs tā paliek ap 3,19 mm materiāla.</li><li>Austiņu dalījuma plaknes savietotas un dobums pēc austiņu pievienošanas izgriezts atkārtoti.</li></ul></article><article><h3>Druka un stiprinājumi</h3><p>45° pārejas paredzētas <strong>pusformas drukai stāvus, ar Z asi augšup</strong>. Caurumu jumtiņi un slīpie balsti samazina austiņām nepieciešamos drukas atbalstus.</p><p>Četriem sānu savienojumiem: <strong>4 pilnas vītnes M6 × 40 mm skrūves, 4 M6 uzgriežņi un 8 DIN 125 M6 paplāksnes ar Ø12 mm ārējo diametru</strong>. Nominālais savilktais biezums ar divām 1,6 mm paplāksnēm un 5,2 mm uzgriezni ir 32,4 mm; pēc tā paliek ap 7,6 mm vītnes. Šis saraksts attiecas uz sānu skrūvēm; vertikālie stieņi nav mainīti. Pieeja paredzēta 10 mm plānsienu muciņai ar ārējo Ø līdz 15 mm; lielāku atslēgas galvu pārbaudi salikumā.</p><p>Arī pozicionēšanas tapas un pārējās virsmas pārbaudi slicer slāņu priekšskatījumā. Visa forma nav pārbaudīta drukāšanai bez atbalstiem vai noteiktai presēšanas slodzei.</p></article></div></section>
+
+<section id="apskate"><h2>Formas detaļu apskate</h2><p>Modelis rāda V4.1 koda detaļu katalogu. Izvēlies detaļu, lai apskatītu to atsevišķi. Serdeņi ir savstarpēji aizstājami; vienā salikumā izmanto vienu.</p><div class="viewer-main"><div class="viewer-toolbar"><label for="pot-part">Detaļa</label><select id="pot-part" disabled><option value="all">Visas 9 detaļas</option><option value="01_MOLD_LEFT">01 · Kreisā formas puse</option><option value="02_MOLD_RIGHT">02 · Labā formas puse</option><option value="03_OVERFLOW_COLLAR">03 · Pārplūdes kamera</option><option value="04_CORE_3MM">04 · Serdenis 3 mm sienai</option><option value="05_CORE_4MM">05 · Serdenis 4 mm sienai</option><option value="06_CORE_5MM">06 · Serdenis 5 mm sienai</option><option value="07_BASE">07 · Drenāžas pamatne</option><option value="08_SIEVE">08 · Perforētais sietiņš</option><option value="09_TOP_PLATE">09 · Augšējā plāksne</option></select><button id="pot-reset" type="button">Atiestatīt skatu</button></div><div id="pot-model-canvas"><div id="pot-model-status" role="status">Ielādē podiņa formas modeli…</div></div><div class="viewer-caption"><span>Velc, lai grozītu · pietuvini ar diviem pirkstiem</span><span>Detaļu katalogs</span></div><p id="pot-part-description" class="pot-description" aria-live="polite">Deviņas V4.1 formas detaļas; vienā salikumā izvēlas vienu serdeni.</p></div>
+<div class="pot-note"><strong>V4.1: austiņas pārveidotas, citām vietām vēl vajadzīgi labojumi.</strong><p id="pot-verification">V4.1 izpildīts Blender 4.3.2: 9 formas detaļas un 113 Boolean darbības. Jaunajām austiņām ir 45° apakšējie balsti un M6 atveru jumtiņi. Modeļa mērogs: pamatnes Ø150 mm atbilst 0,15 m.</p><p id="pot-geometry-notes">Austiņu iepriekšējā pārklāšanās un ievirzīšanās dobumā ir novērsta; atjauninātie mērījumi norādīti zemāk. Pamatnes/STOP atskaites un dobuma koniskums vēl jākoriģē, bet pārplūdes kamerai joprojām ir atvērtas malas. V4.1 ir fokusēts austiņu labojums, un visa prese vēl nav apstiprināta darbībai.</p></div></section>
+<section id="saliksana"><p class="eyebrow">Kā forma paredzēta darbībai</p><h2>Abi salikšanas plakāti</h2><p>Brūnais slānis ir papīra un lapu masa, no kuras veidojas podiņa sienas un dibens. Izvēlas vienu serdeni. M12 skrūve virza to lejup; ūdens izplūst caur atbalstu un pamatni, liekā masa nonāk pārplūdes kamerā.</p><p class="small">Abi plakāti attēlo iepriekšējo V4 un darbības principu: tajos austiņas vēl ir taisnstūrveida. Jaunās V4.1 austiņas ar 45° pārejām skatīt aktuālajā 3D modelī un tuvplānā augstāk. Tajos redzams V4 cietais perforētais ieliktnis; marles risinājums aprakstīts zemāk. Metāla fiksācijas mezgli ir ilustratīvi, un V4.1 atlikušajos mezglos vēl vajadzīgi labojumi pirms presēšanas.</p>
+<figure class="pot-poster" id="plakats-precizets"><a href="/podins/images/LAPS_Podins_Saliksana_02_precizets.png" target="_blank" rel="noopener"><img src="/podins/images/LAPS_Podins_Saliksana_02_precizets.png" width="1536" height="1024" loading="lazy" alt="Precizētais plakāts: salikta forma, masas slāņa šķērsgriezums un trīs lietošanas soļi"></a><figcaption><strong>Precizētais plakāts.</strong> Augšējā plāksne atzīmēta kā PETG, pamatnes numurs izlabots, šķērsgriezums ir shematisks. <a href="/podins/images/LAPS_Podins_Saliksana_02_precizets.png" download>Lejupielādēt PNG</a> · pieskaries attēlam, lai palielinātu.</figcaption></figure>
+<details class="project-section" id="plakats-sakotnejs"><summary>Atvērt arī pirmo plakātu</summary><p>Sākotnējā attēlā augšējā plāksne kļūdaini nosaukta par metāla detaļu un pamatnei ir neprecīzs numurs. V4 kodā augšējā plāksne ir PETG. Salikšanas skaidrojumam vadies pēc precizētā plakāta.</p><figure class="pot-poster"><a href="/podins/images/LAPS_Podins_Saliksana_01_sakotnejs.png" target="_blank" rel="noopener"><img src="/podins/images/LAPS_Podins_Saliksana_01_sakotnejs.png" width="1536" height="1024" loading="lazy" alt="Pirmais salikšanas plakāts ar sākotnējiem, vēl neprecizētajiem apzīmējumiem"></a><figcaption>Sākotnējā versija · <a href="/podins/images/LAPS_Podins_Saliksana_01_sakotnejs.png" download>Lejupielādēt PNG</a>.</figcaption></figure></details></section>
+
+<section id="marle"><p class="eyebrow">Ieteikums nākamajam konstrukcijas labojumam</p><h2>Vai drukāto sietiņu var aizstāt ar marli?</h2><p><strong>Marle var aizturēt šķiedras, bet tai vajag stingru, plakanu un ūdeni caurlaidīgu balstu.</strong> V4 pamatnē ir 15 drenāžas caurumi Ø5 mm un ligzda Ø62 × 1,4 mm ieliktnim. Tikai audums šajā ligzdā var ieliekties caurumos un mainīt podiņa dibena formu.</p><div class="pot-guide-grid"><article><h3>Lai nebūtu jādrukā atsevišķs sietiņš</h3><p>Pārveido pamatni ar integrētu plakanu drenāžas virsmu un cieši izvietotu stingru atbalstu. Uz tās klāj tīru, neimpregnētu kokvilnas marli. Otra iespēja ir nopērkams stingrs plakans perforēts ieliktnis ar marli virs tā.</p><p>Marli samitrina, nogludina bez krokām un nostiprina pret nobīdi. Visiem paraugiem lieto vienādu marli un kārtu skaitu. Ja smalkās šķiedras izskalojas un kārtu skaitu maina, biezuma kalibrāciju atkārto.</p></article><article><h3>Jāsaskaņo arī dibens un STOP</h3><p>Izmēri saspiestās mitrās marles biezumu. Pamatnes darba plakne, serdes apakša un STOP atdure jāsaskaņo, lai pēc auduma saspiešanas saglabātu 4 mm dibena mērķi.</p><p><strong>Dibena mitrā sprauga = serdes apakšas augstums pie STOP − (cietā balsta virsmas augstums + saspiestās marles biezums).</strong></p><p>Pašreizējā V4 ligzdas grīda ir 1,4 mm zem ieliktņa augšējās darba plaknes. Izņemot ieliktni, marle automātiski neatjauno šo līmeni. Lejupielādējamajā V4.1 mainītas austiņas; sākotnējā ieliktņa ligzda ir saglabāta. Šeit aprakstīts vēl izstrādājams marles variants.</p></article></div></section>
+
+<section id="izmeginajums"><p class="eyebrow">3 / 4 / 5 mm sienu salīdzināšana</p><h2>Vai visiem būs vienāds augstums, spiediens un blīvums?</h2><p><strong>Vienāda augstuma mērķis ir iespējams; vienāds spiediens un blīvums nerodas automātiski.</strong> Serdeņa maiņa nosaka paredzēto ģeometriju. Masas daudzums, ūdens saturs, drenāža, spēks un žāvēšana ietekmē rezultātu.</p><div class="table-wrap"><table><thead><tr><th>Lielums</th><th>Ko var turēt vienādu</th><th>Kas jāpārbauda</th></tr></thead><tbody><tr><td>Ārējā forma un augstums</td><td>Mērķis: Ø90 / Ø65 mm, H70 mm un 4 mm dibens visiem serdeņiem.</td><td>Jāizlabo pamatnes/STOP atskaites un pamatnes ligzdas sadure. Sausais augstums var atšķirties sarukuma dēļ.</td></tr><tr><td>Spiediens</td><td>Var definēt un kontrolēt vienu nominālu salīdzināšanas rādītāju un presēšanas laiku.</td><td>Jāmēra spēks un jānorāda laukums. Vienādi skrūves apgriezieni vai spēks nedod vienādu lokālo spiedienu.</td></tr><tr><td>Blīvums</td><td>Var noteikt vienāda blīvuma mērķi, pielāgot sauso devu un kalibrēt procesu.</td><td>Jāizmēra sasniegtā sausā masa un materiāla tilpums. Vienāds slapjās masas daudzums to nenodrošina.</td></tr><tr><td>Sienas biezums</td><td>Tas ir izvēlētais pētījuma mainīgais: 3 / 4 / 5 mm.</td><td>Jāmēra faktiskās sausās sienas vairākos augstumos un virzienos; jāuzskaita arī blīvuma atšķirības.</td></tr></tbody></table></div>
+<h3>Biezākai sienai vajadzēs vairāk sausā materiāla</h3><p>Zemāk ir <strong>ideālas, izlabotas mērķa ģeometrijas</strong> aprēķins: H70 mm, ārējie diametri 90 / 65 mm, 4 mm dibens un konstanta radiālā sienas sprauga. Šie nav pašreizējās V4.1 ģeometrijas faktiskie tilpumi. Tilpums ir podiņa materiālam, nevis tukšajai iekšpusei.</p><div class="table-wrap"><table><thead><tr><th scope="col">Mērķa radiālā siena</th><th scope="col">Aprēķinātais materiāla tilpums</th><th scope="col">Relatīvā sausā deva</th></tr></thead><tbody><tr><td>3 mm</td><td>60,353 cm³</td><td>1,000</td></tr><tr><td>4 mm</td><td>75,119 cm³</td><td>1,245</td></tr><tr><td>5 mm</td><td>89,470 cm³</td><td>1,482</td></tr></tbody></table></div><p>Vienāda plānotā blīvuma sausās devas attiecība ir apmēram <strong>1 : 1,245 : 1,482</strong>. Bāzes devu nosaka izmēģinājumā; ņem vērā arī drenāžā zaudētās šķiedras. Vienāds sākotnējais sausnas daudzums uz mitrās formas tilpumu vēl negarantē vienādu blīvumu pēc žāvēšanas.</p>
+<details class="project-section"><summary>Kāpēc vienāds spēks nav vienāds spiediens?</summary><div class="section-body"><p>Ja salīdzināšanai definē <strong>p = F / A</strong> un izvēlas serdes augšmalas projekcijas laukumu, Ø84 / Ø82 / Ø80 mm serdeņiem laukumi ir aptuveni 5542 / 5281 / 5027 mm². Pie vienāda spēka šādi definētais nominālais spiediens 5 mm variantam būtu par <strong>10,25%</strong> lielāks nekā 3 mm variantam.</p><p>Tas ir salīdzināšanas indekss. Konusveida sieniņās spiediens berzes un ūdens plūsmas dēļ ir nevienmērīgs. Kad STOP balstās pret kameru, daļa papildu spēka aiziet pa cietajām detaļām; visu skrūves spēku vairs nevar attiecināt uz masu.</p><p>Spēku mēra ar piemērotu spēka devēju vai presi ar spēka rādījumu, vienā vietā un noteiktā cikla brīdī. Precīzu spēku nevar noteikt tikai pēc ar roku pielikta skrūves griezes momenta.</p></div></details>
+<h3>Vienkāršs skolas eksperimenta plāns</h3><ol><li>Sagatavo vienu papīra un lapu sausā maisījuma partiju, vienādu sasmalcināšanu un ūdens/sausnas attiecību.</li><li>Visiem variantiem lieto vienādu marli, kārtu skaitu, drenāžas sākuma laiku un dokumentētu presēšanas ciklu.</li><li>Ja pēti vienāda procesa rezultātu, turies pie viena presēšanas protokola un <strong>blīvumu uzskati par mērāmu rezultātu</strong>. Ja gribi salīdzināt sienas pie vienāda blīvuma, vispirms kalibrē devu un procesu un pārbaudi gala blīvumu; vajadzīgais spēks var atšķirties.</li><li>Žāvē vienādos apstākļos līdz vienādi definētam masas stabilitātes kritērijam. Nomēri sauso augstumu, sienas un dibenu vairākās vietās.</li><li>Aprēķini <strong>blīvumu = sausā masa / faktiskais sausā podiņa materiāla tilpums</strong>. Tukšo iekšpusi materiāla tilpumā neiekļauj.</li><li>Veic vismaz 3 atkārtojumus katram biezumam; vēlams 5, mainot paraugu izgatavošanas secību. Visiem lieto vienādu izturības pārbaudes metodi.</li></ol><a class="button" href="/podins/files/Marle_un_izmeginajums_LV.txt" download>Marles un eksperimenta piezīmes · TXT</a></section>
+
+<section id="uzlabojumi"><h2>Ko uzlabot vispirms</h2><ol><li><strong>Salāgošanu un īsto dobumu.</strong> V4.1 austiņu sadure un to ievirzīšanās dobumā ir labota. Nākamais darbs — dobuma konusam jāsaglabā Ø65 pie Z0 un Ø90 pie Z70.</li><li><strong>Vienu kopīgu augstuma atskaiti.</strong> Pamatni, marli, formas sēžu, serdeņa apakšu un STOP saskaņot ar 4 mm dibenu un 70 mm augstuma mērķi.</li><li><strong>Marles balstu un drenāžu.</strong> Plakana, stingra integrēta pamatnes virsma ar brīvu ūdens izplūdi, lai audums neieliektos caurumos.</li><li><strong>Tīrus tīklus un atstarpes.</strong> Salabot kameras 12 atvērtās malas un STL defektus, nodrošināt pozitīvu spraugu starp kameru un M6 stieņiem; pēc labojumiem pārbaudes atkārtot.</li><li><strong>M12 spēka pārvadi un mērīšanu.</strong> Aksiāli noturēts metāla balsta uzgrieznis zem plāksnes vai piemērots fiksators, metāla spiedpēda un spēka mērījums. Brīva uzgriežņa ligzda plāksnes augšpusē nenoslēdz reakcijas spēka ceļu.</li></ol><p class="small">Ieteikumi nav PETG pieļaujamās slodzes aprēķins. Spēka robeža, drukas precizitāte, ilglaicīgā deformācija un faktiskā masas drenāža vēl jānosaka izmēģinājumos.</p></section>
+
+<section id="blender-kods"><p class="eyebrow">V4.1 kods · pielāgotas sānu austiņas</p><h2>Blender Python kods</h2><p>Kopē visu kodu vienā Blender Text Editor dokumentā. Koda sākumā atrodas izmēru un pielaižu parametri.</p><div class="pot-actions"><button class="primary" id="copy-pot-code" type="button">Kopēt visu kodu</button><a class="button" href="/podins/files/NO_KOKA_UZ_KOKU_Podina_prototips.py" download>Lejupielādēt PY</a><a class="button" href="/podins/files/NO_KOKA_UZ_KOKU_Podina_prototips.zip" download>Blender komplekts · ZIP</a></div><p id="copy-status" class="small" role="status" aria-live="polite"></p><details id="pot-code-details" class="project-section"><summary>Skatīt visu kodu · 1966 rindas</summary><pre class="pot-code"><code id="pot-code">import bpy
+import math
+from mathutils import Vector
+import bmesh
+
+# ============================================================
+# NO KOKA UZ KOKU — UNIVERSĀLĀ SPIEDFORMA V4.1 — SLĪPĀS AUSTIŅAS
+# Ar maināmiem 3/4/5 mm serdeņiem un pārplūdes kameru
+# Visi izmēri milimetros
+# ============================================================
+
+# ---------- PODIŅŠ ----------
+POT_H = 70.0
+POT_TOP_OD = 90.0
+POT_BOTTOM_OD = 65.0
+POT_BOTTOM_T = 4.0
+WALL_OPTIONS = (3.0, 4.0, 5.0)
+
+# ---------- ĀRĒJĀ FORMA ----------
+MOLD_WALL = 10.0
+MOLD_TOP_OD = POT_TOP_OD + 2.0 * MOLD_WALL       # 110
+MOLD_BOTTOM_OD = POT_BOTTOM_OD + 2.0 * MOLD_WALL # 85
+
+# ---------- PĀRPLŪDES KAMERA ----------
+OVERFLOW_H = 12.0
+OVERFLOW_ID = 102.0
+OVERFLOW_OD = 124.0
+OVERFLOW_SKIRT_H = 3.0
+OVERFLOW_SKIRT_ID = MOLD_TOP_OD + 0.8
+TRIM_Z = POT_H
+
+# ---------- SERDEŅA AUGŠDAĻA ----------
+STOP_D = 118.0
+STOP_T = 6.0
+PRESS_PAD_D = 32.0
+PRESS_PAD_H = 10.0
+
+# ---------- SALIKŠANAS TOLERANCES ----------
+PIN_D = 5.0
+PIN_HOLE_D = 5.6
+PIN_EXTEND = 6.0
+PIN_OVERLAP = 2.0
+
+M6_CLEARANCE = 6.8
+M12_CLEARANCE = 13.5
+M12_NUT_AF = 19.5
+M12_NUT_DEPTH = 5.5
+
+# ---------- SĀNU AUSIS ----------
+EAR_X = 12.0
+EAR_Y = 18.0
+EAR_Z = 16.0
+# V4.1: lokāli uzlabotas sānu austiņas drukai vertikālā orientācijā.
+# Apakšējās pārejas ir 45° pret XY drukas galdu; M6 augšējā
+# cauruma daļa ir 45° jumtiņš, saglabājot Ø6,8 mm apaļo vietu.
+EAR_HOLE_Z = (34.0, 54.0)
+EAR_OUTWARD_OFFSET = 7.0
+EAR_RAMP_RUN = 24.0
+EAR_RAMP_OVERLAP = 0.25
+# Sānu stiprinājumiem: DIN125 M6 Ø12 paplāksnes (ne Ø18).
+# Pārējās V4 pamatnes, STOP un kameras kļūdas vēl jālabo.
+
+# ---------- PAMATNE / AUGŠĒJĀ PLĀKSNE ----------
+BASE_D = 150.0
+BASE_T = 10.0
+
+TOP_D = 150.0
+TOP_T = 10.0
+
+ROD_RADIUS = 65.0
+ROD_HOLE_D = 6.8
+
+# ---------- SIETS ----------
+SIEVE_D = 62.0
+SIEVE_T = 1.4
+SIEVE_HOLE_D = 2.6
+
+# ---------- VENTILĀCIJA ----------
+VENT_D = 2.2
+VENT_Z = 56.0
+VENT_COUNT = 8
+
+# ---------- PAMATNES LIGZDA ----------
+MOLD_SEAT_DEPTH = 2.5
+MOLD_SEAT_OUTER_D = MOLD_BOTTOM_OD + 0.8
+MOLD_SEAT_INNER_D = POT_BOTTOM_OD - 0.8
+
+
+# ============================================================
+# BLENDER VIENĪBAS
+# ============================================================
+
+scene = bpy.context.scene
+scene.unit_settings.system = &#x27;METRIC&#x27;
+scene.unit_settings.length_unit = &#x27;MILLIMETERS&#x27;
+scene.unit_settings.scale_length = 0.001
+
+
+# ============================================================
+# PALĪGFUNKCIJAS
+# ============================================================
+
+def ensure_object_mode():
+
+    if (
+        bpy.context.object is not None
+        and bpy.context.object.mode != &#x27;OBJECT&#x27;
+    ):
+
+        bpy.ops.object.mode_set(
+            mode=&#x27;OBJECT&#x27;
+        )
+
+
+def clear_scene():
+
+    ensure_object_mode()
+
+    bpy.ops.object.select_all(
+        action=&#x27;SELECT&#x27;
+    )
+
+    bpy.ops.object.delete(
+        use_global=False
+    )
+
+
+def set_active(obj):
+
+    ensure_object_mode()
+
+    bpy.ops.object.select_all(
+        action=&#x27;DESELECT&#x27;
+    )
+
+    obj.select_set(True)
+
+    bpy.context.view_layer.objects.active = obj
+
+
+def add_cylinder(
+    name,
+    diameter,
+    height,
+    z0=0.0,
+    vertices=96
+):
+
+    bpy.ops.mesh.primitive_cylinder_add(
+
+        vertices=vertices,
+
+        radius=diameter / 2.0,
+
+        depth=height,
+
+        end_fill_type=&#x27;NGON&#x27;,
+
+        location=(
+            0.0,
+            0.0,
+            z0 + height / 2.0
+        )
+    )
+
+    obj = bpy.context.object
+
+    obj.name = name
+
+    return obj
+
+
+def add_frustum(
+    name,
+    bottom_d,
+    top_d,
+    height,
+    z0=0.0,
+    vertices=128
+):
+
+    bpy.ops.mesh.primitive_cone_add(
+
+        vertices=vertices,
+
+        radius1=bottom_d / 2.0,
+
+        radius2=top_d / 2.0,
+
+        depth=height,
+
+        end_fill_type=&#x27;NGON&#x27;,
+
+        location=(
+            0.0,
+            0.0,
+            z0 + height / 2.0
+        )
+    )
+
+    obj = bpy.context.object
+
+    obj.name = name
+
+    return obj
+
+
+def add_cube(
+    name,
+    dims,
+    loc
+):
+
+    bpy.ops.mesh.primitive_cube_add(
+        size=2.0,
+        location=loc
+    )
+
+    obj = bpy.context.object
+
+    obj.name = name
+
+    obj.dimensions = dims
+
+    set_active(obj)
+
+    bpy.ops.object.transform_apply(
+        location=False,
+        rotation=False,
+        scale=True
+    )
+
+    return obj
+
+
+def add_cylinder_between(
+    name,
+    diameter,
+    p1,
+    p2,
+    vertices=64
+):
+
+    p1 = Vector(p1)
+    p2 = Vector(p2)
+
+    direction = p2 - p1
+
+    length = direction.length
+
+    midpoint = (
+        p1 + p2
+    ) / 2.0
+
+
+    bpy.ops.mesh.primitive_cylinder_add(
+
+        vertices=vertices,
+
+        radius=diameter / 2.0,
+
+        depth=length,
+
+        end_fill_type=&#x27;NGON&#x27;,
+
+        location=midpoint
+    )
+
+
+    obj = bpy.context.object
+
+    obj.name = name
+
+
+    obj.rotation_mode = &#x27;QUATERNION&#x27;
+
+    obj.rotation_quaternion = (
+        direction.to_track_quat(
+            &#x27;Z&#x27;,
+            &#x27;Y&#x27;
+        )
+    )
+
+
+    return obj
+
+
+def add_yz_prism(name, x0, x1, yz_points):
+    &quot;&quot;&quot;Slēgta prizma ar atklāti definētu YZ profilu; izmēri mm.&quot;&quot;&quot;
+    count = len(yz_points)
+    verts = [(x, y, z) for x in (x0, x1) for y, z in yz_points]
+    faces = [tuple(reversed(range(count))), tuple(range(count, 2 * count))]
+    faces += [(i, (i + 1) % count, (i + 1) % count + count, i + count) for i in range(count)]
+    mesh = bpy.data.meshes.new(name + &#x27;_MESH&#x27;)
+    mesh.from_pydata(verts, [], faces)
+    mesh.update()
+    bm = bmesh.new()
+    bm.from_mesh(mesh)
+    bmesh.ops.recalc_face_normals(bm, faces=list(bm.faces))
+    bm.to_mesh(mesh)
+    bm.free()
+    obj = bpy.data.objects.new(name, mesh)
+    bpy.context.collection.objects.link(obj)
+    return obj
+
+
+def add_m6_teardrop(name, y, z):
+    &quot;&quot;&quot;Ø6,8 mm apaļā daļa + 45° jumtiņš; ass paralēla X.&quot;&quot;&quot;
+    cutter = add_cylinder_between(name, M6_CLEARANCE, (-20, y, z), (20, y, z), vertices=64)
+    radius = M6_CLEARANCE / 2.0
+    tangent = radius / math.sqrt(2.0)
+    roof = add_yz_prism(name + &#x27;_45_ROOF&#x27;, -20, 20, [
+        (y - tangent, z + tangent),
+        (y + tangent, z + tangent),
+        (y, z + radius * math.sqrt(2.0)),
+    ])
+    boolean_apply(cutter, roof, &#x27;UNION&#x27;)
+    return cutter
+
+
+def boolean_apply(
+    target,
+    tool,
+    operation=&#x27;DIFFERENCE&#x27;
+):
+
+    if target is None or tool is None:
+
+        raise RuntimeError(
+            &quot;Boolean: trūkst target vai tool objekta.&quot;
+        )
+
+
+    set_active(target)
+
+
+    modifier = target.modifiers.new(
+        name=&quot;BOOL_TEMP&quot;,
+        type=&#x27;BOOLEAN&#x27;
+    )
+
+    modifier.operation = operation
+
+    modifier.solver = &#x27;EXACT&#x27;
+
+    modifier.object = tool
+
+
+    bpy.context.view_layer.update()
+
+
+    try:
+
+        bpy.ops.object.modifier_apply(
+            modifier=modifier.name
+        )
+
+    except Exception as error:
+
+        raise RuntimeError(
+
+            f&quot;Boolean kļūda objektam &quot;
+            f&quot;&#x27;{target.name}&#x27; ar &quot;
+            f&quot;&#x27;{tool.name}&#x27;: {error}&quot;
+
+        )
+
+
+    if tool.name in bpy.data.objects:
+
+        bpy.data.objects.remove(
+            tool,
+            do_unlink=True
+        )
+
+
+    if target.type == &#x27;MESH&#x27;:
+
+        target.data.validate(
+            verbose=False
+        )
+
+        target.data.update()
+
+
+def copy_object(
+    obj,
+    new_name
+):
+
+    new_obj = obj.copy()
+
+    new_obj.data = obj.data.copy()
+
+    bpy.context.collection.objects.link(
+        new_obj
+    )
+
+    new_obj.name = new_name
+
+    return new_obj
+
+
+def radius_at_z(
+    bottom_d,
+    top_d,
+    z,
+    height
+):
+
+    r0 = bottom_d / 2.0
+
+    r1 = top_d / 2.0
+
+
+    return (
+        r0
+        +
+        (r1 - r0)
+        *
+        (z / height)
+    )
+
+
+def make_hex_prism(
+    name,
+    across_flats,
+    height,
+    z0=0.0
+):
+
+    radius = (
+        across_flats
+        /
+        (
+            2.0
+            *
+            math.cos(
+                math.radians(30.0)
+            )
+        )
+    )
+
+
+    bpy.ops.mesh.primitive_cylinder_add(
+
+        vertices=6,
+
+        radius=radius,
+
+        depth=height,
+
+        end_fill_type=&#x27;NGON&#x27;,
+
+        location=(
+            0.0,
+            0.0,
+            z0 + height / 2.0
+        )
+    )
+
+
+    obj = bpy.context.object
+
+    obj.name = name
+
+    return obj
+
+
+def core_diameter_at_z(
+    wall_mm,
+    z
+):
+
+    # Ārējās podiņa formas koniskums
+    outer_d = (
+        POT_BOTTOM_OD
+        +
+        (
+            POT_TOP_OD
+            -
+            POT_BOTTOM_OD
+        )
+        *
+        (
+            z / POT_H
+        )
+    )
+
+
+    # Serdenis ir par 2 x sienas biezumu mazāks
+    return (
+        outer_d
+        -
+        2.0 * wall_mm
+    )
+
+
+# ============================================================
+# TĪRA SCĒNA
+# ============================================================
+
+clear_scene()
+
+
+# ============================================================
+# 01 + 02 — DIVDAĻĪGA ĀRĒJĀ FORMA
+# ============================================================
+
+shell = add_frustum(
+
+    &quot;MOLD_FULL&quot;,
+
+    MOLD_BOTTOM_OD,
+
+    MOLD_TOP_OD,
+
+    POT_H
+)
+
+
+# Izgriežam podiņa ārējo ģeometriju
+
+cavity = add_frustum(
+
+    &quot;POT_CAVITY&quot;,
+
+    POT_BOTTOM_OD,
+
+    POT_TOP_OD,
+
+    POT_H + 2.0,
+
+    z0=-1.0
+)
+
+
+boolean_apply(
+    shell,
+    cavity,
+    &#x27;DIFFERENCE&#x27;
+)
+
+
+# ============================================================
+# VENTILĀCIJAS CAURUMI
+# ============================================================
+
+inner_r = radius_at_z(
+
+    POT_BOTTOM_OD,
+
+    POT_TOP_OD,
+
+    VENT_Z,
+
+    POT_H
+)
+
+
+outer_r = radius_at_z(
+
+    MOLD_BOTTOM_OD,
+
+    MOLD_TOP_OD,
+
+    VENT_Z,
+
+    POT_H
+)
+
+
+for i in range(VENT_COUNT):
+
+    angle = (
+        2.0
+        *
+        math.pi
+        *
+        i
+        /
+        VENT_COUNT
+        +
+        math.radians(22.5)
+    )
+
+
+    direction = Vector((
+
+        math.cos(angle),
+
+        math.sin(angle),
+
+        0.0
+
+    ))
+
+
+    p1 = direction * (
+        inner_r - 1.0
+    )
+
+
+    p2 = direction * (
+        outer_r + 3.0
+    )
+
+
+    p1.z = VENT_Z
+
+    p2.z = VENT_Z
+
+
+    vent = add_cylinder_between(
+
+        f&quot;VENT_{i}&quot;,
+
+        VENT_D,
+
+        p1,
+
+        p2,
+
+        vertices=32
+    )
+
+
+    boolean_apply(
+
+        shell,
+
+        vent,
+
+        &#x27;DIFFERENCE&#x27;
+    )
+
+
+# ============================================================
+# SADALĀM FORMU DIVĀS DAĻĀS
+# ============================================================
+
+left = copy_object(
+    shell,
+    &quot;01_MOLD_LEFT&quot;
+)
+
+
+right = copy_object(
+    shell,
+    &quot;02_MOLD_RIGHT&quot;
+)
+
+
+left_box = add_cube(
+
+    &quot;LEFT_HALF_BOX&quot;,
+
+    (
+        400.0,
+        400.0,
+        200.0
+    ),
+
+    (
+        -200.0,
+        0.0,
+        POT_H / 2.0
+    )
+)
+
+
+boolean_apply(
+    left,
+    left_box,
+    &#x27;INTERSECT&#x27;
+)
+
+
+right_box = add_cube(
+
+    &quot;RIGHT_HALF_BOX&quot;,
+
+    (
+        400.0,
+        400.0,
+        200.0
+    ),
+
+    (
+        200.0,
+        0.0,
+        POT_H / 2.0
+    )
+)
+
+
+boolean_apply(
+    right,
+    right_box,
+    &#x27;INTERSECT&#x27;
+)
+
+
+bpy.data.objects.remove(
+    shell,
+    do_unlink=True
+)
+
+
+# ============================================================
+# POZICIONĒŠANAS TAPAS / LIGZDAS
+# ============================================================
+
+pin_z = 35.0
+
+
+pin_outer_r = radius_at_z(
+
+    MOLD_BOTTOM_OD,
+
+    MOLD_TOP_OD,
+
+    pin_z,
+
+    POT_H
+)
+
+
+pin_y_abs = (
+    pin_outer_r - 5.0
+)
+
+
+for i, y in enumerate(
+
+    (
+        pin_y_abs,
+        -pin_y_abs
+    )
+
+):
+
+
+    pin = add_cylinder_between(
+
+        f&quot;ALIGN_PIN_{i}&quot;,
+
+        PIN_D,
+
+        (
+            -PIN_OVERLAP,
+            y,
+            pin_z
+        ),
+
+        (
+            PIN_EXTEND,
+            y,
+            pin_z
+        ),
+
+        vertices=48
+    )
+
+
+    boolean_apply(
+        left,
+        pin,
+        &#x27;UNION&#x27;
+    )
+
+
+    socket = add_cylinder_between(
+
+        f&quot;ALIGN_SOCKET_{i}&quot;,
+
+        PIN_HOLE_D,
+
+        (
+            -0.5,
+            y,
+            pin_z
+        ),
+
+        (
+            PIN_EXTEND + 0.8,
+            y,
+            pin_z
+        ),
+
+        vertices=48
+    )
+
+
+    boolean_apply(
+        right,
+        socket,
+        &#x27;DIFFERENCE&#x27;
+    )
+
+
+# ============================================================
+# SĀNU M6 SKRŪVJU AUSIS
+# ============================================================
+
+ear_index = 0
+for z in EAR_HOLE_Z:
+    local_outer_r = radius_at_z(MOLD_BOTTOM_OD, MOLD_TOP_OD, z, POT_H)
+    for sign in (1.0, -1.0):
+        y = sign * (local_outer_r + EAR_OUTWARD_OFFSET)
+        y_outer = local_outer_r + EAR_OUTWARD_OFFSET + EAR_Y / 2.0
+        y_root = y_outer - EAR_RAMP_RUN
+        z_bottom = z - EAR_Z / 2.0
+        z_root = z_bottom - EAR_RAMP_RUN
+        assert z_root &gt;= 0.0, &#x27;45° balsts nedrīkst iziet zem formas pamatnes&#x27;
+        for obj, x0, x1, center_x, side in (
+            (left, -EAR_X, 0.0, -EAR_X / 2.0, &#x27;L&#x27;),
+            (right, 0.0, EAR_X, EAR_X / 2.0, &#x27;R&#x27;),
+        ):
+            ear = add_cube(f&#x27;EAR_{side}_{ear_index}&#x27;, (EAR_X, EAR_Y, EAR_Z), (center_x, y, z))
+            boolean_apply(obj, ear, &#x27;UNION&#x27;)
+            ramp = add_yz_prism(f&#x27;EAR_45_SUPPORT_{side}_{ear_index}&#x27;, x0, x1, [
+                (sign * y_root, z_root),
+                (sign * y_outer, z_bottom),
+                (sign * y_outer, z_bottom + EAR_RAMP_OVERLAP),
+                (sign * y_root, z_bottom + EAR_RAMP_OVERLAP),
+            ])
+            boolean_apply(obj, ramp, &#x27;UNION&#x27;)
+        ear_index += 1
+
+# Pēc VISIEM austiņu savienojumiem atjauno dobumu un ligzdas.
+# Tas neļauj jaunajiem balstiem iestiepties podiņa masā vai aizpildīt tapu ligzdas.
+for obj, side in ((left, &#x27;L&#x27;), (right, &#x27;R&#x27;)):
+    cavity_recut = add_frustum(&#x27;CAVITY_RECUT_&#x27; + side, POT_BOTTOM_OD, POT_TOP_OD, POT_H + 2.0, z0=-1.0)
+    boolean_apply(obj, cavity_recut, &#x27;DIFFERENCE&#x27;)
+for i, y in enumerate((pin_y_abs, -pin_y_abs)):
+    socket = add_cylinder_between(f&#x27;ALIGN_SOCKET_RECUT_{i}&#x27;, PIN_HOLE_D,
+        (-0.5, y, pin_z), (PIN_EXTEND + 0.8, y, pin_z), vertices=48)
+    boolean_apply(right, socket, &#x27;DIFFERENCE&#x27;)
+for z in EAR_HOLE_Z:
+    local_outer_r = radius_at_z(MOLD_BOTTOM_OD, MOLD_TOP_OD, z, POT_H)
+    for sign in (1.0, -1.0):
+        y = sign * (local_outer_r + EAR_OUTWARD_OFFSET)
+        for obj, side in ((left, &#x27;L&#x27;), (right, &#x27;R&#x27;)):
+            hole = add_m6_teardrop(&#x27;M6_SIDE_&#x27; + side, y, z)
+            boolean_apply(obj, hole, &#x27;DIFFERENCE&#x27;)
+
+# Mikroskopisku Boolean šķembu apvienošana tikai abām pārveidotajām pusēm.
+# 0,0001 mm ir ievērojami mazāk par drukas pielaidēm; nepieļauj
+# float32 STL triangulācijas sabrukšanu gandrīz sakritušās virsotnēs.
+for obj in (left, right):
+    bm = bmesh.new()
+    bm.from_mesh(obj.data)
+    bmesh.ops.remove_doubles(bm, verts=list(bm.verts), dist=0.0001)
+    bmesh.ops.triangulate(bm, faces=list(bm.faces), quad_method=&#x27;BEAUTY&#x27;, ngon_method=&#x27;EAR_CLIP&#x27;)
+    bmesh.ops.dissolve_degenerate(bm, edges=list(bm.edges), dist=0.0001)
+    # Divi koplanāro šķembu sakārtošanas cikli; ģeometriskās plaknes nemainās.
+    for _cleanup_pass in range(2):
+        bmesh.ops.dissolve_limit(bm, angle_limit=0.00001, use_dissolve_boundaries=False,
+            verts=list(bm.verts), edges=list(bm.edges), delimit=set())
+        bmesh.ops.triangulate(bm, faces=list(bm.faces), quad_method=&#x27;BEAUTY&#x27;, ngon_method=&#x27;BEAUTY&#x27;)
+        bmesh.ops.dissolve_degenerate(bm, edges=list(bm.edges), dist=0.0001)
+    # Exact Boolean var radīt pretēji vērstu, sakritušu nulles tilpuma seju pāri.
+    # Dzēš tikai abus precīzi vienādā virsotņu kopā esošos pretējos poligonus.
+    bm.verts.index_update()
+    bm.normal_update()
+    _face_groups = {}
+    for _face in bm.faces:
+        _key = tuple(sorted(_vert.index for _vert in _face.verts))
+        _face_groups.setdefault(_key, []).append(_face)
+    _opposite_duplicates = []
+    for _faces in _face_groups.values():
+        if len(_faces) == 2 and _faces[0].normal.dot(_faces[1].normal) &lt; -0.999999:
+            _opposite_duplicates.extend(_faces)
+    if _opposite_duplicates:
+        bmesh.ops.delete(bm, geom=_opposite_duplicates, context=&#x27;FACES_ONLY&#x27;)
+    _wire_edges = [_edge for _edge in bm.edges if not _edge.link_faces]
+    if _wire_edges:
+        bmesh.ops.delete(bm, geom=_wire_edges, context=&#x27;EDGES&#x27;)
+    _loose_verts = [_vert for _vert in bm.verts if not _vert.link_edges]
+    if _loose_verts:
+        bmesh.ops.delete(bm, geom=_loose_verts, context=&#x27;VERTS&#x27;)
+    bmesh.ops.recalc_face_normals(bm, faces=list(bm.faces))
+    bm.to_mesh(obj.data)
+    bm.free()
+    obj.data.update()
+    obj[&#x27;BOOLEAN_CLEANUP_MM&#x27;] = 0.0001
+
+left[&#x27;EAR_UPDATE&#x27;] = &#x27;V4.1: 45-degree lower ramps, teardrop M6 roofs, flush split faces&#x27;
+right[&#x27;EAR_UPDATE&#x27;] = left[&#x27;EAR_UPDATE&#x27;]
+left[&#x27;EAR_HOLE_Z_MM&#x27;] = list(EAR_HOLE_Z)
+right[&#x27;EAR_HOLE_Z_MM&#x27;] = list(EAR_HOLE_Z)
+left[&#x27;EAR_WASHER_OD_MM&#x27;] = 12.0
+right[&#x27;EAR_WASHER_OD_MM&#x27;] = 12.0
+
+left[&quot;PRINT_PART&quot;] = True
+right[&quot;PRINT_PART&quot;] = True
+
+
+# ============================================================
+# 03 — PĀRPLŪDES GREDZENS / KAMERA
+# ============================================================
+
+overflow = add_cylinder(
+
+    &quot;03_OVERFLOW_COLLAR&quot;,
+
+    OVERFLOW_OD,
+
+    OVERFLOW_H,
+
+    z0=0.0
+)
+
+
+# Izgriežam kameras centru
+
+overflow_inner = add_cylinder(
+
+    &quot;OVERFLOW_INNER&quot;,
+
+    OVERFLOW_ID,
+
+    OVERFLOW_H + 2.0,
+
+    z0=-1.0
+)
+
+
+boolean_apply(
+
+    overflow,
+
+    overflow_inner,
+
+    &#x27;DIFFERENCE&#x27;
+)
+
+
+# ============================================================
+# APAKŠĒJAIS CENTRĒŠANAS SVĀRKS
+#
+# Tas uzslīd uz ārējās formas augšējās daļas,
+# lai pārplūdes kamera būtu centrēta.
+# ============================================================
+
+skirt = add_cylinder(
+
+    &quot;OVERFLOW_SKIRT&quot;,
+
+    OVERFLOW_OD,
+
+    OVERFLOW_SKIRT_H,
+
+    z0=-OVERFLOW_SKIRT_H
+)
+
+
+skirt_inner = add_cylinder(
+
+    &quot;OVERFLOW_SKIRT_INNER&quot;,
+
+    OVERFLOW_SKIRT_ID,
+
+    OVERFLOW_SKIRT_H + 1.0,
+
+    z0=(
+        -OVERFLOW_SKIRT_H
+        -
+        0.5
+    )
+)
+
+
+boolean_apply(
+
+    skirt,
+
+    skirt_inner,
+
+    &#x27;DIFFERENCE&#x27;
+)
+
+
+boolean_apply(
+
+    overflow,
+
+    skirt,
+
+    &#x27;UNION&#x27;
+)
+
+
+# ============================================================
+# PĀRPLŪDES KAMERAS GAISA ATVERES
+# ============================================================
+
+for i in range(6):
+
+
+    angle = (
+        2.0
+        *
+        math.pi
+        *
+        i
+        /
+        6.0
+    )
+
+
+    direction = Vector((
+
+        math.cos(angle),
+
+        math.sin(angle),
+
+        0.0
+
+    ))
+
+
+    p1 = direction * (
+        OVERFLOW_ID / 2.0 - 1.0
+    )
+
+
+    p2 = direction * (
+        OVERFLOW_OD / 2.0 + 2.0
+    )
+
+
+    p1.z = (
+        OVERFLOW_H * 0.65
+    )
+
+
+    p2.z = (
+        OVERFLOW_H * 0.65
+    )
+
+
+    vent = add_cylinder_between(
+
+        f&quot;OVERFLOW_VENT_{i}&quot;,
+
+        2.0,
+
+        p1,
+
+        p2,
+
+        vertices=32
+    )
+
+
+    boolean_apply(
+
+        overflow,
+
+        vent,
+
+        &#x27;DIFFERENCE&#x27;
+    )
+
+
+overflow[&quot;PRINT_PART&quot;] = True
+
+overflow[&quot;DESCRIPTION&quot;] = (
+    &quot;Pārplūdes kamera liekajai masai&quot;
+)
+
+
+# ============================================================
+# 04 / 05 / 06 — MAINĀMIE SERDEŅI
+# ============================================================
+
+def make_core(
+    wall_mm,
+    object_name
+):
+
+
+    # Serdenis sākas 4 mm virs podiņa apakšas
+    core_z0 = POT_BOTTOM_T
+
+
+    # Serdenis turpinās līdz pārplūdes kameras augšai
+    core_body_h = (
+
+        POT_H
+        +
+        OVERFLOW_H
+        -
+        POT_BOTTOM_T
+
+    )
+
+
+    bottom_d = core_diameter_at_z(
+
+        wall_mm,
+
+        POT_BOTTOM_T
+    )
+
+
+    top_d = core_diameter_at_z(
+
+        wall_mm,
+
+        POT_H + OVERFLOW_H
+    )
+
+
+    core = add_frustum(
+
+        object_name,
+
+        bottom_d,
+
+        top_d,
+
+        core_body_h,
+
+        z0=core_z0
+    )
+
+
+    # ========================================================
+    # STOP GREDZENS
+    #
+    # Kad tas pieskaras pārplūdes kameras augšai,
+    # serde vairs nevar tikt spiesta zemāk.
+    # ========================================================
+
+    stop = add_cylinder(
+
+        f&quot;{object_name}_STOP&quot;,
+
+        STOP_D,
+
+        STOP_T,
+
+        z0=(
+            POT_H
+            +
+            OVERFLOW_H
+        )
+    )
+
+
+    boolean_apply(
+
+        core,
+
+        stop,
+
+        &#x27;UNION&#x27;
+    )
+
+
+    # ========================================================
+    # SPIEDIENA BALSTS
+    # ========================================================
+
+    pad = add_cylinder(
+
+        f&quot;{object_name}_PAD&quot;,
+
+        PRESS_PAD_D,
+
+        PRESS_PAD_H,
+
+        z0=(
+            POT_H
+            +
+            OVERFLOW_H
+            +
+            STOP_T
+        )
+    )
+
+
+    boolean_apply(
+
+        core,
+
+        pad,
+
+        &#x27;UNION&#x27;
+    )
+
+
+    core[&quot;PRINT_PART&quot;] = True
+
+    core[&quot;WALL_THICKNESS_MM&quot;] = wall_mm
+
+    core[&quot;CORE_D_AT_POT_BOTTOM_MM&quot;] = (
+        bottom_d
+    )
+
+    core[&quot;CORE_D_AT_TRIM_PLANE_MM&quot;] = (
+        core_diameter_at_z(
+            wall_mm,
+            POT_H
+        )
+    )
+
+    core[&quot;CORE_D_AT_OVERFLOW_TOP_MM&quot;] = (
+        top_d
+    )
+
+
+    return core
+
+
+core3 = make_core(
+    3.0,
+    &quot;04_CORE_3MM&quot;
+)
+
+
+core4 = make_core(
+    4.0,
+    &quot;05_CORE_4MM&quot;
+)
+
+
+core5 = make_core(
+    5.0,
+    &quot;06_CORE_5MM&quot;
+)
+
+
+# ============================================================
+# 07 — PAMATNE
+# ============================================================
+
+base = add_cylinder(
+
+    &quot;07_BASE&quot;,
+
+    BASE_D,
+
+    BASE_T
+)
+
+
+# ============================================================
+# GREDZENVEIDA LIGZDA ĀRĒJAI FORMAI
+# ============================================================
+
+seat_outer = add_cylinder(
+
+    &quot;SEAT_OUTER&quot;,
+
+    MOLD_SEAT_OUTER_D,
+
+    MOLD_SEAT_DEPTH + 0.5,
+
+    z0=(
+        BASE_T
+        -
+        MOLD_SEAT_DEPTH
+    )
+)
+
+
+seat_inner = add_cylinder(
+
+    &quot;SEAT_INNER&quot;,
+
+    MOLD_SEAT_INNER_D,
+
+    MOLD_SEAT_DEPTH + 1.5,
+
+    z0=(
+        BASE_T
+        -
+        MOLD_SEAT_DEPTH
+        -
+        0.5
+    )
+)
+
+
+boolean_apply(
+
+    seat_outer,
+
+    seat_inner,
+
+    &#x27;DIFFERENCE&#x27;
+)
+
+
+boolean_apply(
+
+    base,
+
+    seat_outer,
+
+    &#x27;DIFFERENCE&#x27;
+)
+
+
+# ============================================================
+# SIETA LIGZDA
+# ============================================================
+
+sieve_recess = add_cylinder(
+
+    &quot;SIEVE_RECESS&quot;,
+
+    SIEVE_D + 0.8,
+
+    SIEVE_T + 0.4,
+
+    z0=(
+        BASE_T
+        -
+        SIEVE_T
+    )
+)
+
+
+boolean_apply(
+
+    base,
+
+    sieve_recess,
+
+    &#x27;DIFFERENCE&#x27;
+)
+
+
+# ============================================================
+# DRENĀŽAS CAURUMI
+# ============================================================
+
+drain_positions = [
+
+    (
+        0.0,
+        0.0
+    )
+
+]
+
+
+for radius, count in (
+
+    (
+        14.0,
+        6
+    ),
+
+    (
+        25.0,
+        8
+    )
+
+):
+
+
+    for i in range(count):
+
+
+        angle = (
+            2.0
+            *
+            math.pi
+            *
+            i
+            /
+            count
+        )
+
+
+        drain_positions.append((
+
+            radius
+            *
+            math.cos(angle),
+
+            radius
+            *
+            math.sin(angle)
+
+        ))
+
+
+for i, (
+    x,
+    y
+) in enumerate(
+    drain_positions
+):
+
+
+    hole = add_cylinder_between(
+
+        f&quot;DRAIN_{i}&quot;,
+
+        5.0,
+
+        (
+            x,
+            y,
+            -1.0
+        ),
+
+        (
+            x,
+            y,
+            BASE_T + 1.0
+        ),
+
+        vertices=32
+    )
+
+
+    boolean_apply(
+
+        base,
+
+        hole,
+
+        &#x27;DIFFERENCE&#x27;
+    )
+
+
+# ============================================================
+# PAMATNES 4 x M6 VĪTŅSTIEŅU CAURUMI
+# ============================================================
+
+for i in range(4):
+
+
+    angle = math.radians(
+        45.0
+        +
+        90.0 * i
+    )
+
+
+    x = (
+        ROD_RADIUS
+        *
+        math.cos(angle)
+    )
+
+
+    y = (
+        ROD_RADIUS
+        *
+        math.sin(angle)
+    )
+
+
+    hole = add_cylinder_between(
+
+        f&quot;BASE_ROD_HOLE_{i}&quot;,
+
+        ROD_HOLE_D,
+
+        (
+            x,
+            y,
+            -1.0
+        ),
+
+        (
+            x,
+            y,
+            BASE_T + 1.0
+        ),
+
+        vertices=48
+    )
+
+
+    boolean_apply(
+
+        base,
+
+        hole,
+
+        &#x27;DIFFERENCE&#x27;
+    )
+
+
+base[&quot;PRINT_PART&quot;] = True
+
+
+# ============================================================
+# 08 — SIETIŅŠ
+# ============================================================
+
+sieve = add_cylinder(
+
+    &quot;08_SIEVE&quot;,
+
+    SIEVE_D,
+
+    SIEVE_T
+)
+
+
+sieve_holes = [
+
+    (
+        0.0,
+        0.0
+    )
+
+]
+
+
+for radius, count in (
+
+    (
+        12.0,
+        6
+    ),
+
+    (
+        24.0,
+        12
+    )
+
+):
+
+
+    for i in range(count):
+
+
+        angle = (
+            2.0
+            *
+            math.pi
+            *
+            i
+            /
+            count
+        )
+
+
+        sieve_holes.append((
+
+            radius
+            *
+            math.cos(angle),
+
+            radius
+            *
+            math.sin(angle)
+
+        ))
+
+
+for i, (
+    x,
+    y
+) in enumerate(
+    sieve_holes
+):
+
+
+    hole = add_cylinder_between(
+
+        f&quot;SIEVE_HOLE_{i}&quot;,
+
+        SIEVE_HOLE_D,
+
+        (
+            x,
+            y,
+            -1.0
+        ),
+
+        (
+            x,
+            y,
+            SIEVE_T + 1.0
+        ),
+
+        vertices=24
+    )
+
+
+    boolean_apply(
+
+        sieve,
+
+        hole,
+
+        &#x27;DIFFERENCE&#x27;
+    )
+
+
+sieve[&quot;PRINT_PART&quot;] = True
+
+
+# ============================================================
+# 09 — AUGŠĒJĀ SPIEDPLĀKSNE
+# ============================================================
+
+top = add_cylinder(
+
+    &quot;09_TOP_PLATE&quot;,
+
+    TOP_D,
+
+    TOP_T
+)
+
+
+# ============================================================
+# CENTRĀLAIS M12 CAURUMS
+# ============================================================
+
+centre_hole = add_cylinder_between(
+
+    &quot;TOP_M12_HOLE&quot;,
+
+    M12_CLEARANCE,
+
+    (
+        0.0,
+        0.0,
+        -1.0
+    ),
+
+    (
+        0.0,
+        0.0,
+        TOP_T + 1.0
+    ),
+
+    vertices=64
+)
+
+
+boolean_apply(
+
+    top,
+
+    centre_hole,
+
+    &#x27;DIFFERENCE&#x27;
+)
+
+
+# ============================================================
+# M12 UZGRIEŽŅA LIGZDA
+# ============================================================
+
+nut_pocket = make_hex_prism(
+
+    &quot;M12_NUT_POCKET&quot;,
+
+    M12_NUT_AF,
+
+    M12_NUT_DEPTH + 0.5,
+
+    z0=(
+        TOP_T
+        -
+        M12_NUT_DEPTH
+    )
+)
+
+
+boolean_apply(
+
+    top,
+
+    nut_pocket,
+
+    &#x27;DIFFERENCE&#x27;
+)
+
+
+# ============================================================
+# AUGŠĒJĀS PLĀKSNES 4 x M6 CAURUMI
+# ============================================================
+
+for i in range(4):
+
+
+    angle = math.radians(
+        45.0
+        +
+        90.0 * i
+    )
+
+
+    x = (
+        ROD_RADIUS
+        *
+        math.cos(angle)
+    )
+
+
+    y = (
+        ROD_RADIUS
+        *
+        math.sin(angle)
+    )
+
+
+    hole = add_cylinder_between(
+
+        f&quot;TOP_ROD_HOLE_{i}&quot;,
+
+        ROD_HOLE_D,
+
+        (
+            x,
+            y,
+            -1.0
+        ),
+
+        (
+            x,
+            y,
+            TOP_T + 1.0
+        ),
+
+        vertices=48
+    )
+
+
+    boolean_apply(
+
+        top,
+
+        hole,
+
+        &#x27;DIFFERENCE&#x27;
+    )
+
+
+top[&quot;PRINT_PART&quot;] = True
+
+
+# ============================================================
+# IZKĀRTOJUMS BLENDER APSKATEI
+# ============================================================
+
+left.location = (
+    -120.0,
+    0.0,
+    0.0
+)
+
+
+right.location = (
+    120.0,
+    0.0,
+    0.0
+)
+
+
+overflow.location = (
+    0.0,
+    320,
+    0.0
+)
+
+
+core3.location = (
+    -130.0,
+    170.0,
+    0.0
+)
+
+
+core4.location = (
+    0.0,
+    170.0,
+    0.0
+)
+
+
+core5.location = (
+    130.0,
+    170.0,
+    0.0
+)
+
+
+base.location = (
+    -115.0,
+    -155.0,
+    0.0
+)
+
+
+sieve.location = (
+    0.0,
+    -155.0,
+    0.0
+)
+
+
+top.location = (
+    120.0,
+    -155.0,
+    0.0
+)
+
+
+# ============================================================
+# OBJEKTU INFORMĀCIJA
+# ============================================================
+
+left[&quot;DESCRIPTION&quot;] = (
+    &quot;Kreisā ārējās formas puse&quot;
+)
+
+
+right[&quot;DESCRIPTION&quot;] = (
+    &quot;Labā ārējās formas puse&quot;
+)
+
+
+core3[&quot;DESCRIPTION&quot;] = (
+    &quot;Serdenis 3 mm sienai&quot;
+)
+
+
+core4[&quot;DESCRIPTION&quot;] = (
+    &quot;Serdenis 4 mm sienai&quot;
+)
+
+
+core5[&quot;DESCRIPTION&quot;] = (
+    &quot;Serdenis 5 mm sienai&quot;
+)
+
+
+base[&quot;DESCRIPTION&quot;] = (
+    &quot;Drenāžas pamatne&quot;
+)
+
+
+sieve[&quot;DESCRIPTION&quot;] = (
+    &quot;Perforētais sietiņš&quot;
+)
+
+
+top[&quot;DESCRIPTION&quot;] = (
+    &quot;Augšējā spiedplāksne&quot;
+)
+
+
+# ============================================================
+# PABEIGTS
+# ============================================================
+
+bpy.ops.object.select_all(
+    action=&#x27;DESELECT&#x27;
+)
+
+
+print(&quot;&quot;)
+
+print(
+    &quot;============================================================&quot;
+)
+
+print(
+    &quot;NO KOKA UZ KOKU — V4.1 IZVEIDOTS&quot;
+)
+
+print(
+    &quot;============================================================&quot;
+)
+
+print(
+    &quot;Gala podiņa augstums (TRIM plakne): 70 mm&quot;
+)
+
+print(
+    &quot;Pārplūdes kamera: 12 mm virs gala malas&quot;
+)
+
+print(
+    &quot;Liekā masa tiek novadīta pārplūdes kamerā.&quot;
+)
+
+print(&quot;&quot;)
+
+print(
+    &quot;PRINTĒJAMĀS DETAĻAS:&quot;
+)
+
+
+for name in [
+
+    &quot;01_MOLD_LEFT&quot;,
+
+    &quot;02_MOLD_RIGHT&quot;,
+
+    &quot;03_OVERFLOW_COLLAR&quot;,
+
+    &quot;04_CORE_3MM&quot;,
+
+    &quot;05_CORE_4MM&quot;,
+
+    &quot;06_CORE_5MM&quot;,
+
+    &quot;07_BASE&quot;,
+
+    &quot;08_SIEVE&quot;,
+
+    &quot;09_TOP_PLATE&quot;
+
+]:
+
+    print(
+        &quot; -&quot;,
+        name
+    )
+
+
+print(&quot;&quot;)
+
+print(
+    &quot;Serdeņa diametri pie podiņa augšmalas:&quot;
+)
+
+print(
+    &quot;3 mm siena -&gt;&quot;,
+    core_diameter_at_z(
+        3.0,
+        70.0
+    ),
+    &quot;mm&quot;
+)
+
+print(
+    &quot;4 mm siena -&gt;&quot;,
+    core_diameter_at_z(
+        4.0,
+        70.0
+    ),
+    &quot;mm&quot;
+)
+
+print(
+    &quot;5 mm siena -&gt;&quot;,
+    core_diameter_at_z(
+        5.0,
+        70.0
+    ),
+    &quot;mm&quot;
+)
+
+print(
+    &quot;============================================================&quot;
+)</code></pre></details></section>
+<section id="lietosana"><h2>Kā lietot Blenderī</h2><div class="pot-guide-grid"><article><h3>Gatavā Blender faila atvēršana</h3><ol><li>Lejupielādē <strong>NO_KOKA_UZ_KOKU_Podina_prototips.blend</strong>.</li><li>Blender izvēlies <strong>File → Open</strong> un atver failu.</li><li>Objektu sarakstā <strong>Outliner</strong> izvēlies vajadzīgo detaļu. Nospied <strong>Numpad .</strong> vai <strong>View → Frame Selected</strong>, lai to pietuvinātu.</li><li>Ar peles vidējo pogu grozi skatu, ar ritentiņu pietuvini; <strong>Shift + vidējā poga</strong> pārvieto skatu.</li></ol></article><article><h3>Koda palaišana</h3><ol><li><strong>Saglabā esošo darbu un atver File → New → General.</strong> Skripts izdzēš visus aktīvās ainas objektus.</li><li>Atver darbvietu <strong>Scripting</strong>, Text Editor spied <strong>New</strong>.</li><li>Ielīmē visu kodu vai atver lejupielādēto PY failu.</li><li>Spied <strong>Run Script</strong> vai novieto kursoru koda logā un nospied <strong>Alt+P</strong>. Pagaidi, līdz pabeigtas Boolean darbības.</li><li>Saglabā ar <strong>File → Save As</strong>. Mainot kodu, palaid to no jauna, lai atjaunotu ģeometriju.</li></ol></article></div>
+<details class="project-section" open><summary>Galvenie maināmie izmēri</summary><div class="section-body"><div class="table-wrap"><table><thead><tr><th>Parametrs</th><th>Vērtība kodā</th><th>Ko tas nosaka</th></tr></thead><tbody><tr><td><code>POT_H</code></td><td>70 mm</td><td>Norādītais podiņa augstums</td></tr><tr><td><code>POT_TOP_OD / POT_BOTTOM_OD</code></td><td>90 / 65 mm</td><td>Norādītie ārējie diametri</td></tr><tr><td><code>WALL_OPTIONS / POT_BOTTOM_T</code></td><td>3, 4, 5 / 4 mm</td><td>Trīs serdeņu nominālie sienu biezumi un paredzētais dibens</td></tr><tr><td><code>MOLD_WALL</code></td><td>10 mm</td><td>Ārējās formas sienas parametrs</td></tr><tr><td>Pārejas leņķis no ģeometrijas</td><td>45°</td><td>Slīpais austiņas apakšējais balsts, drukājot stāvus</td></tr><tr><td><code>PIN_D / PIN_HOLE_D</code></td><td>5 / 5,6 mm</td><td>Pozicionēšanas tapas un ligzdas</td></tr><tr><td><code>BASE_D / TOP_D</code></td><td>150 / 150 mm</td><td>Pamatnes un augšējās plāksnes diametri</td></tr><tr><td><code>M6_CLEARANCE / ROD_HOLE_D</code></td><td>6,8 / 6,8 mm</td><td>Sānu skrūvju un vertikālo vītņstieņu caurumi</td></tr><tr><td><code>OVERFLOW_H / OVERFLOW_ID / OVERFLOW_OD</code></td><td>12 / 102 / 124 mm</td><td>Pārplūdes kameras augstums, iekšējais un ārējais diametrs</td></tr><tr><td><code>STOP_D / STOP_T</code></td><td>118 / 6 mm</td><td>Serdeņa augšējā atdure</td></tr><tr><td><code>M12_CLEARANCE</code></td><td>13,5 mm</td><td>Centrālās spiedskrūves caurums</td></tr></tbody></table></div><p>Daļai stiprinājumu un palīgģeometrijas pozīcijas kodā dotas atsevišķi. Mainot podiņa pamatizmērus, pārbaudi arī tapu, skrūvju ausu, centrēšanas gredzena un drenāžas novietojumu. Nomērītais sausā masas podiņa biezums var atšķirties no koda parametriem.</p></div></details>
+<details class="project-section" open><summary>Atsevišķas detaļas eksports drukai</summary><div class="section-body"><p>Kods pats nesaglabā STL failus. No ģenerētās ainas eksportē vienu izvēlētu formas detaļu.</p><ol><li>Atlasi vienu no <strong>01–09</strong> objektiem. Serdeņus <strong>04_CORE_3MM / 05_CORE_4MM / 06_CORE_5MM</strong> izvēlas pēc vajadzīgās sienas; šajā versijā atsevišķa atsauces podiņa nav.</li><li>Izvēlies <strong>File → Export → STL (.stl)</strong> un ieslēdz <strong>Selection Only</strong> un <strong>Apply Modifiers</strong>.</li><li>Šajā kodā viena koordinātu vienība ir viens milimetrs. STL eksportam lieto <strong>Scale 1</strong> un atstāj <strong>Scene Unit</strong> izslēgtu, ja šī opcija ir redzama.</li><li>Atver STL printera slicerī un pārbaudi mērogu: pamatnes un augšējās plāksnes diametram jābūt <strong>150 mm</strong>. Izvēlies drukas orientāciju un novieto detaļu uz galda.</li></ol><p>V4.1 kataloga detaļu pozīcijas ir apskatei. Pirms STL drukāšanas detaļas jāorientē un jānovieto uz drukas galda. Sietiņu eksportē atsevišķi. Podiņa kods izveido stiprinājumu caurumus, bet ne metāla skrūvju un vītņstieņu modeļus.</p></div></details></section>
+<section id="parbaudes"><p class="eyebrow">Pārbaudīta pati ģeometrija</p><h2>Sienu, toleranču un salāgošanas pārbaudes</h2><p>Rezultāti iegūti no atjauninātā V4.1 koda un Blender izveidotajiem tīkliem. V4.1 mainīts sānu austiņu mezgls, un pārbaudes atjauninātas šai versijai. Pārējo mezglu iepriekš konstatētie ierobežojumi ir norādīti atsevišķi. CAD izmērs un sprauga vēl negarantē PETG izdrukas precizitāti.</p><div class="table-wrap"><table><thead><tr><th scope="col">Pārbaude</th><th scope="col">Rezultāts</th><th scope="col">Konstatētais</th></tr></thead><tbody><tr><td>Sieniņu biezums</td><td>Jālabo</td><td>Austiņu ievirzīšanās dobumā novērsta ar atkārtotu dobuma izgriezumu. Paliek sākotnējā 72 mm dobuma un 70 mm serdeņa koniskuma neatbilstība: 3/4/5 mm ir nominālās radiālās sienas, bet faktiskā sprauga nedaudz mainās ar augstumu.</td></tr><tr><td>Salāgojums un atstarpes</td><td>Jālabo</td><td>V4.1 austiņu dalījuma plaknes novietotas X0 un dobums izgriezts pēc austiņu pievienošanas. Iepriekšējā 1 mm austiņu pārklāšanās ir labota; pamatnes ligzdas un M6 vertikālo stieņu atstarpes joprojām jākoriģē.</td></tr><tr><td>Boolean operāciju kvalitāte</td><td>Jālabo</td><td>V4.1 veiksmīgi pabeidz 113 Boolean darbības. Abām mainītajām pusēm izmantota dokumentēta mikroskopisku virsotņu/triangulācijas tīrīšana; pārplūdes kamerai joprojām ir 12 atvērtas malas.</td></tr><tr><td>Tapu un caurumu tolerances</td><td>Nominālā sprauga der; jāpārbauda PETG paraugs</td><td>Ø5,0 tapai saglabāta Ø5,6 ligzda: nomināli 0,3 mm uz pusi un 0,8 mm aksiāli. Sānu M6 atverēm saglabāta Ø6,8 mm apaļā brīvtelpa un pievienots 45° jumtiņš; asis Z34/Z54. PETG faktiskā saderība jāizmēģina.</td></tr><tr><td>Pārplūdes kameras sēža</td><td>Sēžas sprauga der; ir citas neatbilstības</td><td>Ø110,8 svārks uz Ø110 formas dod 0,4 mm nominālu radiālo atstarpi; faktiskajos daudzstūru šķēlumos izmērīts ap 0,370–0,415 mm. Kameras pašas topoloģija un nulles atstarpe pret M6 stieņiem vēl jālabo.</td></tr><tr><td>Serdes STOP pozīcija</td><td>STOP sakrīt; dibena atskaite jākoriģē</td><td>Nominalā STOP apakša un kameras augša sakrīt Z82 ar 8 mm kontakta joslu. Pamatnes 2,5 mm iesēdinājuma un serdes atskaites joprojām nenodrošina paredzēto 4 mm dibenu.</td></tr><tr><td>Visu detaļu manifold pārbaude</td><td>Jālabo</td><td>V4.1 pārbaudīti visi deviņi native tīkli. Atsevišķi norādīti atvērto malu skaiti; pārplūdes kamera joprojām neatbilst manifold prasībai.</td></tr><tr><td>Faktiski eksportēto STL pārbaude</td><td>Jālabo</td><td>Eksportētie V4.1 STL ir pārlasīti no faktiskajiem failu baitiem. Jaunākie katras detaļas skaiti norādīti topoloģijas tabulā; visu komplektu joprojām nevar uzskatīt par gatavu presēšanai.</td></tr></tbody></table></div><h3>Sieniņas radiālā sprauga pie konstrukcijas atskaitēm</h3><p>V4.1 dobums atkārtoti izgriezts pēc austiņu pievienošanas, novēršot to ievirzīšanos masā. Paliek sākotnējais 72 mm dobuma koniskums; šīs nominālās spraugas joprojām nedaudz mainās ar augstumu.</p><div class="table-wrap"><table><thead><tr><th scope="col">Serdenis</th><th scope="col">Radiāli Z4</th><th scope="col">Radiāli Z70</th><th scope="col">Perpendikulāri serdei pie Z4</th><th scope="col">Perpendikulāri serdei pie Z70</th></tr></thead><tbody><tr><td>3 mm</td><td>3,154 mm</td><td>2,826 mm</td><td>3,105 mm</td><td>2,782 mm</td></tr><tr><td>4 mm</td><td>4,154 mm</td><td>3,826 mm</td><td>4,089 mm</td><td>3,767 mm</td></tr><tr><td>5 mm</td><td>5,154 mm</td><td>4,826 mm</td><td>5,074 mm</td><td>4,751 mm</td></tr></tbody></table></div><h3>Konkrētās salāgošanas spraugas</h3><div class="table-wrap"><table><thead><tr><th scope="col">Vieta</th><th scope="col">Izmērītais / aprēķinātais</th></tr></thead><tbody><tr><td>Tapas un ligzdas</td><td>Ø5 / Ø5,6 mm: 0,3 mm radiāli un 0,8 mm aksiāli; jāizmēģina PETG paraugs.</td></tr><tr><td>Formas pušu austiņas</td><td>V4.1 dalījuma plaknes X0; slīpie balsti 45°. Vecā 1 mm sadure labota. Jaunās M6 asis Z34/Z54 mm un balsta plaknes X±12 mm.</td></tr><tr><td>Pamatnes ligzdas mala</td><td>Atstarpe −0,069 līdz −0,035 mm — negatīva vērtība nozīmē saduri.</td></tr><tr><td>Kameras svārks</td><td>Atstarpe ≈0,370–0,415 mm uz pusi; nomināli Ø110,8 uz Ø110.</td></tr><tr><td>M6 stieņi pret kameru</td><td>Nomināli 0 mm rezerve: R65 − 3 − R62 = 0; jāparedz pozitīva atstarpe.</td></tr><tr><td>STOP atdure</td><td>Kameras augša un STOP apakša Z82; kontakta josla R51–R59 ir 8 mm plata.</td></tr><tr><td>Dibens un gala augstums</td><td>Ja forma hipotētiski pilnībā iesēstos 2,5 mm ligzdā, dibens būtu 1,5 mm un augstums 67,5 mm. Pilnu iesēšanos vēl traucē pamatnes ligzdas sadure; tas nav apstiprināts gala podiņš.</td></tr><tr><td>Dobuma gala diametri</td><td>Nominālās atskaitēs Ø65,347 pie Z0 un Ø89,653 pie Z70; vajadzīgie Ø65/Ø90 nav precīzi saglabāti.</td></tr></tbody></table></div><h3>Visu deviņu detaļu topoloģija</h3><div class="table-wrap"><table><thead><tr><th scope="col">Detaļa</th><th scope="col">Native atvērtās malas</th><th scope="col">Native neatbilstošās malas</th><th scope="col">STL deģenerēti trijstūri</th><th scope="col">STL neatbilstošās malas</th></tr></thead><tbody><tr><td>01_MOLD_LEFT</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>02_MOLD_RIGHT</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>03_OVERFLOW_COLLAR</td><td>12</td><td>12</td><td>4</td><td>4</td></tr><tr><td>04_CORE_3MM</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>05_CORE_4MM</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>06_CORE_5MM</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>07_BASE</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>08_SIEVE</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>09_TOP_PLATE</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></tbody></table></div><p>V4.1 mainītajām formas pusēm piemērota dokumentēta mikroskopisku triangulācijas defektu tīrīšana un pārbaudīti faktiskie STL. Kamerai joprojām ir atvērtas robežmalas; šī atjauninātā tabula attiecas uz V4.1 failiem. Visa komplekta atlikušajiem labojumiem vajadzīga atkārtota pārbaude.</p><p class="small">Sienu biezumam atšķir radiālo spraugu no īsākā attāluma perpendikulāri konusveida sienai. Spiediena nestspēja un īstas PETG izdrukas šajā pārbaudē nav izmēģinātas.</p><a class="button" href="/podins/files/V41_Geometrijas_parbaude_LV.txt" download>Pilni rezultāti · TXT</a> <a class="button" href="/podins/files/V41_Parbaudes_dati.json" download>Mērījumu dati · JSON</a></section><section id="lejupielades"><h2>Podiņa faili</h2><div class="pot-downloads"><a class="download featured" href="/podins/files/NO_KOKA_UZ_KOKU_Podina_prototips.py" download><span>Aktuālais Blender kods</span><small>PY · V4.1 ar slīpām austiņām</small></a><a class="download" href="/podins/files/NO_KOKA_UZ_KOKU_Podina_prototips.blend" download><span>Gatavs Blender detaļu katalogs</span><small>BLEND</small></a><a class="download" href="/podins/files/NO_KOKA_UZ_KOKU_Podina_prototips.zip" download><span>V4.1 kods, Blender modelis un pārbaudes</span><small>ZIP</small></a><a class="download" href="/podins/models/podins.glb" download><span>Interaktīvā modeļa fails</span><small>GLB · metri</small></a><a class="download" href="/podins/files/01_MOLD_LEFT.stl" download><span>Kreisā puse ar 45° balstiem</span><small>STL · mm · pārbaudīts slēgts tīkls</small></a><a class="download" href="/podins/files/02_MOLD_RIGHT.stl" download><span>Labā puse ar 45° balstiem</span><small>STL · mm · pārbaudīts slēgts tīkls</small></a></div></section>
+<section id="piezimes"><p class="eyebrow">Projekta piezīmes</p><h2>Piezīmes par jauno prototipu</h2><p>Gala podiņa ārējie izmēri: <strong>Ø90 mm augšā, Ø65 mm apakšā, H70 mm</strong>.</p><ol><li>Maināmi serdeņi sienām: <strong>3 mm / 4 mm / 5 mm</strong>.</li><li>Dibena biezums: <strong>4 mm</strong>.</li><li>Ir divdaļīga ārējā forma, pozicionēšanas tapas un M6 stiprinājumu vietas.</li><li>Ir pārplūdes kamera liekajai masai.</li><li>Ir drenāžas pamatne un sietiņš.</li><li>Metāla M6/M12 stiprinājumi nav paredzēti 3D drukai.</li><li>Jāizvērtē PETG tolerances, manifold kļūdas un savietojamība pirms printa.</li><li>Pārbaudīt <strong>ne tikai STL eksportu</strong>, bet tieši: <strong>sienu biezumu (wall thickness), spraugas (clearances), Boolean kvalitāti, tapu/caurumu tolerances, pārplūdes kameras savietojamību (overflow fit), serdeņa STOP pozīciju un vai visas detaļas ir manifold</strong>.</li></ol><p class="small">Norādītie gala izmēri un biezumi ir projekta mērķi. Atjauninātās V4.1 ģeometrijas atbilstība tiem un atrastās neatbilstības ir norādītas <a href="#parbaudes">pārbaužu sadaļā</a>.</p></section>
+<footer>Podiņa prototips V4.1 · austiņu labojums un pārbaude 26.10.2026. · <a href="/">Atpakaļ uz LAPS kartītes projektu</a></footer></main></body></html>

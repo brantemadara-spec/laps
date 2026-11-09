@@ -1,0 +1,257 @@
+{
+  "project": "LAPS Marle",
+  "revision": "C",
+  "checked_date": "2026-10-07",
+  "preferred_store": "DEPO Berģi",
+  "preferred_store_address": "Siguldas šoseja 6, Berģi",
+  "preferred_store_address_source": "https://depo.lv/",
+  "branch_price_verified": false,
+  "branch_stock_verified": false,
+  "depo_access_note_lv": "DEPO Online šajā pārbaudē atgrieza lapu bez nolasāma preču satura; meklējumos neatradu verificējamu DEPO M6×40 vai marles produkta lapu. Tas neapliecina preču neesamību veikalā. DEPO Berģu cena un atlikums nav apstiprināti.",
+  "quantity_basis_lv": "Gala Rev C konstrukcijai ir tikai 4 stūra stiprinājumi. Izmanto 4 M6×40 skrūves, 4 M6 uzgriežņus un 8 platas metāla paplāksnes.",
+  "required": [
+    {
+      "id": "bolts",
+      "part_lv": "Pilnas vītnes sešstūra metāla skrūve",
+      "dimensions": "M6 × 40 mm; vītnes solis 1,0 mm; DIN 933 / ISO 4017; galvai 10 mm atslēga",
+      "preferred_material": "Cinkots tērauds, klase 8.8; nerūsējošā A2 variants ir izmēru alternatīva, tam klase jāskatās marķējumā",
+      "qty": 4,
+      "depo_price_eur": null,
+      "depo_price_verified": false,
+      "depo_stock_verified": false,
+      "note_lv": "Garumu 40 mm mēra zem galvas. Gala 10 mm plākšņu maksimālais salikums zem skrūves galvas līdz uzgriežņa ārpusei ir 34,2 mm; paliek 5,8 mm vītnes izvirzījums. Pilna vītne ļauj savilkt plānās starplikas. 35 mm šeit nav universālais izmērs."
+    },
+    {
+      "id": "nuts",
+      "part_lv": "M6 sešstūra uzgrieznis",
+      "dimensions": "M6; solis 1,0 mm; DIN 934; 10 mm atslēga",
+      "qty": 4,
+      "depo_price_eur": null,
+      "depo_price_verified": false,
+      "depo_stock_verified": false,
+      "reuse_existing": true
+    },
+    {
+      "id": "washers",
+      "part_lv": "M6 platā metāla paplāksne",
+      "dimensions": "DIN 9021; iekšējais Ø6,4 × ārējais Ø18 × biezums 1,6 mm; bez gumijas",
+      "qty": 8,
+      "depo_price_eur": null,
+      "depo_price_verified": false,
+      "depo_stock_verified": false,
+      "reuse_existing": true,
+      "note_lv": "Pa vienai zem katras skrūves galvas un uzgriežņa. Platas metāla paplāksnes vajag arī pēc tērauda atbalstu izņemšanas, lai slodzi izkliedētu PETG."
+    },
+    {
+      "id": "gauze",
+      "part_lv": "Parasta neimpregnēta 100% kokvilnas marle",
+      "dimensions": "1 iepakojums 90 cm × 1 m; formai izgriež 2 atsevišķas 84,5 × 54,5 mm loksnes ar noapaļotiem R3 stūriem",
+      "qty": 1,
+      "unit": "iepakojums",
+      "cut_piece_qty": 2,
+      "cut_piece_size_mm": [
+        84.5,
+        54.5
+      ],
+      "single_ply_each": true,
+      "depo_price_eur": null,
+      "depo_price_verified": false,
+      "depo_stock_verified": false,
+      "note_lv": "Marli vispirms izskalo tīrā ūdenī un izmanto gludu, bez locījumiem. Viena kārta katrā kartītes pusē ir sākuma izmēģinājums; ja sīkās šķiedras izskalojas, maina kārtu skaitu un no jauna mēra saspiesto biezumu. Marle nav 100–200 µm kalibrēts siets. Nepērk elastīgu saiti, salocītus daudzslāņu tamponus vai ar vielām piesūcinātu pārsēju.",
+      "compressed_thickness_mm_actual": null,
+      "compressed_thickness_per_piece_mm_model_assumption": 0.2,
+      "thickness_assumption_only": true
+    },
+    {
+      "id": "petg",
+      "part_lv": "Parasts PETG filaments",
+      "dimensions": "Ø1,75 mm; 1 kg spole; bez CF pildījuma; 0,4 mm sprauslai",
+      "qty": 1,
+      "unit": "spole, ja vajadzīga",
+      "reuse_existing": true,
+      "depo_price_eur": null,
+      "depo_price_verified": false,
+      "depo_stock_verified": false,
+      "note_lv": "Esošo piemēroto PETG var izmantot. Galīgo patēriņu parāda sliceris; jaunās detaļas ir plānākas un iepriekšējais 549 g sākotnējās formas aprēķins uz šo komplektu neattiecas."
+    }
+  ],
+  "removed_from_required_purchase": [
+    {
+      "part_lv": "Tērauda atbalsta plāksne 130 × 100 × 8 mm",
+      "qty": 2
+    },
+    {
+      "part_lv": "M4 × 30 mm eņģes skrūve",
+      "qty": 2
+    },
+    {
+      "part_lv": "M4 pašbloķējošs uzgrieznis",
+      "qty": 2
+    },
+    {
+      "part_lv": "M4 eņģes paplāksne",
+      "qty": 4
+    },
+    {
+      "part_lv": "100–200 µm austs poliestera filtrēšanas siets",
+      "qty": 2
+    },
+    {
+      "part_lv": "M6 × 60 mm skrūve kā jaunpirkums",
+      "qty": 8
+    }
+  ],
+  "depo_secondary_references": [
+    {
+      "required_id": "nuts",
+      "part_lv": "Uzgriežņi DIN 934 M6, klase 12.0",
+      "pack_qty": 100,
+      "advertised_secondary_pack_price_eur": 2.11,
+      "source_url": "https://www.salidzini.lv/cena?q=uzgrieznis+din+934m-6",
+      "source_kind": "secondary_price_comparison",
+      "official_depo_price_verified": false,
+      "bergi_stock_verified": false,
+      "note_lv": "Salīdzini DEPO piedāvājuma atsauce, nevis apstiprināta DEPO Berģu plaukta cena."
+    },
+    {
+      "required_id": "washers",
+      "part_lv": "Paplāksnes DIN 9021 M6, nerūsējošs tērauds",
+      "pack_qty": 40,
+      "advertised_secondary_pack_price_eur": 2.56,
+      "source_url": "https://www.salidzini.lv/cena?q=m6+papl%C4%81ksne+din+9021",
+      "source_kind": "secondary_cached_search_result",
+      "official_depo_price_verified": false,
+      "bergi_stock_verified": false,
+      "note_lv": "Meklētāja kešā 2,56 €, agrāk citā kešā 2,62 €. Aktuālā cena nav apstiprināta; neiekļaut budžeta kopsummā."
+    }
+  ],
+  "verified_alternatives": [
+    {
+      "required_id": "bolts",
+      "supplier": "Delve 2",
+      "part_lv": "FORTIS M6 × 40 DIN 933 8.8 ZN pilnas vītnes skrūve",
+      "sku": "FOR-933-6X40",
+      "pack_qty": 200,
+      "published_pack_price_eur_ex_vat": 12.8,
+      "vat_rate_percent": 21,
+      "calculated_pack_price_eur_with_vat": 15.49,
+      "calculated_unit_price_eur_with_vat": 0.07744,
+      "primary_product_price_verified": true,
+      "published_stock_count": null,
+      "stock_verified": false,
+      "source_url": "https://www.delve2.lv/lv/products/screws-with-metric-thread/hexagon-head-bolts-full-thread-zinc-palted-din-933zn/?op=20&p=1",
+      "vat_source_url": "https://www.delve2.lv/lv/info/terms-conditions/",
+      "note_lv": "200 gab. ir pārdevēja iepakojums, nevis nepieciešamais daudzums. Cenas ar PVN ir aprēķins pēc pārdevēja noteikumiem; piegāde nav ieskaitīta.",
+      "buy_packs_for_four_fasteners": 1
+    },
+    {
+      "required_id": "bolts",
+      "supplier": "Delve 2",
+      "part_lv": "M6 × 40 DIN 933 A2 nerūsējoša pilnas vītnes skrūve",
+      "sku": "933A2-6X40",
+      "pack_qty": 20,
+      "published_pack_price_eur_ex_vat": 2.6,
+      "vat_rate_percent": 21,
+      "calculated_pack_price_eur_with_vat": 3.15,
+      "calculated_unit_price_eur_with_vat": 0.1573,
+      "primary_product_price_verified": true,
+      "published_stock_count": null,
+      "stock_verified": false,
+      "strength_class_verified": false,
+      "source_url": "https://www.delve2.lv/lv/products/screws-with-metric-thread/hexagon-head-bolts-full-thread-stainless-steel-din-933ss/?p=5",
+      "vat_source_url": "https://www.delve2.lv/lv/info/terms-conditions/",
+      "note_lv": "Mazāks iepakojums mitram prototipam. A2 ir materiāla grupa; A2-70 klase piedāvājumā nav norādīta.",
+      "buy_packs_for_four_fasteners": 1
+    },
+    {
+      "required_id": "bolts",
+      "supplier": "Delve 2",
+      "part_lv": "M6 × 40 DIN 933 10.9 melna pilnas vītnes skrūve",
+      "sku": "93310M-6X40",
+      "pack_qty": 10,
+      "published_pack_price_eur_ex_vat": 0.88,
+      "vat_rate_percent": 21,
+      "calculated_pack_price_eur_with_vat": 1.06,
+      "calculated_unit_price_eur_with_vat": 0.10648,
+      "primary_product_price_verified": true,
+      "published_stock_count": null,
+      "stock_verified": false,
+      "source_url": "https://www.delve2.lv/lv/products/screws-with-metric-thread/hexagon-head-bolts-full-thread-black-din-933m/",
+      "vat_source_url": "https://www.delve2.lv/lv/info/terms-conditions/",
+      "note_lv": "Zemākas pirkuma izmaksas, taču nav izvēlētais cinkotais vai nerūsējošais materiāls. Pēc mitra darba jānosusina; nav pamata paaugstināt slodzi plānākam PETG.",
+      "buy_packs_for_four_fasteners": 1
+    },
+    {
+      "required_id": "nuts",
+      "supplier": "INSERV",
+      "part_lv": "M6 DIN 934 ESSVE cinkoti uzgriežņi",
+      "sku": "61068525",
+      "pack_qty": 100,
+      "published_pack_price_eur_with_vat": 4.4,
+      "unit_price_eur_with_vat": 0.044,
+      "primary_product_price_verified": true,
+      "availability_lv": "Pieejams pēc 5 darba dienām; lapā saņemšana veikalā 14. oktobrī, 2026",
+      "immediate_stock_verified": false,
+      "source_url": "https://www.inserv.lv/products/80791/din934-uzgrieznis-m6-fzb-100gab-essbox-61068525-essve",
+      "vat_source_url": "https://www.inserv.lv/info/noteikumi",
+      "buy_packs_for_four_fasteners": 1
+    },
+    {
+      "required_id": "washers",
+      "supplier": "INSERV",
+      "part_lv": "M6 DIN 9021 ESSVE cinkota plata paplāksne, 6,4 × 18 × 1,6 mm",
+      "sku": "61068297",
+      "pack_qty": 100,
+      "published_pack_price_eur_with_vat": 4.7,
+      "unit_price_eur_with_vat": 0.047,
+      "primary_product_price_verified": true,
+      "availability_lv": "Pieejams pēc 5 darba dienām; lapā saņemšana veikalā 14. oktobrī, 2026",
+      "immediate_stock_verified": false,
+      "source_url": "https://www.inserv.lv/products/80804/paplaksne-din9021-m6-fzb-100gab-essbox-61068297-essve",
+      "vat_source_url": "https://www.inserv.lv/info/noteikumi",
+      "buy_packs_for_four_fasteners": 1
+    },
+    {
+      "required_id": "gauze",
+      "supplier": "BENU e-aptieka",
+      "part_lv": "MEDRULL nesterila 100% kokvilnas marle 90 cm × 1 m",
+      "pack_qty": 1,
+      "published_pack_price_eur": 1.09,
+      "unit_price_eur": 1.09,
+      "primary_product_price_verified": true,
+      "availability_lv": "Lapa piedāvā pirkt; konkrētas fiziskās aptiekas atlikums nav pārbaudīts",
+      "physical_branch_stock_verified": false,
+      "source_url": "https://www.benu.lv/p/medrull-marle-nesterila-90cmx1m",
+      "note_lv": "Cena internetā var atšķirties no fiziskās aptiekas cenas. Piegāde nav ieskaitīta.",
+      "buy_packs_for_four_fasteners": 1
+    },
+    {
+      "required_id": "petg",
+      "supplier": "Filaments.lv",
+      "part_lv": "eSUN PETG Basic BLACK Ø1,75 mm, 1 kg",
+      "sku": "ES-PETG-BASIC-BLACK-175-1K",
+      "pack_qty": 1,
+      "published_pack_price_eur_with_vat": 14.9,
+      "unit_price_eur_with_vat": 14.9,
+      "primary_product_price_verified": true,
+      "availability_lv": "25 uz vietas produkta lapā; izsūtīšana 24 h laikā",
+      "source_url": "https://filaments.lv/produkti/esun-petg-basic-melns-filaments-black/",
+      "pickup_lv": "Kalnciema iela 148, Rīga; saņemšana bez maksas",
+      "latvia_parcel_shipping_eur": 2.9,
+      "note_lv": "Nav jāpērk vēl viena spole, ja esošā PETG pietiek. Nav DEPO cena."
+    }
+  ],
+  "budget_lv": "DEPO kopsummu nevar godīgi aprēķināt bez DEPO skrūves un marles cenas. Alternatīvu cenas norāda atsevišķi; nepieskaita visus trīs savstarpēji aizstājamus skrūvju variantus un neuzrāda vajadzīgo 4 gabalu patēriņa cenu kā viena pilna iepakojuma pirkuma cenu.",
+  "no_orders_or_contact_sent": true,
+  "plate_thickness_mm": 10,
+  "bolt_length_check_mm": {
+    "plates": 20,
+    "maximum_wet_gap": 5,
+    "maximum_compensation_base": 0.8,
+    "two_washers": 3.2,
+    "nut_height": 5.2,
+    "total_under_head_to_nut_top": 34.2,
+    "bolt_length_under_head": 40,
+    "protrusion_beyond_nut": 5.8
+  }
+}

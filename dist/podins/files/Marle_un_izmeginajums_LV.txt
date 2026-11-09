@@ -1,0 +1,79 @@
+MARLE UN SALĪDZINĀMS 3/4/5 MM PODIŅU IZMĒĢINĀJUMS
+
+26.10.2026.
+
+
+
+Marli var lietot šķiedru aizturēšanai un virsmas tekstūrai, bet tā pati nav stingrs spiediena balsts.
+
+V4.1 saglabāts Ø62 × 1,4 mm atsevišķs perforēts ieliktnis un tā ligzda pamatnē; pamatnē ir 15 Ø5 mm drenāžas caurumi. Izņemot ieliktni un ieliekot tikai marli, mainās atbalsta līmenis un audums var ieliekties caurumos.
+
+Lai nebūtu jādrukā atsevišķs sietiņš, pārveido pamatni: integrē plakanu, stingru un cieši atbalstītu drenāžas virsmu; uz tās klāj tīru neimpregnētu kokvilnas marli. Alternatīva ir atsevišķs pirkts stingrs plakans perforēts ieliktnis ar marli virs tā.
+
+Dibena mitrā sprauga = serdes apakšas Z pie STOP − (stingrā atbalsta virsmas Z + saspiestās mitrās marles kopējais biezums).
+
+Marli samitrina, nogludina bez krokām un nostiprina pret nobīdi. Izvēlas vienu kārtu skaitu visiem paraugiem; ja smalkās šķiedras izskalojas un kārtu skaitu maina, atkārto biezuma kalibrāciju. Drukājamo V4.1 kodu nevar saukt par jau pārveidotu marles modeli.
+
+
+
+IDEĀLĀ KORIĢĒTĀ MĒRĶA MATERIĀLA TILPUMS
+
+3 mm: 60.353 cm³; sauso devu attiecība 1.00000.
+
+4 mm: 75.119 cm³; sauso devu attiecība 1.24466.
+
+5 mm: 89.470 cm³; sauso devu attiecība 1.48245.
+
+Tie ir izlabotas mērķa ģeometrijas aprēķini. V4.1 austiņas ir labotas, bet dobuma konuss un augstuma atskaites vēl neatbilst mērķiem.
+
+
+
+Augstums var būt vienāds kā formas mērķis (70 mm), ja visiem serdeņiem pareizi sakrīt darba atskaites un STOP. Esošais V4.1 to vēl nenodrošina.
+
+Žāvētajiem podiņiem vienāds augstums nav garantēts: dažāds sienas biezums var mainīt žūšanu, sarukumu un deformāciju.
+
+Vienāds skrūves griezienu skaits, griezes moments vai spēks nenozīmē vienādu spiedienu visā masā.
+
+Vienāds masas daudzums pie dažādiem sienu tilpumiem nenozīmē vienādu blīvumu. Vienāda blīvuma mērķim sausās masas deva jāpielāgo materiāla tilpumam.
+
+Vienādu spiedienu un vienādu blīvumu nevar automātiski iegūt tikai ar trīs serdeņu maiņu; tie ir saistīti procesa un mērījumu lielumi.
+
+
+
+Ja salīdzināšanai definē p_nom=F/A un A ir serdes augšmalas projekcijas laukums, seržu Ø84/82/80 laukumi ir aptuveni 5542/5281/5027 mm².
+
+Pie vienāda F šādi definētais nominālais spiediens 5 mm serdei ir par 10,25% lielāks nekā 3 mm serdei. Tas nav faktiskā vienmērīga sānu spiediena aprēķins.
+
+Konusveida kontaktā, drenāžā un berzē spiediens ir nevienmērīgs. F/A ir tikai skaidri definēts salīdzināšanas rādītājs.
+
+Kad STOP atbalstās pret kameru, daļa papildu spēka aiziet pa cietajām detaļām. Pēc kontakta nedrīkst interpretēt visu skrūves spēku kā masas presēšanas spiedienu.
+
+Spēku salīdzina ar piemērotu spēka devēju/slodzes mērītāju, pie vienas mērījuma vietas un noteikta brīža. Neatvasina precīzu spēku tikai no ar roku pielikta griezes momenta.
+
+
+
+Fiksē recepti, paredzēto ārējo ģeometriju un dibenu; dozē sauso maisījumu proporcionāli materiāla tilpumam, uzturi vienādu ūdens/sausnas attiecību un vienādu marles/žāvēšanas kārtību. Spēku, sasniegto blīvumu un sauso izmēru izmaiņas mēra, nevis pieņem.
+
+Teorētiskā sauso devu attiecība 3/4/5 mm variantiem ir 1 : 1,245 : 1,482. Pamata devu iegūst izmēģinājumā; sīkās masas zudumi drenāžā jāuzskaita.
+
+Ja kontrolē vienādu nominālo spiedienu un laiku, sasniegtais blīvums paliek rezultāts un var atšķirties. Tad to nedrīkst saukt par tikai sienas biezuma ietekmes salīdzinājumu.
+
+
+
+V4.1 austiņu pārklāšanās un ievirzīšanās dobumā ir labota. Vēl jāizlabo dobuma konuss uz īstajiem Ø65 pie Z0 un Ø90 pie Z70.
+
+Ieviest vienu kopīgu atskaites plakni pamatnei, marlei, formas sēžai, serdes apakšai un STOP, lai pēc marles saspiešanas tiešām iegūtu 4 mm dibenu.
+
+Pārveidot pamatni marlei ar stingru plakanu integrētu atbalstu un brīvām ūdens izvadēm; nenomainīt cieto ieliktni ar brīvi noklātu audumu.
+
+Salabot pārplūdes kameras 12 atvērtās malas un sliktās STL triangulācijas, atstāt pozitīvu spraugu arī starp kameru un M6 stieņiem; pārmērīt un pārbaudīt visus tīklus pēc labojumiem.
+
+M12 spiedskrūvei paredzēt aksiāli noturētu metāla balsta uzgriezni zem augšējās plāksnes vai skaidru metāla fiksatoru, kā arī spiedpēdu un spēka mērījumu. Brīva augšējā uzgriežņa ligzda nenoslēdz reakcijas spēka ceļu.
+
+
+
+Šie ieteikumi nenosaka PETG drošu spēku vai griezes momentu. Pašreizējā V4.1 ģeometrija nav apstiprināta presēšanai.
+
+
+V4.1 AUSTIŅU LABOJUMS
+45° balsti un M6 atveru jumtiņi; sānu skrūves 4 × M6 × 40 mm, 4 uzgriežņi un 8 DIN125 Ø12 mm paplāksnes.
